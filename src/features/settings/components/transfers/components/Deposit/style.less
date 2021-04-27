@@ -1,0 +1,45 @@
+.deposit-funds-wrapper {
+  .deposit-address-wrapper {
+    display: flex;
+
+    .qr-code-wrapper {
+      width: 120px;
+      margin-right: 20px;
+
+      canvas {
+        padding: 4px;
+        background: white;
+      }
+    }
+
+    .deposit-address-input-wrapper {
+      align-self: flex-start;
+      width: 100%;
+
+      .ant-row {
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      .copy-icon-wrapper {
+        position: absolute;
+        top: -11px;
+        right: 8px;
+        z-index: 1;
+      }
+
+      .deposit-address-input {
+        .ant-form-item-control {
+          input[type='text'] {
+            font-family: @code-family;
+            font-size: @font-size-md;
+            -webkit-user-select: all;
+            -moz-user-select: all;
+            -ms-user-select: all;
+            user-select: all;
+          }
+        }
+      }
+    }
+  }
+}

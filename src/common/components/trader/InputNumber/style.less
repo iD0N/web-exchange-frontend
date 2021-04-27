@@ -1,0 +1,87 @@
+@import '../Input/mixin.less';
+
+.trader-input-number {
+  font-family: @code-family;
+
+  &-handler {
+    &:active {
+      background: transparent;
+      opacity: 0.7;
+    }
+
+    &-wrap {
+      opacity: 1;
+      background-color: transparent;
+      border-left: 0;
+    }
+
+    &-down {
+      border-top: 0;
+    }
+
+    &-up,
+    &-down {
+      &:hover {
+        height: 50% !important;
+      }
+
+      &-inner {
+        .iconfont-size-under-12px(10px);
+      }
+    }
+  }
+
+  &-handler-wrap:hover &-handler {
+    height: 50%;
+  }
+
+  &.masked {
+    &.trader-input-number-disabled {
+      background-color: transparent;
+      border-color: transparent;
+      color: @input-color;
+
+      &,
+      .trader-input-number-input {
+        cursor: text;
+      }
+    }
+  }
+
+  @media @mobile {
+    width: auto;
+    height: auto;
+
+    .trader-input-number-handler-wrap {
+      .flex-horizontal();
+      width: auto;
+      align-items: center;
+      right: 6px;
+      .trader-input-number-handler {
+        .flex-horizontal();
+        align-items: center;
+        justify-content: center;
+        height: 100% !important;
+        width: 30px;
+
+        &-down-inner,
+        &-up-inner {
+          position: initial;
+          top: auto;
+          margin: 0;
+          transform: none;
+        }
+      }
+    }
+
+    &-input {
+      .input-mobile();
+    }
+
+    &-disabled {
+      .trader-input-number-handler-wrap {
+        display: none;
+      }
+    }
+  }
+}

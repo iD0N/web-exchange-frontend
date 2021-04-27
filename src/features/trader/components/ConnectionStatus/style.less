@@ -1,0 +1,23 @@
+.connection-status {
+  display: flex;
+  align-items: center;
+
+  &-indicator {
+    width: 8px;
+    height: 8px;
+    margin-right: 7px;
+    border-radius: 100%;
+
+    &.open {
+      background-color: @green-positive;
+    }
+
+    &.connecting {
+      background-color: orange;
+    }
+
+    &.closed {
+      background-color: @red-negative;
+    }
+  }
+}

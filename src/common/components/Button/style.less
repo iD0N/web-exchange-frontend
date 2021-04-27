@@ -1,0 +1,89 @@
+.ant-btn {
+  font-size: 16px;
+  letter-spacing: 0.4px;
+
+  // Fixes icon-text offset when button has <Trans /> as child
+  .anticon {
+    margin-right: 8px;
+    & + span {
+      margin: 0;
+    }
+  }
+
+  a {
+    transition: initial;
+    &:focus {
+      text-decoration: none;
+    }
+  }
+
+  &-link {
+    background: none !important;
+    text-transform: none;
+    color: @primary-color;
+    font-weight: @font-medium;
+    border-width: 0;
+    box-shadow: none;
+  }
+
+  &-primary {
+    border: 0;
+    text-transform: uppercase;
+    font-weight: @font-bold;
+    color: @dark;
+    background: @green;
+    transition: color 0.3s @ease-in-out, opacity 0.3s @ease-in-out;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: @dark;
+      opacity: 0.8;
+      background: @green;
+    }
+
+    &[disabled] {
+      background: transparent;
+      border: 1px solid @border-color-base;
+      transition: unset;
+      pointer-events: none;
+
+      &:hover,
+      &:focus,
+      &:active {
+        background: transparent;
+      }
+    }
+
+    &.ant-btn-loading {
+      color: @white;
+    }
+  }
+
+  &-upper {
+    text-transform: uppercase;
+  }
+}
+
+.btn-auth {
+  width: 100px;
+  height: @btn-nav-height;
+  padding: 0;
+  font-size: inherit;
+  line-height: @btn-nav-height;
+  border: 0;
+
+  &.signup {
+    color: #000532;
+    background: @blue-dark;
+  }
+
+  &.login {
+    color: @white;
+    background: @blue-darker;
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+}

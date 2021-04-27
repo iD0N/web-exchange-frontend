@@ -1,0 +1,56 @@
+.account-details-wrapper {
+  height: 100%;
+
+  .ant-spin-nested-loading {
+    .ant-spin-container {
+      height: auto;
+    }
+  }
+
+  h2 {
+    font-size: @font-size-md;
+    color: @white;
+    margin-top: 15px;
+  }
+
+  .ant-slider {
+    margin-top: 15px;
+
+    &-mark-text {
+      color: @gray-light;
+      font-size: @font-size-sm;
+    }
+
+    &-track {
+      background-color: @turquoise !important;
+    }
+
+    &-dot-active, &-handle {
+      border-color: @turquoise !important;
+    }
+
+    &:hover {
+      .ant-slider-track {
+        background-color: @turquoise !important;
+      }
+
+      .ant-slider-dot-active, .ant-slider-handle {
+        border-color: @turquoise !important;
+      }
+    }
+  }
+
+  .account-details-leverage-wrapper {
+    .ant-spin-nested-loading {
+      height: auto;
+    }
+  }
+
+  .ant-spin-nested-loading {
+    height: auto;
+
+    .ant-spin-dot {
+      display: none;
+    }
+  }
+}

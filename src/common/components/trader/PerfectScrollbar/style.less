@@ -1,0 +1,54 @@
+.ps {
+  .ps {
+    &__rail {
+      &-x,
+      &-y {
+        &:hover,
+        &focus,
+        &.ps--clicking {
+          background-color: transparent;
+
+          > .ps__thumb-x,
+          > .ps__thumb-y,
+          .ps__thumb-x,
+          .ps__thumb-y {
+            background-color: @text-color;
+          }
+        }
+      }
+    }
+
+    &__thumb {
+      &-x,
+      &-y {
+        background-color: @text-color;
+      }
+    }
+  }
+
+  @media @mobile {
+    .scrollbar-size(2px, 2px);
+  }
+}
+
+.scrollbar-size(@size, @hover-size) {
+  &__thumb-x {
+    height: @size;
+  }
+
+  &__thumb-y {
+    width: @size;
+  }
+
+  &__rail-x:hover > .ps__thumb-x,
+  &__rail-x:focus > .ps__thumb-x,
+  &__rail-x.ps--clicking .ps__thumb-x {
+    height: @hover-size;
+  }
+
+  &__rail-y:hover > .ps__thumb-y,
+  &__rail-y:focus > .ps__thumb-y,
+  &__rail-y.ps--clicking .ps__thumb-y {
+    width: @hover-size;
+  }
+}

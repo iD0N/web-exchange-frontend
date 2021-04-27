@@ -1,0 +1,38 @@
+.widget {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 24px 32px;
+  color: @blue-darker;
+  border-radius: @border-radius-base;
+  background: @component-background;
+  font-weight: @font-light;
+
+  h1 {
+    color: @blue-dark;
+  }
+
+  h2 {
+    margin-bottom: 12px;
+  }
+
+  p {
+    margin-bottom: @padding-lg;
+  }
+
+  &-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  @media (min-width: @screen-sm) {
+    padding: 36px 48px;
+  }
+
+  &-centered {
+    h1 {
+      width: 100%;
+    }
+    text-align: center;
+  }
+}

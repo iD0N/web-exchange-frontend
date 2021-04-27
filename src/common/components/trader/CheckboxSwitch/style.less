@@ -1,0 +1,23 @@
+.trader-checkbox-switch {
+  display: flex;
+  align-items: center;
+  & > span {
+    margin-left: @padding-xs;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &-label-left {
+    button {
+      order: 2;
+    }
+
+    & > span {
+      margin-right: @padding-xs;
+      margin-left: 0;
+      order: 1;
+    }
+  }
+}

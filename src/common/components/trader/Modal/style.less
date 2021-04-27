@@ -1,0 +1,127 @@
+.trader-modal {
+  &-header {
+    border: 0;
+    padding: 24px 32px;
+  }
+
+  &-body {
+    padding: 0 32px 24px 32px;
+  }
+
+  &-footer {
+    border: 0;
+    padding: 0 32px 24px 32px;
+  }
+
+  &-close {
+    &:hover {
+      color: @gray-darkest;
+    }
+
+    &-x {
+      width: 70px;
+      height: 70px;
+      line-height: 70px;
+      font-size: 20px;
+    }
+  }
+
+  &-title {
+    font-size: 18px;
+  }
+
+  &-fullscreen {
+    width: 100vw !important;
+    height: 100%;
+    max-width: none;
+    top: 0;
+    margin: 0;
+    padding: 0;
+
+    .trader-modal-content {
+      .flex-vertical();
+      height: 100%;
+      background-color: @body-background;
+      border-radius: 0;
+    }
+
+    .trader-modal-header {
+      background: @body-background;
+      border-radius: 0;
+
+      .trader-modal-title {
+        font-size: 20px;
+        text-align: center;
+      }
+    }
+
+    .trader-modal-body {
+      padding: 20px;
+      .flex-grow();
+      .flex-vertical();
+    }
+
+    .trader-modal-footer {
+      padding: 20px;
+      border-radius: 0;
+    }
+  }
+}
+
+// Specific styles for forms & tables in modal
+.trader-modal {
+  &-content {
+    .form-footer {
+      text-align: right;
+      padding: 24px 0;
+
+      @media @mobile {
+        margin-top: auto;
+      }
+    }
+  }
+
+  &:not(&-fullscreen) {
+    .trader-modal-content {
+      .trader-input,
+      .trader-input-number {
+        border-color: @text-color-secondary;
+
+        &:hover,
+        &:focus {
+          border-color: @primary-color;
+        }
+      }
+
+      .trader-checkbox-wrapper {
+        color: @input-color;
+      }
+
+      .trader-table {
+        &-tbody > tr {
+          &:nth-child(even) {
+            background-color: lighten(@component-background, 3%);
+          }
+
+          &:nth-child(odd) {
+            background-color: lighten(@component-background, 1%);
+          }
+
+          > td {
+            box-shadow: none;
+          }
+        }
+      }
+    }
+  }
+
+  .trader-btn-background-ghost {
+    border-color: @gray;
+
+    &:hover,
+    &:focus,
+    &:active {
+      border-color: @primary-color;
+    }
+  }
+}

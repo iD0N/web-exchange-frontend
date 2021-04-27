@@ -1,0 +1,36 @@
+.columns-management-modal {
+  // TODO: use ant menu
+  ul {
+    max-height: 300px;
+
+    li {
+      margin: 3px 0;
+
+      @media @mobile {
+        margin: @padding-lg;
+        label {
+          font-size: @font-size-lg;
+        }
+      }
+    }
+
+    @media @mobile {
+      max-height: none;
+    }
+  }
+
+  .trader-checkbox-wrapper {
+    font-size: @font-size-md;
+  }
+
+  .info-tooltip {
+    align-items: center;
+  }
+
+  .currency,
+  .timezone {
+    display: inline-block !important;
+    margin-left: 5px;
+    color: @input-color;
+  }
+}

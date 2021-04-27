@@ -1,0 +1,26 @@
+.carousel-arrow {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  color: @white;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  transform: translate(0, -50%);
+  padding: 0;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  cursor: pointer;
+  background: linear-gradient(135deg, @turquoise, @blue);
+
+  &-left {
+    left: -25px;
+  }
+
+  &-right {
+    right: -25px;
+  }
+}

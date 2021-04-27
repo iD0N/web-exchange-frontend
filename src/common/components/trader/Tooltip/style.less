@@ -1,0 +1,19 @@
+.trader-tooltip {
+  line-height: @font-size-base;
+  font-family: @code-family;
+
+  &-inner {
+    min-height: 0;
+    line-height: 1.5;
+  }
+
+  &-inner-wrapper {
+    display: inline-flex;
+    align-items: flex-start;
+
+    .anticon {
+      color: @gray-darker;
+      z-index: 1;
+    }
+  }
+}

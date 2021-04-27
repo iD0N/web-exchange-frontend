@@ -1,0 +1,72 @@
+.trader-btn-toggle {
+  padding: 0;
+  width: @btn-height-base;
+
+  .anticon,
+  .acdx-icon {
+    transition: color 0.3s @ease-in-out;
+  }
+
+  .acdx-icon {
+    color: @text-color;
+
+    &:before {
+      margin: 0;
+      width: @btn-height-base;
+      font-size: 16px;
+      line-height: @btn-height-base;
+    }
+  }
+
+  &.trader-btn {
+    &-sm {
+      width: @btn-height-sm;
+
+      .acdx-icon {
+        &:before {
+          width: @btn-height-sm;
+          font-size: 12px;
+          line-height: @btn-height-sm;
+        }
+      }
+    }
+
+    &-lg {
+      width: @btn-height-lg;
+
+      .acdx-icon {
+        &:before {
+          width: @btn-height-lg;
+          font-size: 22px;
+          line-height: @btn-height-lg;
+        }
+      }
+    }
+  }
+
+  &:hover {
+    .anticon,
+    .acdx-icon {
+      color: @white;
+    }
+  }
+
+  &-active {
+    .acdx-icon {
+      color: @primary-color;
+    }
+
+    &:hover {
+      .acdx-icon {
+        color: @primary-color;
+      }
+    }
+  }
+}
+
+.trader-btn-animation-disabled {
+  [ant-click-animating-without-extra-node]:after,
+  .ant-click-animating-node {
+    animation: 0s !important;
+  }
+}

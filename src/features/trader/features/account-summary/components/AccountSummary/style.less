@@ -1,0 +1,39 @@
+.account-summary-trigger {
+  height: @layout-header-height;
+
+  .margin-bar-trigger-value {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 160px;
+    margin-right: 30px;
+    @media (max-width: @screen-lg) {
+      display: none;
+    }
+
+    label {
+      white-space: nowrap;
+      font-size: @font-size-base;
+      letter-spacing: 0.3px;
+      text-transform: uppercase;
+      color: @label-color;
+      margin-right: 5px;
+    }
+  }
+
+  > .trader-form {
+    .trader-form-item-label {
+      line-height: 1.5;
+    }
+
+    .trader-form-item-control {
+      padding: 0;
+      line-height: 1.5;
+      white-space: nowrap;
+    }
+  }
+
+  .pl-trigger-value {
+    min-width: 86px;
+  }
+}

@@ -1,0 +1,105 @@
+.trader-btn {
+  line-height: 1.4;
+
+  &-link {
+    background: none !important;
+    text-transform: none;
+    color: @primary-color;
+    border-width: 0;
+  }
+
+  &-no-padding {
+    padding: 0 !important;
+  }
+
+  &-plain {
+    border: 0;
+    color: @text-color;
+
+    &:hover {
+      color: @white;
+    }
+
+    &:active,
+    &:focus {
+      color: @text-color;
+
+      &:hover {
+        color: @white;
+      }
+    }
+  }
+
+  &-icon-only {
+    color: @primary-color;
+    padding: 0 !important;
+
+    &.trader-btn {
+      width: @btn-height-base;
+
+      &-sm {
+        width: @btn-height-sm;
+
+        @media @mobile {
+          width: @btn-height-base;
+          height: @btn-height-base;
+        }
+      }
+
+      &-lg {
+        font-size: 20px;
+        width: @btn-height-lg;
+      }
+    }
+  }
+
+  &-background-ghost {
+    color: @white;
+    border-color: @border-color-base;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: @white;
+      border-color: @gray;
+    }
+  }
+
+  &-positive,
+  &-negative {
+    letter-spacing: 0.6px;
+  }
+
+  &-positive {
+    .button-variant-primary(@dark; @green-positive);
+
+    &.trader-btn-background-ghost {
+      color: @green-positive;
+    }
+  }
+
+  &-negative {
+    .button-variant-primary(@dark; @red-negative);
+
+    &.trader-btn-background-ghost {
+      color: @red-negative;
+    }
+  }
+
+  &-md {
+    .button-size(@btn-height-base; @btn-padding-base; 14px; @btn-border-radius-base);
+  }
+
+  &-upper {
+    text-transform: uppercase;
+  }
+
+  &[disabled] {
+    pointer-events: none;
+  }
+
+  @media @mobile {
+    height: 36px;
+    font-size: @font-size-lg;
+  }
+}

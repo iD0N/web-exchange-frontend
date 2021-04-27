@@ -1,0 +1,62 @@
+.trader-modal-prompt {
+  .trader-modal-body,
+  .trader-modal-footer {
+    text-align: center;
+    font-size: @font-size-md;
+  }
+
+  .trader-modal-title {
+    text-align: center;
+  }
+
+  .trader-modal-body {
+    .confirmation-message {
+      font-size: @font-size-lg;
+      color: @gray-light;
+    }
+  }
+
+  .stay-on-page {
+    margin-top: 15px;
+    cursor: pointer;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .kyc-retryable-reason {
+    margin: 0 0 10px 0;
+    padding: 10px 15px;
+    border: 1px solid @gray;
+  }
+}
+
+.trader-modal-prompt-token-agreement {
+  .trader-modal-footer {
+    text-align: left;
+
+    .trader-checkbox-wrapper {
+      font-size: @font-size-md !important;
+      color: @gray-light;
+    }
+  }
+
+  .token-terms-body {
+    height: 310px;
+    overflow-y: scroll;
+    font-size: 14px;
+    text-align: justify;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: @gray-light;
+    background-color: rgba(255, 255, 255, 0.05);
+
+    div {
+      margin-bottom: 15px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

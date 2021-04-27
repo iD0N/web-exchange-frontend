@@ -1,0 +1,58 @@
+.order-entry {
+  height: 100%;
+
+  @media @desktop {
+    .contract-summary {
+      margin-bottom: 6px;
+      margin-top: 8px;
+    }
+
+    .order-form {
+      .flex-grow();
+      .flex-vertical();
+
+      &-inputs {
+        .flex-vertical();
+      }
+
+      .trader-form-vertical {
+        .flex-grow();
+      }
+    }
+  }
+
+  @media @mobile {
+    &,
+    .order-form {
+      .flex-grow();
+      .flex-vertical();
+    }
+
+    .trader-form {
+      .flex-grow();
+    }
+
+    .contract-summary {
+      margin-bottom: 12px;
+
+      &-item {
+        .flex-grow();
+        margin-right: 0;
+      }
+    }
+
+    .trader-input-number {
+      width: 100%;
+    }
+  }
+
+  .grid-layout-tile-content {
+    height: auto;
+  }
+}
+
+.order-entry-modal-wrap {
+  @media @mobile {
+    background: @darker;
+  }
+}

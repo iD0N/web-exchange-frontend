@@ -1,0 +1,21 @@
+{
+  "extends": "react-app",
+  "plugins": [
+    "chai-friendly",
+    "webdriverio"
+  ],
+  "env": {
+    "webdriverio/wdio": true,
+    "mocha": true
+  },
+  "globals": {
+    "step": true
+  },
+  "overrides": [{
+    "files": "*.test.js",
+    "rules": {
+      "no-unused-expressions": 0,
+      "chai-friendly/no-unused-expressions": 2
+    }
+  }]
+}

@@ -1,0 +1,40 @@
+.positions {
+  tr {
+    cursor: pointer;
+  }
+
+  .close-position-button {
+    &:hover {
+      color: @red-negative;
+    }
+  }
+}
+
+.balances {
+  &-transfer-column {
+    text-align: center;
+
+    .trader-btn:nth-child(2) {
+      margin: 0 4px;
+    }
+  }
+
+  &-row-active {
+    td {
+      color: @white;
+    }
+  }
+
+  .balances-transfer-column {
+    text-align: left !important;
+  }
+}
+
+.hide-position-underline {
+  .tabs {
+    .active {
+      border-bottom-width: 0;
+      cursor: auto;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.trader-popover {
+  border: 1px solid @gray-darker;
+  border-radius: 2px;
+
+  &-title {
+    display: flex;
+    padding: @padding-md;
+    font-size: @font-size-nav;
+    border-bottom: 0;
+    justify-content: space-between;
+
+    .anticon-close {
+      cursor: pointer;
+      color: @text-color;
+      margin-top: 4px;
+
+      &:hover {
+        color: @heading-color;
+      }
+    }
+
+    .tabs {
+      .tab {
+        margin-right: @padding-lg;
+        padding-bottom: 4px;
+      }
+    }
+  }
+
+  &-inner {
+    &-content {
+      p {
+        font-size: 13px;
+        margin-bottom: 4px;
+      }
+    }
+  }
+}

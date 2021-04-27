@@ -1,0 +1,91 @@
+@import './components/TradeModeToggle/style.less';
+
+.trademode-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px 0 10px 0;
+  width: 100%;
+  text-transform: uppercase;
+  align-items: center;
+
+  &-quantity-actions {
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin: 5px 15px 5px 0;
+
+    .trader-radio-group {
+      order: 1;
+      margin-right: 10px;
+      white-space: nowrap;
+    }
+
+    .trader-form {
+      order: 2;
+      align-self: flex-end;
+      height: 24px;
+
+      &-item {
+        display: flex;
+        align-items: center;
+        margin-left: 0;
+        margin-top: -3px;
+
+        .trader-input-number {
+          width: 60px;
+        }
+
+        .trader-form-explain {
+          display: none;
+        }
+
+        &-label {
+          @media @mobile {
+            padding-right: 10px;
+          }
+        }
+      }
+
+      .trader-form-item-with-help {
+        margin-bottom: 0;
+      }
+    }
+
+    .trademode-toolbar-quantity-buttons {
+      order: 3;
+      flex-wrap: wrap;
+      overflow: hidden;
+      height: 24px;
+    }
+  }
+
+  &-order-actions {
+    flex: 1;
+
+    .trader-btn {
+      flex: 1;
+
+      &:disabled {
+        background: none;
+        opacity: 0.5;
+      }
+    }
+
+    .trader-dropdown-trigger {
+      height: @btn-height-base;
+      line-height: @btn-height-base;
+      margin: 0 -15px;
+      padding: @btn-padding-base;
+    }
+  }
+}
+
+.grid-layout-tile-controls {
+  .trader-checkbox-switch {
+    @media @mobile {
+      font-size: @font-size-md;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+  }
+}

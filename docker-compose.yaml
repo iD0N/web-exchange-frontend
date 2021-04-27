@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    build: ../web/
+    image: web
+    command: sh -c "yarn install && yarn start"
+    volumes:
+      - ../web/:/usr/src/app:Z
+    ports:
+      - 3000:3000

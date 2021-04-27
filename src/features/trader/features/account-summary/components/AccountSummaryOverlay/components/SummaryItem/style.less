@@ -1,0 +1,60 @@
+.account-summary-overlay {
+  padding-top: 20px;
+
+  .summary-item {
+    .trader-form-item-control-wrapper {
+      padding-left: 18px;
+    }
+
+    .info-tooltip {
+      &:before {
+        content: '';
+        height: 8px;
+        width: 8px;
+        margin-right: 8px;
+        border-radius: 1px;
+      }
+    }
+
+    .token-balance-value {
+      .trader-form-item-label {
+        line-height: 16px;
+        height: 14px;
+        padding-left: 18px;
+      }
+    }
+
+    .effective-leverage-value {
+      .trader-form-item-children {
+        justify-content: flex-start;
+
+        .trader-form-text {
+          &:nth-child(2) {
+            color: @gray-light;
+          }
+        }
+      }
+    }
+
+    .margin-bar-value {
+      .legend-color(@value) {
+        @color: ~'palette-@{value}';
+
+        &-@{value} {
+          .info-tooltip {
+            &:before {
+              background-color: @@color;
+            }
+          }
+        }
+      }
+
+      .legend-color(dark-blue);
+      .legend-color(yellow);
+      .legend-color(orange);
+      .legend-color(green);
+      .legend-color(red);
+      .legend-color(dark-red);
+    }
+  }
+}

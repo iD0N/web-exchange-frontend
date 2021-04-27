@@ -1,0 +1,144 @@
+.contract-bar-wrapper {
+  width: 100%;
+  height: 64px;
+  background: @palette-trader-dark-green;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  white-space: nowrap;
+
+  .ant-spin-nested-loading {
+    overflow: hidden;
+
+    .ant-spin-container {
+      display: flex;
+      width: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+  }
+
+  .contract-bar-item-trigger {
+    position: relative;
+    display: inline-block;
+    padding: 12px 24px 0 24px;
+    cursor: pointer;
+    height: 64px;
+    min-width: 136px;
+    border-right: 2px solid @body-background;
+
+    .contract-name {
+      color: @gray;
+      font-size: @font-size-lg;
+    }
+
+    &-selected,
+    &:hover {
+      border-bottom: 3px solid @blue;
+      padding-bottom: 5px;
+
+      .contract-code {
+        color: @white;
+      }
+    }
+
+    .anticon-down {
+      position: absolute;
+      right: 15px;
+      bottom: 16px;
+    }
+  }
+}
+
+@media @mobile {
+  .contract-bar-wrapper {
+    margin-top: 60px;
+
+    .ant-spin-container {
+      overflow-x: scroll !important;
+    }
+  }
+
+  .trader-layout-content {
+    margin-top: 0;
+  }
+}
+
+.contract-bar-details {
+  display: flex;
+  height: 44px;
+  font-size: @font-size-md;
+  border-bottom: 1px solid @palette-trader-light-blue;
+
+  div {
+    display: inline-block;
+    line-height: 44px;
+    margin-left: 30px;
+  }
+
+  .contract-bar-settings {
+    align-self: flex-end;
+    margin-left: auto;
+    margin-right: 30px;
+    cursor: pointer;
+    color: @gray;
+
+    .anticon-setting {
+      margin-left: 6px;
+      font-size: @font-size-lg;
+    }
+
+    &:hover {
+      color: @green-positive;
+    }
+  }
+}
+
+.contract-bar-item-overlay {
+  border-radius: 2px;
+  padding-top: 16px;
+  min-width: 200px;
+  margin-top: 2px;
+
+  .inner {
+    display: flex;
+    position: relative;
+
+    .column {
+      border-right: 1px solid @gray-darker;
+      padding: 4px 24px 4px 24px;
+
+      &:last-child {
+        border-width: 0;
+      }
+
+      .header {
+        font-weight: bold;
+        color: @white;
+        font-size: @font-size-md;
+        margin-bottom: 12px;
+      }
+
+      .contract {
+        color: @green;
+        font-size: @font-size-sm;
+        padding: 5px 0;
+        cursor: pointer;
+
+        &:hover {
+          color: @gray;
+        }
+
+        &-selected {
+          color: @green;
+          font-weight: @font-bold;
+        }
+      }
+    }
+  }
+
+  .inner-border {
+    margin: 16px 10px 10px 10px;
+    border-bottom: 3px solid @blue;
+  }
+}

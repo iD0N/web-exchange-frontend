@@ -1,0 +1,116 @@
+.grid-layout-tile {
+  @vertical-spacing: 6px;
+
+  .flex-vertical();
+  height: 100%;
+  padding: @widget-padding;
+  overflow: hidden;
+
+  &-header {
+    .flex-auto();
+    .flex-horizontal();
+    margin-bottom: @vertical-spacing;
+
+    .grid-layout-tile-title {
+      max-width: 100%;
+      flex: 1 1 auto;
+      font-size: @font-size-lg;
+      line-height: 1;
+      color: @heading-color;
+      letter-spacing: 0.4px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+
+      .tab {
+        line-height: 15px;
+      }
+
+      .trader-dropdown-trigger {
+        display: inline-block;
+      }
+    }
+
+    .grid-layout-tile-controls {
+      color: @text-color-secondary;
+      display: flex;
+      align-items: flex-start;
+      cursor: pointer;
+
+      > * {
+        margin-left: 10px;
+      }
+
+      .acdx-icon {
+        font-size: 12px;
+        position: relative;
+        top: -2px;
+      }
+    }
+  }
+
+  &-content,
+  div[role='presentation'] /* react-drag-listview */ {
+    .flex-grow();
+    .flex-vertical();
+    height: 100%;
+  }
+
+  &-footer {
+    .flex-auto();
+    margin-top: @vertical-spacing;
+
+    @media @mobile {
+      margin-top: @padding-md;
+    }
+  }
+}
+
+.grid-layout-tile {
+  @pagination-height: 35px;
+
+  .trader-table-wrapper {
+    height: 100%;
+    width: 100%;
+    flex: 1;
+
+    .ant-spin-nested-loading,
+    .ant-spin-container,
+    .trader-table,
+    .trader-table-content,
+    .trader-table-scroll {
+      height: 100%;
+      overflow: hidden;
+    }
+
+    &.trader-table-with-pagination {
+      position: relative;
+
+      .trader-table {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: @pagination-height;
+        left: 0;
+        height: auto;
+      }
+
+      .trader-pagination {
+        margin: 0;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+    }
+  }
+
+  .trader-table + .trader-pagination {
+    height: auto;
+  }
+
+  .trader-table-body {
+    &.ps {
+      max-height: none !important;
+    }
+  }
+}

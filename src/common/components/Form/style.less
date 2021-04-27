@@ -1,0 +1,54 @@
+.ant-form-vertical {
+  .ant-form-item {
+    .ant-form-item-label {
+      float: left; // for the scale transform
+      margin-bottom: -5px;
+      text-transform: uppercase;
+      font-weight: @font-medium;
+      opacity: 0;
+      transform: translateY(10px) scale(0.75);
+      transition-property: transform, opacity;
+      transition-duration: 200ms;
+      transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+      transition-delay: 0ms;
+
+      label {
+        font-size: 12px;
+      }
+    }
+
+    .ant-form-text {
+      line-height: @input-height-base;
+
+      .anticon-info-circle {
+        margin-left: @padding-xs;
+        color: @gray;
+      }
+    }
+
+    .ant-form-item-children {
+      & > div {
+        width: 100%;
+      }
+    }
+
+    &.ant-row {
+      margin-left: 0; // reset gutter
+      margin-right: 0;
+    }
+
+    &.with-floating-label {
+      .ant-form-item-label {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+      }
+    }
+
+    &.ant-form-item-with-help {
+      margin-bottom: @form-item-margin-bottom - @font-size-base * @line-height-base;
+      .ant-form-explain {
+        margin: 0;
+      }
+    }
+  }
+}

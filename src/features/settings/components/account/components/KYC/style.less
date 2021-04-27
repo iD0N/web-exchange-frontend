@@ -1,0 +1,50 @@
+.settings-subpage-wrapper {
+  .kyc-value-wrapper {
+    position: absolute;
+    top: 26px;
+    height: 32px;
+    font-size: @font-size-lg;
+    color: @white;
+    z-index: 1;
+    border-bottom: 1px solid @dark;
+
+    .anticon-info-circle {
+      margin-right: 8px;
+    }
+  }
+
+  .kyc-input-wrapper {
+    margin-bottom: 10px;
+
+    input {
+      visibility: hidden;
+    }
+    .ant-input-suffix {
+      z-index: 2;
+    }
+
+    &-retryable {
+      .ant-input-suffix {
+        margin-top: 14px !important;
+        margin-right: 10px;
+      }
+
+      .kyc-value-wrapper {
+        display: none;
+      }
+    }
+  }
+}
+
+.kyc-retryable-reason {
+  margin: -60px 0 20px 0;
+  color: @gray-light;
+  border-radius: 3px;
+  padding: 10px 160px 10px 15px;
+  background-color: @dark;
+  font-size: @font-size-lg;
+
+  .anticon {
+    margin-right: 8px;
+  }
+}

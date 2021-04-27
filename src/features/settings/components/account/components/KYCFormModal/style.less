@@ -1,0 +1,107 @@
+.trader-modal-prompt-kyc-form {
+  background: @darker;
+
+  .disclaimer {
+    text-align: left;
+    margin: 0 -10px;
+
+    div {
+      margin: 10px 0;
+    }
+  }
+
+  .invalid-row {
+    height: auto !important;
+    margin-top: -20px;
+    margin-bottom: 10px;
+  }
+
+  .invalid-value-message {
+    color: @red-negative;
+    margin-top: 2px;
+    font-size: @font-size-md;
+  }
+
+  .ant-row {
+    height: 80px;
+    text-align: left;
+  }
+
+  .ant-form-item-children {
+    .ant-input {
+      height: 40px;
+      color: @white;
+      border-color: #888;
+
+      &::placeholder {
+        color: #999;
+      }
+
+      &:hover, &:active, &:focus {
+        border-color: @white;
+      }
+    }
+  }
+
+  .country-input-wrapper {
+    height: 84px;
+
+    .trader-select {
+      margin-top: 12px;
+    }
+
+    .trader-select-selection {
+      height: 40px;
+    }
+
+    .trader-select-selection__rendered, .trader-select-selection {
+      font-size: @font-size-lg;
+      line-height: 38px;
+    }
+  }
+
+  .selfie-upload-wrapper, .license-upload-wrapper {
+    .ant-form-item-label {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px !important;
+    }
+  }
+
+  .trader-modal-body {
+    padding-bottom: 10px;
+  }
+
+  .trader-modal-footer {
+    padding-left: 18px;
+    padding-right: 18px;
+
+    .btn-wrapper {
+      margin-top: 0px;
+    }
+  }
+
+  .confirmation-message {
+    .btn-wrapper {
+      margin: 20px -10px 10px -10px;
+    }
+  }
+
+  @media @desktop {
+    .kyc-form-btn-wrapper {
+      margin: -14px -8px 10px -5px;
+    }
+  }
+
+  @media @mobile {
+    .ant-row {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .kyc-form-btn-wrapper {
+      margin: -20px 5px 20px 8px;
+    }
+  }
+
+}

@@ -1,0 +1,26 @@
+.order-confirmation-modal {
+  .btn-wrapper {
+    .trader-btn {
+      &-primary {
+        flex: 4;
+      }
+    }
+  }
+
+  .trader-modal-footer {
+    display: flex;
+    justify-content: flex-end;
+
+    @media @mobile {
+      .order-entry-confirm-order-toggle {
+        font-size: @font-size-lg !important;
+      }
+    }
+  }
+
+  hr {
+    height: 8px;
+    border-width: 0;
+    margin: 5px 0;
+  }
+}

@@ -1,0 +1,27 @@
+.container {
+  width: 100%;
+  padding: 0 @padding-md;
+  margin: 0 auto;
+
+  @media (min-width: @screen-xs) and (max-width: @screen-md) {
+    padding: 0 30px;
+    max-width: @container-md;
+  }
+
+  @media (min-width: @screen-md) {
+    padding: 0;
+    max-width: @container-md;
+  }
+
+  @media (min-width: @screen-lg) {
+    max-width: @container-lg;
+  }
+
+  @media (min-width: @screen-xl) {
+    max-width: @container-xl;
+  }
+
+  @media (min-width: @screen-xxl) {
+    max-width: @container-xxl;
+  }
+}

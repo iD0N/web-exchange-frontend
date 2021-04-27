@@ -1,0 +1,89 @@
+.trader-select {
+  &-selection {
+    font-family: @code-family;
+    background: transparent;
+
+    &:hover {
+      .trader-input {
+        border-color: @primary-color;
+      }
+    }
+
+    &-selected-value {
+      color: @white;
+    }
+
+    &__clear {
+      opacity: 1;
+      background: transparent;
+      font-size: 13px;
+
+      &:hover {
+        color: @primary-color;
+      }
+    }
+  }
+
+  &-dropdown {
+    position: initial;
+    min-width: 110px;
+    border: 1px solid @dark;
+
+    &--multiple {
+      .trader-select-dropdown-menu-item {
+        padding-right: @padding-lg;
+      }
+    }
+  }
+
+  &-dropdown-menu-item {
+    font-family: @code-family;
+    color: @menu-dark-color;
+
+    &-selected {
+      &:hover {
+        color: @menu-dark-color;
+      }
+    }
+
+    .meta {
+      color: @gray;
+      overflow-x: hidden;
+      text-overflow: ellipsis;
+    }
+
+    &-group-title {
+      font-size: 11px;
+      font-family: @code-family;
+      color: @menu-dark-color;
+      text-transform: uppercase;
+    }
+  }
+
+  &-disabled {
+    .trader-select-selection-selected-value {
+      color: @disabled-color;
+    }
+  }
+
+  &-borderless {
+    width: auto;
+
+    &.trader-select-open {
+      .trader-select-selection {
+        color: @primary-color;
+      }
+    }
+
+    .trader-select-selection {
+      border: 0;
+    }
+  }
+
+  &-allow-clear {
+    .trader-select-search__field {
+      padding-right: 25px;
+      text-overflow: ellipsis;
+    }
+  }
+}

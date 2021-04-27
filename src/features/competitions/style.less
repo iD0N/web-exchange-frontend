@@ -1,0 +1,245 @@
+@import './components/Leaderboard/style.less';
+
+.competition-screen {
+  margin-top: 20px;
+  font-size: @font-size-md;
+
+  .ant-spin-blur {
+    overflow: visible !important;
+  }
+
+  h1 {
+    font-size: @font-size-heading-p;
+    font-weight: @font-medium;
+    margin: 25px 0 20px 0;
+    color: @gray-light;
+  }
+
+  h2 {
+    font-size: @font-size-heading-p;
+    font-weight: @font-medium;
+    margin: 25px 0 10px 0;
+    color: @gray-light;
+  }
+
+  h3 {
+    font-size: @font-size-md;
+    color: @gray;
+    font-weight: @font-normal;
+  }
+
+  h4 {
+    font-size: @font-size-md;
+    color: @gray-light;
+    text-transform: uppercase;
+  }
+
+  .expiration {
+    font-size: @font-size-md;
+    margin: -10px 0 15px 0;
+
+    .trader-form-text {
+      padding: 0;
+    }
+
+    .in-future {
+      color: @blue;
+    }
+  }
+
+  .competition-code {
+    margin: -15px 0 15px 0;
+
+    b {
+      color: @gray-light;
+      font-family: @code-family;
+    }
+
+    .anticon-info-circle {
+      svg {
+        margin: 1px 1px 1px 2px;
+      }
+    }
+  }
+
+  .update-btn-outer {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+
+    .trader-checkbox-wrapper {
+      margin-left: 15px;
+      font-family: @code-family;
+    }
+
+    .update-btn-content {
+      display: inline-block;
+      align-self: flex-end;
+      margin-left: auto;
+
+      .ant-spin-nested-loading {
+        display: inline-block;
+      }
+
+      .trader-btn {
+        margin-left: 8px;
+      }
+    }
+    .trader-select {
+      align-self: flex-start;
+    }
+  }
+
+  .last-updated {
+    font-size: @font-size-sm;
+
+    .trader-form-text {
+      padding: 0;
+    }
+  }
+
+  @media @mobile {
+    margin-top: 80px;
+  }
+
+  .chart-container {
+    margin-top: 25px;
+    height: 500px;
+
+    .highcharts-background {
+      fill: @darker !important;
+    }
+
+    .highcharts-grid,
+    .highcharts-tick {
+      display: none;
+    }
+    .highcharts-yaxis {
+      &-labels {
+        text {
+          fill: @gray !important;
+          opacity: 0.85;
+        }
+      }
+    }
+
+    .highcharts-xaxis {
+      .highcharts-axis-line {
+        stroke: @gray !important;
+        opacity: 0.5;
+      }
+      &-labels {
+        text {
+          fill: @gray !important;
+          opacity: 0.85;
+        }
+      }
+    }
+
+    .highcharts-legend-item {
+      text {
+        fill: @gray !important;
+      }
+    }
+
+    .highcharts-tooltip {
+      &-box {
+        stroke: transparent !important;
+        fill: @dark !important;
+      }
+
+      text {
+        fill: @white !important;
+      }
+    }
+
+    .highcharts-reset-zoom {
+      opacity: 0.5;
+
+      rect {
+        fill: @darker;
+        stroke: @gray !important;
+      }
+      text {
+        fill: @gray !important;
+      }
+    }
+  }
+
+  .info-tooltip {
+    vertical-align: middle;
+  }
+
+  .leaderboard-show-more {
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 0;
+    opacity: 0.75;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 1;
+      text-decoration: underline;
+    }
+  }
+
+  .inactive-trader-value {
+    opacity: 0.65;
+  }
+
+  .comp-tooltip-wrapper {
+    color: @gray-light;
+    border-radius: 2px;
+    padding: 2px 6px;
+
+    .comp-series-wrapper {
+      display: inline-block;
+      margin: 8px 0 0 6px;
+      line-height: 8px;
+    }
+
+    .comp-chart-legend-block {
+      display: inline-block;
+      height: 10px;
+      width: 10px;
+      background: red;
+    }
+  }
+
+  tbody {
+    .hidden-row {
+      display: none;
+    }
+
+    .with-odd-bg {
+      background-color: rgba(255, 255, 255, 0.05);
+    }
+  }
+
+  .top-sharpe {
+    color: @green-positive;
+  }
+
+  .very-rekt {
+    td:nth-child(7) {
+      color: @red-negative;
+    }
+  }
+
+  .competition-public-join-link {
+    margin-bottom: 15px;
+    color: @blue;
+    border: 1px solid @blue;
+    padding: 5px 10px;
+    border-radius: 3px;
+    display: inline-block;
+  }
+
+  .competition-code-referral {
+    color: @blue;
+    .auto-select-all {
+      color: @blue;
+    }
+  }
+}

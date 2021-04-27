@@ -1,0 +1,51 @@
+.sign-up-page {
+  .sign-up {
+    .hero {
+      margin-bottom: 60px;
+    }
+
+    article {
+      margin-bottom: 40px;
+
+      li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        font-size: 18px;
+
+        img {
+          @img-size: 50px;
+          align-self: flex-start;
+          width: @img-size;
+          height: @img-size;
+          margin-right: @padding-lg;
+        }
+      }
+    }
+  }
+
+  .ant-alert {
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+
+  .ant-radio-group {
+    width: 100%;
+    margin-bottom: 20px;
+
+    .ant-radio-button-wrapper {
+      width: 50%;
+      text-align: center;
+
+      &-checked {
+        border-color: @blue;
+        color: @blue;
+      }
+    }
+  }
+
+  a {
+    color: @blue;
+    font-weight: @font-medium;
+  }
+}

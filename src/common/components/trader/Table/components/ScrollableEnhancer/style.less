@@ -1,0 +1,20 @@
+.trader-table {
+  &-scroll {
+    .flex-vertical();
+
+    .trader-table-body {
+      overflow: hidden !important;
+      flex: 1;
+    }
+  }
+
+  &-fixed-header &-scroll &-header {
+    margin: 0 !important;
+    overflow: hidden;
+    padding-bottom: 0;
+  }
+
+  &-fixed-header > &-content > &-scroll > &-body {
+    background: transparent;
+  }
+}

@@ -1,0 +1,28 @@
+.notification-tray-trigger {
+  position: relative;
+  height: @layout-header-height;
+  color: @gray !important;
+
+  .badge {
+    position: absolute;
+    top: 50%;
+    margin-top: -12px;
+    right: 50%;
+    margin-right: 0px;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    border-radius: 24px;
+    text-align: center;
+    background-color: @red-negative;
+    color: @white;
+    font-weight: @font-bold;
+    font-size: @font-size-base;
+  }
+}
+
+@media @mobile {
+  .notification-tray-trigger {
+    color: @gray-darker !important;
+  }
+}

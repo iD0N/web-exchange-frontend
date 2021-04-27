@@ -1,0 +1,1 @@
+export const PRESET_TRADABLE_QUANTITIES = [20, 40, 80, 100];

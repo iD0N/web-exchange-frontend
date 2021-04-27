@@ -1,0 +1,12 @@
+export { default as brazilFlag } from './brazil.png';
+export { default as brazilFlag2x } from './brazil@2x.png';
+export { default as chinaFlag } from './china.png';
+export { default as chinaFlag2x } from './china@2x.png';
+export { default as koreaFlag } from './korea.png';
+export { default as koreaFlag2x } from './korea@2x.png';
+export { default as russiaFlag } from './russia.png';
+export { default as russiaFlag2x } from './russia@2x.png';
+export { default as usFlag } from './us.png';
+export { default as usFlag2x } from './us@2x.png';
+export { default as vietnamFlag } from './vietnam.png';
+export { default as vietnamFlag2x } from './vietnam@2x.png';

@@ -1,0 +1,162 @@
+.trader-dropdown {
+  background: @menu-dark-item-active-bg;
+  box-shadow: @box-shadow-base;
+  border-radius: @border-radius-base;
+  overflow: hidden;
+
+  @media @mobile {
+    left: 0 !important;
+    right: 0 !important;
+  }
+
+  &-trigger {
+    cursor: pointer;
+
+    .anticon-down {
+      margin-right: 0;
+      margin-left: 5px;
+      color: @text-color;
+      transform: rotate(0deg);
+      transition: transform 250ms ease-in-out;
+    }
+
+    &.visible {
+      .anticon-down {
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  .scrollbar-container {
+    max-height: 300px;
+  }
+
+  .trader-dropdown-menu {
+    border-radius: 0;
+  }
+
+  &-menu,
+  .trader-menu {
+    min-width: 120px;
+    border: 0;
+    overflow-y: auto;
+
+    &.full-height {
+      max-height: none;
+      overflow: hidden;
+    }
+
+    &-submenu {
+      &-title {
+        padding-top: 0;
+        padding-bottom: 0;
+        font-family: @font-family;
+        line-height: @menu-item-height;
+        color: @menu-dark-color;
+      }
+
+      &-selected {
+        background: @item-active-bg;
+      }
+    }
+
+    &-item,
+    &-submenu-title {
+      margin: 0 !important;
+      padding: 0 @control-padding-horizontal;
+      font-family: @font-family;
+      line-height: @menu-item-height;
+      padding-top: 0;
+      padding-bottom: 0;
+      color: @menu-dark-color;
+
+      @media @mobile {
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+
+      label {
+        color: @menu-dark-color;
+
+        @media @mobile {
+          font-size: @font-size-lg;
+          font-weight: @font-light;
+
+          .trader-checkbox {
+            margin-left: 4px;
+            & + span {
+              padding-left: 12px;
+            }
+          }
+        }
+      }
+
+      .meta {
+        color: @gray;
+        overflow-x: hidden;
+        text-overflow: ellipsis;
+      }
+
+      > .anticon:first-child,
+      > .acdx-icon:first-child,
+      a > .anticon:first-child,
+      a > .acdx-icon:first-child {
+        display: inline-block;
+        min-width: 16px;
+        margin-right: 5px;
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        @media @mobile {
+          width: 24px;
+          margin-right: 8px !important;
+        }
+      }
+
+      a {
+        padding: 0;
+        margin: 0;
+        color: @menu-dark-color !important;
+      }
+
+      &-group {
+        &-title {
+          padding-left: @control-padding-horizontal;
+          font-family: @code-family;
+          color: @heading-color;
+          text-transform: uppercase;
+        }
+
+        &.checkbox-group {
+          .trader-dropdown-menu-item {
+            display: flex;
+            justify-content: space-between;
+          }
+        }
+      }
+
+      &-divider {
+        margin: 5px @control-padding-horizontal;
+        background-color: @border-color-split;
+      }
+
+      @media @mobile {
+        font-size: @font-size-lg;
+        font-weight: @font-light;
+        padding-left: @padding-lg;
+        padding-right: @padding-lg;
+      }
+    }
+  }
+
+  .trader-input {
+    border-color: @gray;
+
+    &:hover,
+    &:focus {
+      border-color: @primary-color;
+    }
+  }
+}

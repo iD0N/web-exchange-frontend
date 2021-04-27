@@ -1,0 +1,109 @@
+.trader-layout-header {
+  .trader-menu {
+    line-height: @layout-header-height;
+    background: transparent;
+
+    .icon-menu-copy {
+      color: @text-color;
+      margin-left: 4px;
+      font-size: 18px;
+    }
+
+    .trader-menu-item {
+      font-size: @font-size-nav;
+
+      @media (max-width: @screen-lg) {
+        padding: 0 14px;
+      }
+    }
+  }
+
+  .trader-dropdown-trigger {
+    display: flex;
+    align-items: center;
+    line-height: 1;
+    font-size: @font-size-lg;
+    color: @heading-color;
+
+    .icon-menu-copy {
+      color: @text-color;
+      margin-right: @padding-xs;
+    }
+
+    .anticon {
+      color: @text-color;
+    }
+
+    .username {
+      @media @mobile {
+        display: none;
+      }
+    }
+  }
+}
+
+.nav-subaccount-active {
+  color: @blue;
+}
+
+.account-settings-overlay {
+  .anticon-ordered-list,
+  .anticon-fund,
+  .anticon-trophy,
+  .anticon-cloud {
+    opacity: 0.6;
+  }
+}
+
+.trader-dropdown-menu-submenu-title {
+  a {
+    display: inline-block;
+  }
+}
+
+@media @mobile {
+  .account-settings-overlay {
+    top: 60px !important;
+    bottom: 0 !important;
+    overflow-y: scroll;
+
+    .anticon {
+      color: @text-color;
+    }
+
+    .trader-menu {
+      &-item {
+        height: 48px;
+
+        &:last-child {
+          height: 60px;
+        }
+      }
+
+      span {
+        font-size: @font-size-lg;
+        font-weight: @font-bold;
+        color: @gray-light;
+        font-family: @font-family;
+      }
+    }
+    .submenu-nav-item {
+      height: 40px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+
+      .acdx-icon,
+      span {
+        font-size: @font-size-md;
+      }
+
+      &-language-dropdown {
+        margin-bottom: 10px !important;
+      }
+    }
+
+    span {
+      font-size: @font-size-md;
+    }
+  }
+}

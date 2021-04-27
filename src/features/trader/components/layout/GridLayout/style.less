@@ -1,0 +1,38 @@
+@import '~react-grid-layout/css/styles.css';
+
+body.react-draggable-transparent-selection {
+  user-select: none;
+}
+
+.react-grid-layout-wrapper {
+  @media @desktop {
+    padding-right: 10px;
+  }
+}
+
+.react-grid-layout {
+  .react-grid-item {
+    border: 1px solid @border-color-base;
+
+    &.react-grid-placeholder {
+      background: @primary-color;
+      opacity: 0.05;
+    }
+
+    > .react-resizable-handle {
+      &:after {
+        border-color: @text-color-secondary;
+      }
+    }
+
+    > .ant-spin-nested-loading {
+      height: 100%;
+
+      > .ant-spin-container {
+        height: 100%;
+      }
+    }
+  }
+}
+
+@import './GridLayoutTile/style.less';

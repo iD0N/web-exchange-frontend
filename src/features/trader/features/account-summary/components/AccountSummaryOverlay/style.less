@@ -1,0 +1,71 @@
+.account-summary-overlay {
+  min-width: 320px;
+  padding: 12px;
+  background-color: @dark-foreground;
+
+  > * {
+    margin-bottom: 16px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &-title {
+    text-transform: uppercase;
+    color: @heading-color;
+  }
+
+  &-divider {
+    height: 1px;
+    background-color: @gray-darkest;
+  }
+
+  > .ant-row {
+    margin-right: -@control-padding-horizontal;
+    margin-left: -@control-padding-horizontal;
+
+    [class^='ant-col'] {
+      padding: 0 @control-padding-horizontal;
+    }
+  }
+
+  .info-tooltip {
+    align-items: center;
+
+    .anticon {
+      color: @gray;
+    }
+  }
+}
+
+@media @mobile {
+  .account-settings-overlay {
+    position: fixed;
+
+    .account-summary-overlay {
+      padding: 10px 0;
+
+      .trader-form-item-label,
+      .trader-form-item-control-wrapper {
+        span {
+          color: @gray;
+          font-size: @font-size-sm;
+        }
+      }
+    }
+
+    ul {
+      .trader-dropdown-menu-item {
+        &:first-child {
+          &:hover {
+            background-color: transparent;
+          }
+        }
+        &:last-child {
+          padding-bottom: 20px;
+        }
+      }
+    }
+  }
+}

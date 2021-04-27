@@ -1,0 +1,26 @@
+.trademode-position-view {
+  display: flex;
+  margin-right: 5px;
+  margin-top: 1px;
+
+  @media @mobile {
+    margin-top: 3px;
+  }
+
+  .trader-form {
+    flex: 1;
+
+    &:first-child {
+      margin-right: 10px;
+    }
+
+    &-item-control {
+      padding: 2px 0;
+    }
+
+    &-item-children {
+      height: 27px;
+      flex-direction: column;
+    }
+  }
+}

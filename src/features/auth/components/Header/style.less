@@ -1,0 +1,40 @@
+.responsive-menu {
+  .btn-item-auth {
+    width: 50%;
+    display: inline-block;
+    padding-right: 0;
+
+    .ant-btn {
+      width: 100%;
+    }
+  }
+
+  .language-dropdown--trigger {
+    padding-left: 0;
+    width: 100%;
+    font-size: @font-size-nav;
+    text-align: left;
+    color: @text-color;
+  }
+}
+
+.auth-screen,
+.account-app-screen {
+  background: linear-gradient(135deg, @darker 0%, @dark 100%);
+
+  .ant-layout-header {
+    .ant-menu {
+      &-item {
+        font-size: 14px;
+
+        a {
+          color: @gray-light;
+        }
+      }
+    }
+  }
+
+  .ant-dropdown-menu-item {
+    font-size: 16px;
+  }
+}

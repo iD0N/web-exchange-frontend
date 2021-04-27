@@ -1,0 +1,1496 @@
+{
+  "agreement": "By registering, I am agreeing to the Crypto <1>Terms of Service</1>, <3>Privacy Policy</3> and <5>Affiliate Agreement Terms</5>.",
+  "amplifyErrors": {
+    "EnableSoftwareTokenMFAException": "The entered code is invalid. Please try again.",
+    "LimitExceededException": "Attempt limit exceeded, please try again after some time.",
+    "NotAuthorizedException": "Invalid email or password. Try clicking 'Forgot password?' if you're having trouble signing in.",
+    "UserNotFoundException": "The email you entered does not belong to any account."
+  },
+  "auth": {
+    "pleaseWait": "Please wait..."
+  },
+  "bestTraders": {
+    "earned": "earned",
+    "title": "Meet week five best traders"
+  },
+  "changeAlias": {
+    "save": "Save",
+    "title": "Change Leaderboard Name"
+  },
+  "changeEmail": {
+    "save": "Save",
+    "title": "Change Your Email"
+  },
+  "changePassword": {
+    "changePassword": "Change Password",
+    "currentPassword": {
+      "label": "Current Password",
+      "placeholder": "Current Password"
+    },
+    "newPassword": {
+      "label": "New Password",
+      "placeholder": "New Password"
+    },
+    "title": "Change Password"
+  },
+  "competition": {
+    "header": {
+      "ago": "ago",
+      "begins": "Begins",
+      "ended": "Ended",
+      "ends": "Ends",
+      "hideIneligibleTraders": "Hide Ineligible Traders",
+      "inviteCode": "Invite code",
+      "inviteLink": {
+        "title": "Competition Referral Link",
+        "tooltip": "When a trader joins Crypto through this competition join link, you will earn a percentage of their trading fees per the referral program."
+      },
+      "lastUpdated": "Last updated",
+      "publicLink": {
+        "title": "Public Leaderboard Link",
+        "tooltip": "Go ahead and share your performance! Visitors to this link will not be able to see the join link unless they are already competing in this competition."
+      },
+      "requirements": {
+        "netDeposit": "Net Deposit Requirement",
+        "volume": "Volume Requirement"
+      },
+      "showAll": "Show All",
+      "showTopTen": "Show Top-10 Only",
+      "updateResults": "Update results",
+      "updatingResults": "Updating results..."
+    },
+    "leaderboard": {
+      "allContracts": "All Contracts",
+      "column": {
+        "feesEarned": "Fees Earned (BTC)",
+        "notionalPl": "Notional PL (BTC)"
+      },
+      "header": {
+        "feesEarned": "Net Fee Earners",
+        "notionalPl": "Notional PL Leaders"
+      },
+      "note": "The Crypto All-Time Leaderboard updates rankings and values every 5 minutes.",
+      "title": "Crypto All-Time Leaderboard"
+    },
+    "table": {
+      "column": {
+        "change": "Change (Total Collateral)",
+        "count": "Trades",
+        "name": "Name",
+        "rank": "Rank",
+        "referrals": "Referrals",
+        "referralsTooltip": "The number of traders who signed up with Crypto using this trader's competition invite link.",
+        "rekt": "Rekt",
+        "rektTooltip": "Max % change - current % change",
+        "sharpe": "Sharpe",
+        "sharpeNA": "Not enough datapoints to calculcate sharpe ratio.",
+        "sharpeTooltip": "A sharpe ratio is a measure of a trader's performance and allows one to objectively compare returns across traders and strategies. Click the info icon to learn more.",
+        "volume": "Volume"
+      },
+      "empty": "This competition does not have any participants",
+      "setLeaderboardName": "Set your leaderboard name"
+    }
+  },
+  "confirmLogin": {
+    "continue": "Continue",
+    "message": "Please enter a code from your MFA device.",
+    "title": "Confirm Login"
+  },
+  "contracts": {
+    "longNames": {
+      "BRAZIL60": "Brazil 60 Equity Index",
+      "BTC-PERP": "Bitcoin Futures - Perpetual",
+      "BTC-U20": "Bitcoin Futures - Sep 2020",
+      "BTC-PERP-U20": "Bitcoin Futures Spread - Perpetual/Sep 2020",
+      "BTC-PERP-Z20": "Bitcoin Futures Spread - Perpetual/Dec 2020",
+      "BTC-USD": "BTC/USD",
+      "ACDX-SPOT": "CRYP Token",
+      "ETH-PERP": "Ethereum Futures - Perpetual",
+      "ETH-U20": "Ethereum Futures - Sep 2020",
+      "ETH-PERP-U20": "Ethereum Futures Spread - Perpetual/Sep 2020",
+      "ETH-PERP-Z20": "Ethereum Futures Spread - Perpetual/Dec 2020",
+      "ETH-SPOT": "Ethereum",
+      "EUR": "EUR/USD",
+      "GOLD": "Gold",
+      "LINK": "ChainLink",
+      "US500": "US Equity Index",
+      "USDBRL": "USD/BRL",
+      "USDT": "Tether",
+      "USOIL": "US Oil",
+      "XTZ": "Tezos"
+    },
+    "type": {
+      "future": "Futures",
+      "spot": "Spot",
+      "spread": "Futures Spread"
+    }
+  },
+  "createAccount": {
+    "signUp": "Continue",
+    "title": "Create Your Account"
+  },
+  "dashboard": {
+    "table": {
+      "column": {
+        "change": "Change"
+      }
+    },
+    "title": "Markets"
+  },
+  "disableMfa": {
+    "note": "Disabling MFA makes your account less secure.",
+    "submit": "Disable MFA",
+    "title": "Disable Multi-factor Auth"
+  },
+  "email": {
+    "change": "Change"
+  },
+  "fields": {
+    "alias": {
+      "add": "Add",
+      "change": "Change",
+      "label": "Leaderboard Name",
+      "placeholder": "Leaderboard Name"
+    },
+    "code": {
+      "label": "Code",
+      "placeholder": "Code"
+    },
+    "email": {
+      "label": "E-mail",
+      "placeholder": "E-mail"
+    },
+    "emailAddress": {
+      "label": "E-mail",
+      "placeholder": "E-mail"
+    },
+    "familyName": {
+      "label": "Family name",
+      "placeholder": "Family Name"
+    },
+    "givenName": {
+      "label": "Given name",
+      "placeholder": "Given Name"
+    },
+    "identity": {
+      "contactSupport": "Contact support",
+      "failed": "Failed",
+      "label": "Status",
+      "notVerified": "Not Verified",
+      "passed": "Passed",
+      "processing": "Processing",
+      "retry": "Retry",
+      "verify": "Verify"
+    },
+    "language": {
+      "label": "Language"
+    },
+    "mfaToggle": {
+      "disabled": "Disabled",
+      "enabled": "Enabled",
+      "label": "Multi-factor Authentication (MFA) Status"
+    },
+    "mobile": {
+      "label": "Mobile",
+      "placeholder": "Mobile"
+    },
+    "optional": "optional",
+    "password": {
+      "label": "Password"
+    },
+    "submit": "Submit"
+  },
+  "footer": {
+    "copyright": "© 2020 Crypto",
+    "socketStatus": "Socket Status:"
+  },
+  "footerNav": {
+    "affiliateProgram": "Referral Program Terms",
+    "company": {
+      "blog": "Blog",
+      "careers": "Careers",
+      "home": "Home",
+      "press": "Press",
+      "team": "Team",
+      "title": "Company"
+    },
+    "exchange": {
+      "affiliates": "Referrals",
+      "beta": "Trade",
+      "login": "Login",
+      "signup": "Sign Up",
+      "testnet": "Testnet",
+      "title": "Exchange"
+    },
+    "more": {
+      "api": "API",
+      "onepager": "One-Pager",
+      "pitchdeck": "Pitch Deck",
+      "support": "Help & Support",
+      "title": "More",
+      "whitepaper": "Whitepaper"
+    },
+    "privacyPolicy": "Privacy Policy",
+    "termsAndConditions": "Terms and conditions"
+  },
+  "forgottenPassword": {
+    "title": "Forgotten Password"
+  },
+  "home": {
+    "section1": {
+      "ctaButton": "Join Our Telegram",
+      "description": "Our Rewards Program has ended, but we will offer new rewards in a few weeks. We will update you through email with your total number of credits soon. For now please join our social media channels to keep up with the latest news.",
+      "heading": "Welcome to Crypto!"
+    }
+  },
+  "ipFilter": {
+    "title": "Unable to provide our service",
+    "message": "Apologies. According to your IP address, you seem to be located at a country/region/territory where we currently do not provide service. We may not make all of the Services available in all markets and jurisdictions, and may restrict or prohibit the use of all or a portion of the Services from Restricted Locations, which at this time include Hong Kong, Cuba, Iran, North Korea, Crimea, Sudan, Malaysia, Syria, U.S.A. [including all U.S.A. territories like Puerto Rico, American Samoa, Guam, Northern Mariana Island, and the US Virgin Islands (St. Croix, St. John and St. Thomas)], Bangladesh, Bolivia, Ecuador, and Kyrgyzstan.",
+    "buttonText": "Okay"
+  },
+  "kyc": {
+    "failureReason": {
+      "badQuality": "A high-resolution photo is required for identity verification. Please upload a clear, original color photo of your ID, taken with a camera.",
+      "blurred": "A clear photo is required for identity verification. Please upload a clear, original color photo of your ID, taken with a camera.",
+      "cameraBlackWhite": "Please upload a color photo of your ID, taken with a camera.",
+      "damagedDocument": "The file you uploaded is damaged. Please upload a different original color photo of your entire ID with a valid signature.",
+      "deniedUnsupportedIdCountry": "Sorry, your country is restricted at this time. Our platform and token sale are closed to US citizens and residents, but we will notify you when that changes.",
+      "deniedUnsupportedIdType": "Sorry, the form of ID that you uploaded is not of a supported type. Please supply a government issued id.",
+      "differentPersonsShown": "Your photo contains multiple people. Please upload a photo only of yourself.",
+      "digitalCopy": "Please upload an original color photo of your ID. Photos of IDs displayed on screens are not permitted.",
+      "hiddenPartDocument": "The file you uploaded is missing information. Please upload an original color photo of your entire ID with a valid signature.",
+      "missingBack": "Please upload an original color photo of the back of your original ID.",
+      "missingPartDocument": "The file you uploaded is missing information. Please upload an original color photo of your entire ID with a valid signature.",
+      "missingSignature": "The file you uploaded is missing a signature. Please upload an original color photo of your ID with a valid signature.",
+      "noDocument": "Please upload an original color photo of your ID, taken with a camera.",
+      "photocopyBlackWhite": "A black and white photocopied version of your ID is not acceptable for identity verification. Please upload an original color photo of your ID, taken with a camera.",
+      "photocopyColor": "A photocopied version of your ID is not acceptable for identity verification. Please upload an original color photo of your ID, taken with a camera.",
+      "selfieVerificationFailed": "The face image you provided does not meet the requirements. Please provide a clear, color, non-cropped picture of your face taken with a camera.",
+      "unknown": "Identity verification has failed. Please retry.",
+      "wrongDocumentPage": "The file you uploaded is not acceptable for identity verification. Please upload an original color photo of your ID, taken with a camera."
+    }
+  },
+  "kycIntro": {
+    "continue": "Continue",
+    "recaptchaError": {
+      "description": "There was an error while loading ReCaptcha. Please refresh the page to try again.",
+      "message": "ReCaptcha initialization failed"
+    },
+    "requirements": {
+      "braveBrowser": "Brave Browser users: The Crypto identity verification process does not currently work properly with your browser. Please use a different browser for identity verification.",
+      "digitalPhoto": "A photo of yourself, with your entire face visible and without any accessories such as glasses when taking the photo. The photo should be well lit and in focus.",
+      "identityCard": "A digital photo of your government-issued ID (e.g. passport or driver's license) - it must have a photo of you on it.",
+      "intro": "In order to verify your identity and start trading on Crypto, you will need the following:",
+      "southKoreaJapanCitizens": "Residents from South Korea, China and Japan will need to provide a passport as a form of identification - other forms of government IDs are not permitted.",
+      "usCitizens": "Unfortunately, for now, we do not serve customers in the following countries/regions/territories: Hong Kong, Cuba, Iran, North Korea, Crimea, Sudan, Malaysia, Syria, USA [including all USA territories like Puerto Rico, American Samoa, Guam, Northern Mariana Island, and the US Virgin Islands (St. Croix, St. John and St. Thomas)], Bangladesh, Bolivia, Ecuador, and Kyrgyzstan. We hope to be able to enable Crypto access for more markets and jurisdictions in the future."
+    },
+    "title": "Getting Started"
+  },
+  "kycLoading": {
+    "title": "Please wait..."
+  },
+  "lang": {
+    "chinese": "简体中文",
+    "english": "English",
+    "korean": "한국어",
+    "portuguese": "Portuguese (Beta)"
+  },
+  "logIn": {
+    "countryDisclaimer": "In accordance with our Terms and Conditions, persons that are located in or a resident of the <1>United States of America or any other jurisdiction where the services offered by crypto are restricted</1> are prohibited from holding positions or trading on crypto.",
+    "email": {
+      "placeholder": "E-mail"
+    },
+    "forgotPassword": "Forgot password?",
+    "logIn": "Log In",
+    "or": "or",
+    "password": {
+      "placeholder": "Enter Password"
+    },
+    "title": "Log In"
+  },
+  "mfaAction": {
+    "disabled": "If you would like to enable MFA for your account, you must configure it through your single sign-on (SSO) provider settings.",
+    "edit": "Edit",
+    "setup": "Setup"
+  },
+  "mfaSetup": {
+    "code": {
+      "label": "Code"
+    },
+    "instructions": "Scan the code with a one-time password (OTP) app like Google Authenticator. Then enter the generated password below:",
+    "submit": "Enable MFA",
+    "title": "Setup Multi-factor Auth"
+  },
+  "nav": {
+    "accountSettings": "Account Settings",
+    "affiliateProgram": "Referral Program",
+    "api": {
+      "docs": "API Docs",
+      "keys": "Manage API Keys",
+      "title": "API"
+    },
+    "backHome": "Back to Home",
+    "blog": "Blog",
+    "competitions": "Competitions",
+    "contactUs": "Contact Us",
+    "createCompetition": "Create a Competition",
+    "dashboard": "Dashboard",
+    "docs": {
+      "apidocs": "API Docs",
+      "onepager": "One-Pager",
+      "pitchdeck": "Pitch Deck",
+      "title": "Docs",
+      "whitepaper": "Whitepaper"
+    },
+    "getVerifiedNow": "Get Verified Now",
+    "goToTestnet": "Go to Testnet",
+    "helpAndSupport": "Help & Support",
+    "leaderboard": "Leaderboard",
+    "login": "Log In",
+    "logout": "Logout",
+    "marketSummary": "Markets",
+    "menu": "Menu",
+    "myProfile": "My Profile",
+    "news": "News",
+    "press": "Press",
+    "referAndEarn": "Refer & Earn",
+    "resources": {
+      "support": "Help & Support",
+      "title": "Resources"
+    },
+    "rewardsAndOffers": "Fees",
+    "signup": "Sign Up",
+    "staking": "CRYP Staking",
+    "subaccounts": {
+      "manage": "Manage Subaccounts",
+      "title": "Subaccounts"
+    },
+    "team": "Team",
+    "testnet": "Testnet",
+    "trade": "Trade",
+    "trader": "Trade Now!",
+    "transfers": "Transfers",
+    "workspace": {
+      "resetLayout": "Reset Layout",
+      "resetLayoutChart": "Reset to \"Chart Focused\"",
+      "resetLayoutCompact": "Reset to \"Compact\"",
+      "resetLayoutDefault": "Reset to \"Default\"",
+      "title": "Dashboard"
+    }
+  },
+  "notFound": {
+    "back": "Back to crypto.io",
+    "subtitle": "Oops! Looks like the page you have requested no longer exists.",
+    "title": "Page not found"
+  },
+  "notification": {
+    "aliasChanged": "Alias has been changed.",
+    "changeEmailSuccess": "Your email has been updated.",
+    "completeKyc": {
+      "failed": "Your identity could not be verified. Please contact our support at {{email}}.",
+      "success": "Your identity has been verified."
+    },
+    "disableMfaSuccess": "Multi-factor authentication has been successfully disabled.",
+    "emailVerification": "A new verification code has been sent to your e-mail.",
+    "mobileVerification": "A new verification code has been sent to your mobile.",
+    "enableMfaSuccess": "Multi-factor authentication has been successfully enabled.",
+    "forgottenPassword": "An e-mail with further instructions has been sent to your e-mail address.",
+    "forgottenPasswordMobile": "A text has been sent to your mobile number with a reset code. Use this code to confirm your password reset.",
+    "initiateKYC": {
+      "error": "Unable to initiate KYC. Please try again later."
+    },
+    "initiateKyc": {
+      "error": "Unable to initiate KYC. Please try again later."
+    },
+    "kycResult": {
+      "timeout": "Verification result timeout. Please check later for the your KYC status."
+    },
+    "mfa": {
+      "failure": "The code you have entered is incorrect. Please try again.",
+      "setupFailure": "The one-time password you entered is incorrect. Please generate a new password with your app and try again."
+    },
+    "passwordChanged": "Password has been changed.",
+    "passwordMismatch": "New Password and Confirm New Password do not match.",
+    "passwordReset": "Password has been changed. You will be logged-in now.",
+    "profileUpdated": "Your profile information has been updated.",
+    "requirePasswordReset": "Please set a new password to continue. A verification code has been sent to your e-mail.",
+    "verification": {
+      "noPassword": "Your e-mail address has been verified. You can log-in now.",
+      "password": "Your e-mail address has been verified. You will be logged-in now."
+    },
+    "verifyEmail": "Please verify your e-mail before logging in."
+  },
+  "password": {
+    "change": "Change"
+  },
+  "passwordInput": {
+    "hide": "Hide",
+    "show": "Show"
+  },
+  "prizes": {
+    "bronze": {
+      "description": "<0>$10</0> in credits",
+      "participants": "All",
+      "title": "Bronze"
+    },
+    "diamond": {
+      "description": "<0>$250</0> in credits",
+      "participants": "Top 100",
+      "title": "Diamond"
+    },
+    "elite": {
+      "description": "<0>$1000</0> in credits",
+      "participants": "Top 5",
+      "title": "Elite"
+    },
+    "gold": {
+      "description": "<0>$50</0> in credits",
+      "participants": "Top 1,000",
+      "title": "Gold"
+    },
+    "participants": "Participants",
+    "silver": {
+      "description": "<0>$25</0> in credits",
+      "participants": "Top 3,000",
+      "title": "Silver"
+    }
+  },
+  "profile": {
+    "identity": {
+      "title": "Identity Verification Status"
+    },
+    "prodDisclaimer": {
+      "action": "Click here to manage your settings.",
+      "message": "Account Settings are managed from Crypto mainnet."
+    },
+    "rewards": {
+      "title": "Fees"
+    },
+    "save": "Save",
+    "saving": "Saving",
+    "security": {
+      "title": "Security"
+    },
+    "title": "My Profile"
+  },
+  "promotions": {
+    "launch": {
+      "deposit": "Deposit funds to receive free Bitcoin for trading!",
+      "details": "See Fees",
+      "registrationBonusremaining": "You received a registration bonus ({{bonusAmount}} BTC remaining)!",
+      "registrationReceived": "You received a {{bonusAmount}} BTC trading bonus."
+    }
+  },
+  "resetPassword": {
+    "confirmNewPassword": {
+      "label": "Confirm New Password"
+    },
+    "newPassword": {
+      "label": "New Password"
+    },
+    "password": {
+      "placeholder": "Enter New Password"
+    },
+    "title": "Reset Password"
+  },
+  "settings": {
+    "account": {
+      "fields": {
+        "alias": "Leaderboard Name",
+        "email": "Email Address",
+        "firstName": "First Name",
+        "kyc": "Kyc Status",
+        "language": "Language",
+        "lastName": "Last Name",
+        "mfa": "Multifactor Authentication",
+        "password": "Password",
+        "ssoEmail": "Your email address is managed through your single sign-on (SSO) provider settings."
+      },
+      "header": "Account Settings",
+      "title": "Account"
+    },
+    "affiliates": {
+      "affiliateProgram": "Referral Program",
+      "clickHere": "click here",
+      "disclaimer": "Anyone located in or a resident of Hong Kong, Cuba, Iran, North Korea, Crimea, Sudan, Malaysia, Syria, USA [including all USA territories like Puerto Rico, American Samoa, Guam, Northern Mariana Island, and the US Virgin Islands (St. Croix, St. John and St. Thomas)], Bangladesh, Bolivia, Ecuador, and Kyrgyzstan or any other jurisdiction where the services offered by Crypto are restricted are prohibited from participating in the referral program. For more details, refer to the {{link}}.",
+      "earned": {
+        "allTime": "referral commissions earned all-time",
+        "lastDay": "referral commissions earned in the last 24 hours"
+      },
+      "info": "Refer your friends to earn commissions when they pay fees. Hold CRYP Tokens to earn higher commissions. For more about the Crypto Referral Program, {{link}}.",
+      "offer": "See the {{link}} page for more details.",
+      "prodDisclaimer": {
+        "action": "Click here to access your referral information.",
+        "message": "Referral information is accessible from Crypto mainnet."
+      },
+      "referralCode": {
+        "body": "of your friends signed up for Crypto using your referral code.",
+        "header": "# of referred traders",
+        "label": "Referral Link"
+      },
+      "title": "Referrals"
+    },
+    "api": {
+      "createNewKey": "Create New Key",
+      "delete": "Delete",
+      "documentation": {
+        "header": "API Docs",
+        "link": "API Documentation"
+      },
+      "header": "API Keys",
+      "key": "Key",
+      "needKYC": "API access is not available until your account passes KYC.",
+      "newKey": "New Key",
+      "noKeys": "No keys",
+      "permissions": {
+        "read": {
+          "label": "Read",
+          "tooltip": "The Read privilege allows the key to be used to retrieve current and historical orders, positions, balances, and transfer history."
+        },
+        "transfer": {
+          "label": "Transfer",
+          "tooltip": "The Transfer privilege allows the key be used to request withdrawals, transfer funds between subaccounts, and view deposit addresses."
+        },
+        "write": {
+          "label": "Write",
+          "tooltip": "The Write privilege allows the key to be used to insert, modify, or cancel orders."
+        }
+      },
+      "secret": "Secret",
+      "subaccount": "To generate an API key for a subaccount, switch to that subaccount and press Create New Key to generate an independent API key for that subaccount.",
+      "title": "API"
+    },
+    "competitions": {
+      "column": {
+        "code": "Invite Code",
+        "ended": "Ended",
+        "expires": "Ends",
+        "leaderboard": "Leaderboard",
+        "name": "Competition Name",
+        "results": "Results",
+        "starts": "Starts"
+      },
+      "competitionCode": "Enter your competition code",
+      "competitionLabel": "Give your competition a name",
+      "competitionPath": "URL path for this competition",
+      "create": {
+        "afterCreate": "Congratulations on creating your trading competition! Traders can join your competition by visiting the join link below, or by entering your competition join code on this page.",
+        "button": "Create Competition",
+        "buttonPending": "Creating Competition...",
+        "description": "Start a competition to compete and compare performance against fellow traders. When a trader joins Crypto through your competition join link, you will earn a percentage of your referred traders' trading fees.",
+        "field": {
+          "code": "Join Code",
+          "endDate": "Competition End",
+          "joinLink": "Join Link",
+          "name": "Competition Name",
+          "startDate": "Competition Start",
+          "url": "Public URL"
+        },
+        "header": "Start a Trading Competition",
+        "label": {
+          "autoJoin": "Auto-join this competition upon creation",
+          "code": "Custom code used to join this competition",
+          "endDate": "Time this competition ends",
+          "isPublic": "Permit this competition to be listed publicly and allow anyone to join from the leaderboard page.",
+          "localTime": "local time",
+          "name": "Give your competition a name",
+          "slug": "URL path for this competition",
+          "startDate": "Time this competition starts"
+        }
+      },
+      "header": "Competitions",
+      "join": {
+        "button": "Join Competition",
+        "buttonPending": "Joining...",
+        "description": "Enter the competition code provided to you by a competition organizer to join a competition.",
+        "header": "Join a Trading Competition",
+        "label": {
+          "code": "Enter your competition code"
+        }
+      },
+      "joinCompetition": "Create Competition",
+      "joining": "Creating...",
+      "leaderboardName": {
+        "button": "Update Leaderboard Name",
+        "buttonPending": "Updating Leaderboard Name...",
+        "description": "Pick a name to display",
+        "error": "Leaderboard names cannot be longer than 100 characters.",
+        "errorMin": "Leaderboard names must be at least 3 characters long.",
+        "header": "Leaderboard Name",
+        "placeholder": "Your leaderboard name",
+        "tooltip": "Your leaderboard name will be displayed next to your rank and performance on competition leaderboards."
+      },
+      "list": {
+        "active": "Active",
+        "completed": "Completed",
+        "empty": "You have not joined any competitions. Enter a competition code below to join, or create your own competition and invite traders with the competition code generated.",
+        "upcoming": "Upcoming"
+      },
+      "namePrompt": "You must choose a leaderboard name before creating a competition. This name will be displayed next to your rank and performance on competition leaderboards.",
+      "title": "Competitions",
+      "updateName": "Update Leaderboard Name",
+      "updatingName": "Updating Leaderboard Name..."
+    },
+    "history": {
+      "all": "All-time Transaction Sums",
+      "daily": "Daily Transaction Summary",
+      "disclaimer": "Transactions in this summary are delayed up to 5 minutes. This summary may not include transactions completed in the last few minutes. This summary does not include unrealized P&L. All values are in USD.",
+      "download": "Download as CSV",
+      "header": "Transaction History",
+      "table": {
+        "column": {
+          "amount": "Amount",
+          "balance": "Balance",
+          "contract": "Contract",
+          "created": "created",
+          "date": "Date (UTC)",
+          "details": "Details",
+          "eodBalance": "End of day balance",
+          "event": "Event",
+          "id": "ID"
+        }
+      },
+      "title": "History",
+      "transactionType": {
+        "adminAdjustment": "Admin Adjustment",
+        "affiliateIncome": "Referral Income",
+        "blockchainFee": "Blockchain Fee",
+        "bonus": "Bonus",
+        "credit": "Credit",
+        "debug": "Debug",
+        "deposit": "Deposit",
+        "fee": "Fee",
+        "insuraceFundDisbursement": "Insurance Fund Disbursement",
+        "leverageTax": "Leverage Tax",
+        "leverageTaxRefund": "Leverage Tax Refund",
+        "liquidationFee": "Liquidation Fee",
+        "other": "Other",
+        "pl": "Realized P&L",
+        "rebalance": "Rebalance",
+        "spotTrade": "Spot Trade",
+        "swapFunding": "Funding Payment",
+        "transfer": "Transfer",
+        "withdrawal": "Withdrawal",
+        "withdrawalFee": "Withdrawal Fee"
+      }
+    },
+    "preferences": {
+      "closePositionConfirmation": "Display confirmation after Close Position button is clicked",
+      "confirmations": "Display confirmation dialog before placing trades",
+      "header": "Preferences",
+      "orderSizingNotional": "Order Sizing in USD",
+      "orderStatusNotifications": "Display notifications for order status updates",
+      "title": "Preferences"
+    },
+    "rewards": {
+      "active": "Active Fee Discounts",
+      "affiliatePayout": {
+        "title": "Referral Payout",
+        "tooltip": "This is the commission you will earn on fees paid by your referrals for the first 90 days after they sign-up. Your commission may go down after that period. Check support for details."
+      },
+      "depositMatchUSD": {
+        "title": "Deposit Match (USD)"
+      },
+      "acdx": {
+        "label": "CRYP Balance",
+        "tier": "CRYP Tier "
+      },
+      "feeCredits": {
+        "label": "Trading Fee Credits",
+        "moreDetails": "See the {{link}} page for more details.",
+        "promotionsAndOffers": "Promotions & Offers",
+        "tooltip": "This is a credit you have earned that may be applied toward trading fees."
+      },
+      "fees": {
+        "description": "The above maker-taker fees are applied across all contracts at Crypto.",
+        "maker": "Maker Fee",
+        "title": "Fees",
+        "taker": "Taker Fee"
+      },
+      "feeDiscount": {
+        "title": "Fee Discount",
+        "tooltip": "This is your current aggregate fee discount. This value may be the result of a combination of fee discounts. If you have earned lower fees from membership in a volume tier, this fee discount will be applied on top of those lower fees."
+      },
+      "header": "Fees",
+      "mobile": {
+        "title": "Fees"
+      },
+      "nextTier": "Next tier: ",
+      "title": "Fees",
+      "tradingBonus": {
+        "label": "Trading Bonus",
+        "tooltip": "This is a bonus you have earned that may be applied towards fees, funding payments, and realized losses. It may not be withdrawn."
+      },
+      "volume": {
+        "label": "Trailing 30-Day Volume",
+        "tier": "Volume Tier ",
+        "tierTooltip": "Volume tiers unlock lower fees across all contracts. See the \"Crypto Fees and Rebates\" page for details. Any additional fee discounts earned below are applied on top of active volume tier fee discounts.",
+        "title": "Trading Volume",
+        "tooltip": "Volume is updated every 5 minutes."
+      }
+    },
+    "staking": {
+      "actions": {
+        "stakeTokens": "Stake CRYP Tokens",
+        "unstakeTokens": "Unstake CRYP Tokens"
+      },
+      "available": "available",
+      "clickHere": "Click here",
+      "description": "You have the chance to earn extra BTC by staking your CRYP Tokens! 10% of Crypto Insurance Fund net inflows are paid to CRYP Token stakers every two weeks. If the Crypto Insurance Fund experiences a net outflow over the period, 10% of the outflow amount will be deducted from the staked CRYP Token pool. Distributions are pro-rata, based on time and quantity staked. {{link}} to learn more about staking your CRYP Tokens.",
+      "footer": {
+        "bullet1": "Unstake requests are processed after payouts every two weeks.",
+        "bullet2": "Staked CRYP Tokens continue to count towards fee discount tiers.",
+        "bullet3": "You can see a history of staking payouts in {{link}}.",
+        "note": "Note:"
+      },
+      "info": {
+        "countdownToPayout": "Next payout in",
+        "expectedShare": "Your expected share",
+        "expectedShareTooltip": "This is the share of the payout that you will receive assuming no other traders add to their stake.",
+        "pendingUnstake": "# of tokens pending unstake",
+        "pendingUnstakeTooltip": "Your CRYP Tokens will be released {{date}}",
+        "tokensStaked": "# of tokens staked",
+        "totalPayout": "Total payout to stakers",
+        "totalPayoutTooltip": "This is the total payout that would be made to the CRYP Token staking pool if the period ended right now. Note that your current expected share of this payout is listed above."
+      },
+      "noACDXTokens": "You do not have any CRYP tokens available to stake. You may purchase CRYP tokens with Bitcoin in the {{link}} market.",
+      "title": "Crypto Staking"
+    },
+    "subaccounts": {
+      "availableBalance": "Available Balance:",
+      "clickHere": "Click here",
+      "createNew": "Create New Subaccount",
+      "description": "Subaccounts allow you to isolate collateral and positions into their own separately margined account. {{link}} to learn more about trading with subaccounts.",
+      "fields": {
+        "alias": "Subaccount Alias (Optional)",
+        "transferAmount": "Transfer Amount"
+      },
+      "internalTransfers": "Internal Transfers",
+      "label": {
+        "amount": "Amount",
+        "asset": "Asset",
+        "from": "From",
+        "to": "To"
+      },
+      "title": "Subaccounts",
+      "transferAsset": "Transfer Asset"
+    },
+    "transfers": {
+      "collateralDisclaimer": "Note: {{tokenCode}} is not currently a supported form of collateral for derivative positions on Crypto. We will be adding support for non-BTC collateral in the coming weeks. In the meantime, you may deposit {{tokenCode}} to trade spot markets.",
+      "completed": {
+        "noHistory": "No Completed Transfers History",
+        "title": "Completed Transfers"
+      },
+      "deposit": {
+        "address": "{{token}} Deposit Address",
+        "noHistory": "No Deposit History",
+        "title": "Deposit"
+      },      
+      "depositUSD": {
+        "title": "Deposit and Withdraw USD with any of the following Stablecoins",
+        "selectDefault": "Select USD Stablecoin"
+      },
+      "needKYC": "Deposits and withdrawals are not available until your account passes KYC.",
+      "table": {
+        "columns": {
+          "amount": "Amount",
+          "confirmed": "Confirmed",
+          "created": "Created",
+          "status": "Status",
+          "token": "Token",
+          "transferId": "Transfer ID",
+          "type": "Type"
+        },
+        "title": {
+          "deposit": "Deposit History",
+          "withdrawals": "Withdrawal History"
+        }
+      },
+      "title": "Transfers",
+      "withdrawals": {
+        "action": "Withdraw",
+        "address": "{{token}} Withdrawal Address",
+        "amount": "Amount",
+        "availableBalance": "Available {{token}} Balance",
+        "disclaimer": "Please verify your withdrawal address. We cannot refund an incorrect withdrawal.",
+        "max": "Max",
+        "noHistory": "No Withdrawal History",
+        "relogin": "Click here to re-login",
+        "requestingWithdrawal": "Requesting Withdrawal",
+        "sendTo": "Send To",
+        "timeRemaining": "Time remaining: ",
+        "timeRemainingDetail": "For security purposes, you will have to re-login to your account after this time in order to withdraw funds.",
+        "timeRemainingDisclaimer": "For security purposes, you must log in again to withdraw funds. Funds can only be withdrawn within 15 minutes of account login.",
+        "title": "Withdrawals",
+        "withdrawFunds": "Withdraw Funds ({{token}})",
+        "withdrawalFee": "There is a {{withdrawalFee}} {{token}} fee for this withdrawal.  You will receive your requested withdrawal amount less {{withdrawalFee}} once confirmed."
+      }
+    }
+  },
+  "signUp": {
+    "email": {
+      "label": "E-mail",
+      "placeholder": "E-mail"
+    },
+    "features": {
+      "crypto": "Crypto in, crypto out",
+      "expensive": "Expensive",
+      "fairness": "One exchange, fair access to global contracts",
+      "limited": "Limited",
+      "settlements": "Faster settlements, lower fees",
+      "title": "Crypto Features",
+      "unfair": "Unfair"
+    },
+    "mobile": {
+      "label": "Mobile  ",
+      "placeholder": "Mobile"
+    },
+    "or": "or",
+    "password": {
+      "placeholder": "Choose Password",
+      "passwordRequirements": "Passwords must be at least 8 characters long, and require at least one number, upper and lowercase letter, and special character."
+    },
+    "referral": {
+      "title": "Looks like you found a referral code! For a limited time only, sign up to receive a 20% discount off fees for your first six months of trading."
+    },
+    "signUp": "Sign Up",
+    "title": "Sign Up"
+  },
+  "socialButton": {
+    "logIn": {
+      "label": "Login with <1>{provider}</1>"
+    },
+    "signUp": {
+      "label": "Sign Up with <1>{provider}</1>"
+    }
+  },
+  "socketStatus": {
+    "closed": "Disconnected",
+    "connecting": "Connecting",
+    "open": "Connected",
+    "reconnecting": "Reconnecting",
+    "reconnectingIn": "Reconnecting in"
+  },
+  "table": {
+    "columnsManagement": {
+      "submit": "Done",
+      "title": "Manage Columns"
+    },
+    "emptyText": "No data"
+  },
+  "title": "Crypto | Crypto Derivatives Exchange | Trade Bitcoin Futures, Options, Structured Products",
+  "trader": {
+    "accountDetails": {
+      "disabledMaxLeverageTooltip": "Max Account Leverage can only be adjusted when there are no open positions or orders",
+      "maxLeverage": "Max Account Leverage",
+      "rows": {
+        "availableCollateral": "Available Collateral:",
+        "effectiveLeverage": "Effective Leverage:",
+        "initialMargin": "Initial Margin:",
+        "maintenanceMarginRatio": "Maintenance Margin Ratio:",
+        "marginRatio": "Margin Ratio:",
+        "maximumLeverage": "Max Leverage:",
+        "totalCollateral": "Total Collateral:"
+      },
+      "title": "Account"
+    },
+    "accountBalance": {
+      "accountSummary": "Account Summary",
+      "availableMargin": "Available Margin",
+      "availableMarginDescription": "The amount of your balance available for placing new orders and taking new positions. If negative, this is the amount of funds you need to deposit or otherwise make available in order to place new orders and grow positions. See \"Help & Support\" for details.",
+      "buyingPower": "Available Collateral",
+      "buyingPowerDescription": "The amount of your balance available for placing new orders and taking new positions. If negative, this is the amount of funds you need to deposit or otherwise make available in order to place new orders and grow positions. See \"Help & Support\" for details.",
+      "dayPl": "Day P/L",
+      "dayPlDescription": "Changes in Total P/L for the day (since midnight UTC).",
+      "effectiveLeverage": "Effective Leverage",
+      "effectiveLeverageDescription": "Effective Leverage is the total market value of all positions divided by account value (total collateral).",
+      "initialMargin": "Initial Margin",
+      "initialMarginDescription": "The total collateral required to grow your current positions. See \"Help & Support\" for details.",
+      "liquidationLevel": "Liquidation Level",
+      "liquidationLevelDescription": "The total collateral required to stay in your positions. If this level is breached, your entire portfolio will be auto-liquidated.",
+      "netLiquidity": "Total Collateral",
+      "netLiquidityDescription": "Total token balance value plus all unrealized P/L.",
+      "netPosition": "Position",
+      "orderHolds": "Order Holds",
+      "orderHoldsDescription": "The amount of your balance being used to hold active orders. If you close orders, this value will decrease and more margin will be available. If your orders are converted to open / increased positions, this value will decrease and your initial margin requirement will increase. See \"Help & Support\" for details.",
+      "realizedPl": "Realized P/L",
+      "realizedPlDescription": "Realized profit or loss (P/L) from positions that have been closed or partially closed during the current day plus fees incurred (since midnight UTC).",
+      "tokenBalance": "{{tokenCode}} Balance",
+      "totalPl": "Total P/L",
+      "totalPlDescription": "Unrealized profit or loss (P/L) from all open positions plus realized P/L from the current day (since midnight UTC).",
+      "unrealizedPl": "Unrealized P/L",
+      "unrealizedPlDescription": "Unrealized profit or loss (P/L) from open positions."
+    },
+    "chart": {
+      "compare": "+ Compare",
+      "emptyText": "No data",
+      "title": "Chart",
+      "type": {
+        "bar": "Bar",
+        "baseline_delta": "Baseline delta",
+        "candle": "Candle",
+        "heikinashi": "Heikin Ashi",
+        "histogram": "Histogram",
+        "hlc": "HLC",
+        "line": "Line",
+        "linebreak": {
+          "name": "Line Break",
+          "settings": {
+            "priceLines": "Price Lines",
+            "title": "Set Price Line"
+          }
+        },
+        "mountain": "Mountain",
+        "ohlc": "OHLC",
+        "pandf": {
+          "name": "Point and Figure",
+          "settings": {
+            "box": "Box",
+            "reversal": "Reversal",
+            "title": "Set Point & Figure Parameters"
+          }
+        },
+        "rangeBars": {
+          "name": "Range bars",
+          "settings": {
+            "range": "Range",
+            "title": "Set Range"
+          }
+        },
+        "rangechannel": "Range channel",
+        "renko": {
+          "name": "Renko",
+          "settings": {
+            "renko": "Renko",
+            "title": "Set Range"
+          }
+        },
+        "scatterplot": "Scatterplot",
+        "step": "Step",
+        "wave": "Wave"
+      },
+      "ui": {
+        "AggregationEdit": {
+          "reset": "Reset",
+          "save": "Save"
+        },
+        "drawing": {
+          "title": "Drawing Tools",
+          "toggle": "Draw"
+        },
+        "hud": {
+          "toggle": "Toggle the Info Display"
+        },
+        "periodicity": {
+          "title": "Periodicity"
+        },
+        "preferences": {
+          "logScale": "Log scale",
+          "title": "Preferences",
+          "volumeSeries": "Show volume"
+        },
+        "studySelect": {
+          "activeStudies": "Active Studies",
+          "clearAll": "Clear All Studies",
+          "studies": "Studies",
+          "title": "Study"
+        },
+        "studySettings": {
+          "save": "Save",
+          "title": "<0>{dialogHelper.title}</0> Settings"
+        },
+        "style": {
+          "title": "Chart Style",
+          "trigger": "Display"
+        }
+      }
+    },
+    "columnsManagement": {
+      "manageColumns": "Manage Columns"
+    },
+    "contract": {
+      "askPrice": "Ask <1></1>",
+      "bidPrice": "Bid <1></1>",
+      "code": "Contract",
+      "currency": {
+        "base": "Base Currency: ",
+        "quote": "Quote Currency: "
+      },
+      "effectiveLeverage": "Effective Leverage ({{contract}} only): ",
+      "expires": "Expires",
+      "funding": "Funding",
+      "futureLabel": "Future",
+      "lastTradePrice": "Last<1></1>",
+      "margin": {
+        "initial": "Initial Margin: ",
+        "liquidation": "Liquidation Margin: ",
+        "requirements": "{{contract}} Margin Requirements"
+      },
+      "maxLeverage": "Max. Lev.",
+      "maxLeverageTooltip": "Max leverage for {{contract}} at {{position}} position is {{maxLeverage}}x. As your position size increases, your maximum available leverage will decrease.",
+      "notFound": "No contracts",
+      "placeholder": "Search by contract",
+      "select": "Select Contract",
+      "spotLabel": "Spot",
+      "swap": {
+        "fundingRate": "Funding Rate: ",
+        "info": "If positive, longs pay shorts. If negative, shorts pay longs.",
+        "predictedRate": "Predicted Rate: ",
+        "title": "{{contractCode}} Perpetual Swap Funding"
+      },
+      "swapLabel": "Swap",
+      "type": "Type"
+    },
+    "contractBar": {
+      "perpetual": "Perpetual",
+      "settings": "Settings"
+    },
+    "contractDetails": {
+      "rows": {
+        "baseCurrency": "Base Currency:",
+        "expiryTime": "Expiration Time:",
+        "indexPrice": "Index Price:",
+        "markPrice": "Mark Price:",
+        "nextFundingTime": "Next Funding Time:",
+        "openInterest": "Open Interest:",
+        "predictedRate": "Predicted Funding Rate:",
+        "premium": "Annualized Premium:",
+        "quoteCurrency": "Quote Currency:",
+        "spreadContractCodeBack": "Far Leg (Long):",
+        "spreadContractCodeFront": "Front Leg (Short):",
+        "ticker": "Ticker:",
+        "underlying": "Underlying:",
+        "volume": "24H Volume:"
+      },
+      "title": "Contract Details",
+      "marketDetails": "Market Details"
+    },
+    "control": {
+      "cancel": "Cancel",
+      "close": "Close",
+      "confirm": "Confirm",
+      "copy": "Click to copy",
+      "copySuccess": "Copied!",
+      "delete": "Delete",
+      "edit": "Edit",
+      "Edit": "Edit",
+      "move": "Move",
+      "remove": "Remove",
+      "settings": "Settings"
+    },
+    "modal": {
+      "convert": {
+        "body": "Converting your negative USD balance will deduct from your other token balances to bring your USD balance to 0. ",
+        "button": "Convert",
+        "loading": "Converting...",
+        "title": "Convert Negative Balance",
+        "learnMore": "Click here to learn more."
+      },
+      "deposit": {
+        "button": "Deposit Funds",
+        "message": "You must deposit funds to start trading on Crypto.",
+        "title": "Next Step: Fund Your Account"
+      },
+      "kyc": {
+        "button": "Verify Identity",
+        "message": "You must verify your identity to start trading on Crypto.",
+        "title": "Next Step: Verify Your Identity"
+      },
+      "optOut": "No thanks. I would like to stay on this page.",
+      "tokenTerms": {
+        "accept": "Accept Terms",
+        "checkbox": "I agree to the above terms",
+        "default": {
+          "paragraph1": "By checking the box below you hereby understand, agree, and acknowledge that the Tokens and the Platform are only available outside of the United States and to non-U.S. Persons, and are not available to persons with whom, or in jurisdictions where, transactions involving digital assets are prohibited or in any manner restricted by applicable laws or regulations. There is currently substantial uncertainty in various jurisdictions as to the application of securities, commodities, financial, tax, and other laws and any regulations relating to Tokens and digital assets, and the application of other laws and regulations may be fact-specific and subject to change. The Tokens are intended to be made available for use on the Crypto Platform. Although not intended to be the offer and sale of a security, there is a significant risk that any offer and sale of the Tokens could nonetheless be deemed to constitute the offer and sale of a security by the U.S. Securities and Exchange Commission or other regulatory authorities. You are required to inform yourself about, and to observe, any restrictions relating to the Tokens and any related documents and communications in your jurisdiction and comply with all applicable laws in connection with any offer, sale, or transfer of the Tokens. The Tokens may not be offered, sold, or otherwise transferred, except in full compliance with all transfer restrictions, transfer prerequisites, and all applicable laws, rules, and regulations of the transferor’s and transferee’s jurisdictions. In particular, the Tokens may not be transferred to, or for the account or benefit of, U.S. Persons or in the United States, and the Company reserves the right to impose restrictions to prevent or void any resales that could be deemed to violate applicable laws."
+        },
+        "saftHolder": {
+          "paragraph1": "By checking the box below you hereby agree and acknowledge that in exchange for the CRYP Tokens (the “Tokens”) hereby delivered to you (the “Holder”) by BW Group Ltd., an exempted company organized under the laws of Seychelles (“Company”), all of Company’s obligations under that certain Agreement for Future Tokens (the “Agreement”), by and between you and the Company, are satisfied in full and terminated pursuant to Section 1(e) of the Agreement.",
+          "paragraph2": "You further understand, agree, and acknowledge that the Tokens and the Platform are only available outside of the United States and to non-U.S. Persons, and are not available to persons with whom, or in jurisdictions where, transactions involving digital assets are prohibited or in any manner restricted by applicable laws or regulations. There is currently substantial uncertainty in various jurisdictions as to the application of securities, commodities, financial, tax, and other laws and any regulations relating to Tokens and digital assets, and the application of other laws and regulations may be fact-specific and subject to change. The Tokens are intended to be made available for use on the Crypto Platform. Although not intended to be the offer and sale of a security, there is a significant risk that any offer and sale of the Tokens could nonetheless be deemed to constitute the offer and sale of a security by the U.S. Securities and Exchange Commission or other regulatory authorities. You are required to inform yourself about, and to observe, any restrictions relating to the Tokens and any related documents and communications in your jurisdiction and comply with all applicable laws in connection with any offer, sale, or transfer of the Tokens. The Tokens may not be offered, sold, or otherwise transferred, except in full compliance with all transfer restrictions, transfer prerequisites, and all applicable laws, rules, and regulations of the transferor’s and transferee’s jurisdictions. In particular, the Tokens may not be transferred to, or for the account or benefit of, U.S. Persons or in the United States, and the Company reserves the right to impose restrictions to prevent or void any resales that could be deemed to violate applicable laws.",
+          "paragraph3": "By checking the box below you hereby represent and warrant that each of the representations and warranties contained in Section 5 of the Agreement is true and correct as of the date hereof as though made as of the date hereof."
+        },
+        "title": {
+          "default": "CRYP Token Terms",
+          "saftHolder": "CRYP Token Terms (SAFT Holder)"
+        }
+      }
+    },
+    "modifyOrder": {
+      "title": "Modify Order"
+    },
+    "notifications": {
+      "empty": "You have no notifications at this time.",
+      "kycError": "Could not place order. You must pass KYC before you are able to trade on Crypto.",
+      "order": {
+        "accepted": {
+          "action": "accepted",
+          "body": "Your {{orderType}} order to {{buyOrSell}} {{size}} contracts of {{contractCode}}{{priceStr}} has been {{action}}.",
+          "priceStr": " with limit {{price}}",
+          "subject": "Order accepted",
+          "withPrice": " with limit {{price}}"
+        },
+        "canceled": {
+          "body": "Your order to {{buyOrSell}} {{size}} contracts of {{contractCode}}{{priceStr}} has been canceled.",
+          "subject": "Order canceled"
+        },
+        "cancelRejected": {
+          "subject": "Cancel rejected"
+        },
+        "filled": {
+          "body": "Your order to {{buyOrSell}} {{size}} contracts of {{contractCode}}{{priceStr}} has been filled at {{avgFillPrice}}.",
+          "subject": "Order filled"
+        },
+        "filledPartial": {
+          "body": "{{delta}} contracts of your order to {{buyOrSell}} {{contractCode}} have been filled at {{fillPrice}} ({{remaining}} contracts remaining).",
+          "subject": "Order partially filled"
+        },
+        "modified": {
+          "action": "modified",
+          "body": "Your order to {{buyOrSell}} {{contractCode}} has been modified. It is now a {{orderType}} order to {{buyOrSell}} {{size}} contracts of {{contractCode}}{{priceStr}}.",
+          "subject": "Order modified"
+        },
+        "modifyRejected": {
+          "subject": "Modify rejected"
+        },
+        "rejected": {
+          "message": {
+            "fundsLimit": "Cannot place order to {{side}} {{size}} {{contractCode}}. With current funds, the maximum allowable size for a {{contractCode}} {{side}} order would be {{maxSize}}. Add funds, cancel orders, or close positions if you would like to place a larger order.",
+            "fundsLimitCombined": "Cannot place order to {{side}} {{size}} {{contractCode}}. With current funds, the maximum allowable {{contractCode}} position would be {{positionLimitFromFunds}} contracts. This order (combined with other open orders) could put you over that limit. Add funds, cancel orders, or close positions if you would like to place a larger order.",
+            "fundsLimitZero": "Cannot place order to {{side}} {{size}} {{contractCode}}. Add funds, cancel orders, or close positions to {{side}} {{contractCode}}.",
+            "invalidPostOnly": "Your post-only order would have crossed as a non-maker and has been rejected.",
+            "invalidReduceOnly": "Your reduce-only order has the same direction as your current position and has been rejected.",
+            "limitPriceProtection": "Limit orders that cross must be priced within {{threshold}}% of the reference price.",
+            "maintenance": "The {{contractCode}} market is currently closed for maintenance.",
+            "maxOrders": "Active orders may not exceed {{maxOrders}} per contract",
+            "positionLimitCombined": "Cannot place order to {{side}} {{size}} {{contractCode}}. This order (combined with other open orders) could put you over the position limit for {{contractCode}} of {{positionLimit}} contracts.",
+            "positionLimitSingle": "Cannot place order for {{quantity}} {{contractCode}}. This order would put you over the position limit for {{contractCode}} of {{positionLimit}} contracts.",
+            "selfTrade": "Your order would have crossed as a self-trade and has been rejected."
+          },
+          "subject": "Order rejected"
+        },
+        "triggered": {
+          "body": "Your order to {{buyOrSell}} {{size}} contracts of {{contractCode}} has triggered and will be included in the next auction.",
+          "subject": "Order triggered"
+        }
+      },
+      "state": {
+        "complete": {
+          "body": "Liquidation of your positions is complete. Your existing orders have been canceled, but you may now insert new orders.",
+          "subject": "Account liquidation complete"
+        },
+        "liquidation": {
+          "body": "Your total collateral has fallen below the liquidation level. Your positions will be liquidated immediately.",
+          "subject": "Account liquidation"
+        }
+      },
+      "transfer": {
+        "complete": {
+          "body": "Your {{transferType}} of {{amount}} {{tokenCode}} is complete.",
+          "subject": "{{transferType}} complete {{transferId}}"
+        }
+      }
+    },
+    "orderBook": {
+      "columns": {
+        "myOrders": "My Orders",
+        "mySize": "My Size",
+        "price": "Price",
+        "size": "Size",
+        "total": "Total",
+        "totalQty": "Total"
+      },
+      "noAsks": "No asks",
+      "noBids": "No bids",
+      "title": "Order Book",
+      "updatePrice": "Update Price",
+      "yourOrder": "Size remaining of your active orders at this price level.",
+      "incrementAggregation": "Increase order book level aggregation. Current Aggregation: {{currentAggregation}}",
+      "decrementAggregation": "Decrease order book level aggregation. Current Aggregation: {{currentAggregation}}"
+    },
+    "orderEntry": {
+      "autoliquidation": "Auto-liquidation",
+      "autoliquidationTooltip": "Placing this order will result in automatic account liquidation.",
+      "buy": "Buy",
+      "confirmation": {
+        "contract": "Contract",
+        "currentPosition": "Current Position",
+        "dontShowAgain": "Don't show again",
+        "estLiqPrice": "Est. Liquidation Price",
+        "fee": "Fee (if taker)",
+        "leverageAfterExecution": "Portfolio Leverage After Execution",
+        "liqDelta": "Mark Price / Est. Liq Price Difference",
+        "positionAfterExecution": "Position After Execution",
+        "price": "Price",
+        "rebate": "Rebate (if maker)",
+        "showConfirmation": "Show order confirmation",
+        "side": "Side",
+        "size": "Size",
+        "title": "Order Confirmation",
+        "total": "Total",
+        "type": "Type"
+      },
+      "estBuyNotional": "Est. Buy Value",
+      "estBuyPrice": "Est. Buy Price",
+      "estBuyQty": "Est. Buy Qty. ({{contractCode}})",
+      "estLiqPriceBuy": "Est. Liq. Price - Buy",
+      "estLiqPriceSell": "Est. Liq. Price - Sell",
+      "estSellNotional": "Est. Sell Value",
+      "estSellPrice": "Est. Sell Price",
+      "estSellQty": "Est. Sell Qty. ({{contractCode}})",
+      "limit": "Limit",
+      "limitAbbreviated": "LMT",
+      "limitPrice": "Limit Price<1></1>",
+      "market": "Market",
+      "marketAbbreviated": "MKT",
+      "marketQtyEstimateCaution": "Caution: This quantity is an estimate of how much {{contractCode}} can be traded at your entered notional value based on current market depth. A market order will be submitted for this amount, but we cannot garauntee that it will execute at the exact notional value entered.",
+      "marketValueEstimateCaution": "Caution: This value is an estimate of how much USD can be traded for your entered contract quantity based on current market depth. We cannot garauntee that your market order will trade for the exact amount shown above.",
+      "maxBuy": "Max Buy: ",
+      "maxNA": "N/A",
+      "maxSell": "Max Sell: ",
+      "notionalValue": "Notional Value ({{quoteCurrency}})",
+      "order": "Order",
+      "orderType": {
+        "limit": "Limit Order",
+        "market": "Market Order",
+        "trailingStopMarket": "Trailing Market Order",
+        "trailingStopMarketPercent": "Trailing Market (%)"
+      },
+      "postOnly": {
+        "title": "Post-only",
+        "tooltip": "A post-only order will only execute if it would be filled as a maker. Otherwise, it will be rejected. Post-only orders are used by market makers to ensure they earn the maker rebate."
+      },
+      "price": "Price<1></1>",
+      "quantity": "Qty.",
+      "quantityContract": "Quantity ({{seriesCode}})",
+      "quantityValue": "Quantity (<1>{props.contractCode}</1>)",
+      "reduceOnly": {
+        "title": "Reduce-only",
+        "tooltip": "A reduce-only order can only reduce your position size, not increase it. Use reduce-only to ensure that the execution of this order does not grow your position."
+      },
+      "sell": "Sell",
+      "stop": "Stop",
+      "stopDescription": "Stop orders let you specify a price below which (for sells) or above which (for buys) the order will trigger. This order type can help traders limit losses.",
+      "stopLimit": "stop limit",
+      "stopMarket": "Stop",
+      "stopMarketTrailing": "Trailing Stop",
+      "stopPrice": "Stop Price<1></1>",
+      "stopTrigger": {
+        "index": "Index Price",
+        "last": "Last Price",
+        "mark": "Mark Price",
+        "title": "Trigger",
+        "tooltip": "Specifies whether the order should trigger when the stop price crosses the mark price, last trade price, or underlying index price."
+      },
+      "stopType": {
+        "title": "Execute as",
+        "tooltip": "Specifies whether this order will execute as a limit order or market order when your trigger price is reached."
+      },
+      "take": "Take",
+      "takeLimit": "take limit",
+      "takeMarket": "take market",
+      "takeProfit": "Take Profit",
+      "takeProfitDescription": "Take Profit orders let you specify a price at or above which (for sells) or at or below which (for buys) the order will trigger. This order type can help traders set profit targets or open positions.",
+      "takeProfitPrice": "Take Profit Price<1></1>",
+      "title": "Order Entry",
+      "trade": "Trade",
+      "trailValue": {
+        "title": "Trail Value<1></1>",
+        "tooltip": {
+          "notional": "The amount the trigger price needs to move (in price currency) in the direction of the order to trigger the stop. For example, if this is a stop buy and the offset is $5, the stop will trigger if the trigger price moves up $5 from it's low during the lifetime of the order.",
+          "percent": "The amount the trigger price needs to move (in % of price currency) in the direction of the order to trigger the stop. For example, if this is a stop buy and the offset is 5%, the stop will trigger if the trigger price moves up 5% from it's low during the lifetime of the order."
+        }
+      },
+      "triggerPrice": {
+        "title": "Trigger Price<1></1>",
+        "tooltip": {
+          "stop": "The price at or below which (for sells) or above which (for buys) the order will trigger.",
+          "take": "The price at or above which (for sells) or at or below which (for buys) the order will trigger."
+        }
+      }
+    },
+    "orders": {
+      "allContracts": "All Contracts",
+      "cancelAllOrders": "Cancel All Orders ({{contract}})",
+      "columns": {
+        "age": "Age",
+        "avgFillPrice": "Avg Fill Price",
+        "contract": "Contract",
+        "date": "Date",
+        "dateTooltip": "The time at which the order was submitted.",
+        "fee": "Fee",
+        "fillFees": "Fees",
+        "name": "Name",
+        "orderId": "Order ID",
+        "postOnly": "Post-only",
+        "price": "Price",
+        "priceTooltip": "If this is a stop or take-profit order, this refers to the stop price or take price, respectively.",
+        "qtyFilled": "Quantity Filled",
+        "quantity": "Quantity",
+        "quantityFilled": "Quantity Filled",
+        "quantityFilledAbbreviated": "Qty. Filled",
+        "reduceOnly": "Reduce-only",
+        "side": "Side",
+        "status": "Status",
+        "stopPrice": "Stop Price<1></1>",
+        "takeProfitPrice": "Take Profit Price<1></1>",
+        "ticker": "Ticker",
+        "triggerPrice": "Trigger Price<1></1>",
+        "triggerPriceTooltip": "Refers to the stop price or take-profit price and only applies to stop and take-profit orders.",
+        "type": "Type",
+        "volume": "Volume (24H)"
+      },
+      "fills": "Fills",
+      "filter": "Filter to currently selected contract",
+      "modify": "Modify",
+      "noFills": "No Fills",
+      "noOrderHistory": "No Order History",
+      "noOrders": "No Orders",
+      "orderHistory": "Order History",
+      "orders": "Orders",
+      "rejected": "Order Rejected: {{message}}"
+    },
+    "positions": {
+      "avgExecutionPrice": "Avg Exec Price",
+      "avgExecutionPriceFull": "Average execution price over the life of this position.",
+      "balances": {
+        "balance": "Balance",
+        "deposit": "Deposit",
+        "freeBalance": "Free Balance",
+        "freeBalanceTooltip": "Your total token balance not reserved by withdrawal requests or open spot orders.",
+        "noBalances": "No Balances",
+        "price": "Price",
+        "title": "Balances",
+        "token": "Token",
+        "withdraw": "Withdraw"
+      },
+      "contract": "Contract",
+      "dayPl": "Day P/L",
+      "dayPlDescription": "Changes in Total P/L for the day (since midnight UTC).",
+      "lastTradePrice": "Last Price",
+      "liquidationPrice": "Liquidation Price",
+      "liquidationPriceDescription": "The contract mark price at which your account will be liquidated, assuming the size and market value of your other positions do not change.",
+      "liquidationPriceTooltip": "Changes in the price of this contract will not independently result in liquidation if this is the only position held.",
+      "marketValue": "Market Value",
+      "markPrice": "Mark Price",
+      "markPriceDescription": "The marking price used for unrealized P/L and auto-liquidation decisions. See Help & Support for more info.",
+      "noPositions": "No Positions",
+      "position": "Position",
+      "price": "Price",
+      "quantity": "Quantity",
+      "realizedPl": "Realized P/L",
+      "realizedPlDescription": "Realized profit or loss (P/L) from positions that have been closed or partially closed during the current day plus fees incurred (since midnight UTC).",
+      "title": "Positions",
+      "totalPl": "Total P/L",
+      "totalPlDescription": "Unrealized profit or loss (P/L) from all open positions plus realized P/L from the current day (since midnight UTC).",
+      "unrealizedPl": "Unrealized P/L",
+      "unrealizedPlDescription": "Unrealized profit or loss (P/L) from open positions.",
+      "widgetConfig": {
+        "showConfirmation": "Show confirmation for Close Position"
+      }
+    },
+    "timeAndSales": {
+      "columns": {
+        "price": "Price",
+        "size": "Size",
+        "time": "Time"
+      },
+      "minTradeSize": {
+        "all": "All",
+        "title": "Min Trade Size"
+      },
+      "title": "Recent Trades"
+    },
+    "tradeMode": {
+      "cancelAllBuys": "Cancel All Buy Orders",
+      "cancelAllOrders": "Cancel All Orders",
+      "cancelAllSells": "Cancel All Sell Orders",
+      "closePosition": "Close Position",
+      "confirmClosePosition": "Closing your position will result in a market {{orderType}} order of {{size}} {{contract}}.",
+      "confirmOrder": "Confirm Order",
+      "filled": "Filled",
+      "manage": "Manage",
+      "noPosition": "You do not currently have a position in {{contract}}.",
+      "price": "Price",
+      "recenter": "Re-center",
+      "size": "Size",
+      "title": "Trade Mode",
+      "total": "Total"
+    },
+    "transfers": {
+      "table": {
+        "column": {
+          "amount": "Amount",
+          "confirmed": "Confirmed",
+          "created": "Created",
+          "status": "Status",
+          "token": "Token",
+          "transferId": "Transfer ID",
+          "type": "Type"
+        }
+      }
+    },
+    "widget": {
+      "resetConfig": "Reset Widget"
+    }
+  },
+  "validation": {
+    "alias": {
+      "length": "Alias must be from {{minLength}} to {{maxLength}} characters long"
+    },
+    "checked": "Field must be checked",
+    "code": {
+      "invalid": "Code must contain 6 characters"
+    },
+    "date": {
+      "invalid": "Date is not valid"
+    },
+    "email": {
+      "invalid": "E-mail is not valid",
+      "length": "Email must contain at maximum {{maxLength}} characters"
+    },
+    "maxValue": {
+      "invalid": "Field must not exceed {{max}}"
+    },
+    "multipleOf": {
+      "invalid": "Field must be a multiple of {{step}}"
+    },
+    "number": {
+      "invalid": "Field must be a number"
+    },
+    "password": {
+      "invalid": "Password is not valid",
+      "length": "Password must contain at least {{minLength}} characters"
+    },
+    "positiveNumber": {
+      "invalid": "Field must be higher than 0"
+    },
+    "required": "Field is required"
+  },
+  "verifyEmail": {
+    "changeEmail": "Change email",
+    "continue": "Continue",
+    "message": "We've sent you an email with a verification code. <1></1> Please enter the code below to continue.",
+    "resendCode": "Resend code",
+    "title": "Verify Your Email"
+  },
+  "verifyMobile": {
+    "changeMobile": "Change mobile",
+    "continue": "Continue",
+    "message": "We've sent you a text with a verification code. <1></1> Please enter the code below to continue.",
+    "resendCode": "Resend code",
+    "title": "Verify Your Mobile"
+  },
+  "waitlist": {
+    "lastWeekWinners": "Last week winners",
+    "learnAboutFuturesLink": "You can now take time and <1>learn about futures trading.</1>",
+    "subtitle": "We will notify you when your application has been accepted.",
+    "title": "You're on the Waitlist, "
+  },
+  "widget": {
+    "outage": "Maintenance is currently being performed on this contract.",
+    "outageReturns": "You will be able to submit new orders 10 minutes before auctions resume.",
+    "outageWithReturnTime": "Maintenance is currently being performed on this contract. Trading for {{contract}} is scheduled to resume in: ",
+    "postOnly": "This contract is currently in post-only mode. Auctions will resume in",
+    "scheduledClose": "This market is currently closed. Trading will resume in: ",
+    "unauthed": "You must be logged in to use this widget."
+  }
+}

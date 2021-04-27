@@ -1,0 +1,14 @@
+.ant-checkbox {
+  &-multiline {
+    position: relative;
+    .ant-checkbox {
+      position: absolute;
+      top: 2px;
+      left: 0;
+      & + span {
+        float: left;
+        margin-left: @checkbox-size;
+      }
+    }
+  }
+}

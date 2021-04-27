@@ -1,0 +1,109 @@
+@import './Nav/style.less';
+
+.trader-layout-header {
+  padding: 0;
+
+  .left-part,
+  .right-part {
+    position: relative;
+    flex: 1;
+    display: flex;
+  }
+
+  .left-part {
+    > * {
+      margin-right: @padding-lg;
+
+      @media @mobile {
+        margin-right: auto;
+      }
+    }
+
+    .logo {
+      padding-left: 20px;
+
+      @media @mobile {
+        padding-left: 10px;
+      }
+
+      a {
+        display: block;
+      }
+
+      img {
+        height: @logo-height-trader;
+        width: @logo-width-trader;
+        margin-right: 6px;
+      }
+    }
+  }
+
+  .right-part {
+    justify-content: flex-end;
+
+    > * {
+      margin-left: @padding-lg;
+    }
+
+    .account-settings-trigger {
+      padding-right: 20px;
+
+      @media @mobile {
+        padding-right: 10px;
+      }
+    }
+  }
+
+  .exchange-link {
+    font-size: @font-size-lg;
+    color: @blue;
+    text-transform: uppercase;
+
+    &::before {
+      content: '';
+      display: inline-block;
+      height: 25px;
+      width: 1px;
+      margin-right: 20px;
+      vertical-align: middle;
+      background-color: @dark;
+
+      @media @mobile {
+        margin-right: 10px;
+        background-color: transparent;
+      }
+    }
+  }
+
+  .trader-btn {
+    margin: 12px 5px;
+    width: 100px;
+    font-size: @font-size-nav;
+    vertical-align: middle;
+
+    .icon-trading {
+      font-size: 14px;
+      margin-left: -@padding-xs;
+    }
+  }
+
+  .language-dropdown {
+    &--trigger {
+      min-width: 75px;
+      vertical-align: middle;
+      height: 34px;
+    }
+  }
+
+  .contract-picker-dropdown {
+    &:before {
+      content: '';
+      display: inline-block;
+      height: 25px;
+      width: 1px;
+      margin-right: 20px;
+      vertical-align: middle;
+      background-color: @border-color-base;
+    }
+  }
+}

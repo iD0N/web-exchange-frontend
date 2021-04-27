@@ -1,0 +1,160 @@
+.account-summary-trigger,
+.account-summary-overlay {
+  .net-liquidation-margin-bars {
+    width: 100%;
+
+    .trader-progress {
+      &-success-bg {
+        background-color: @palette-dark-blue;
+      }
+      &-bg {
+        background-color: @palette-yellow;
+      }
+      &-inner {
+        background-color: @palette-green;
+      }
+    }
+  }
+
+  .net-liquidation-margin-bars-zero-balance {
+    .trader-progress-success-bg,
+    .trader-progress-success-bg,
+    .trader-progress-inner {
+      background-color: @gray !important;
+    }
+  }
+
+  .liquidation-bar {
+    position: relative;
+    width: 100%;
+
+    .bar-bg-color(@value) {
+      @color: ~'palette-@{value}';
+
+      &-@{value} {
+        .trader-progress-bg {
+          background-color: @@color;
+        }
+      }
+    }
+
+    .bar-bg-color(orange);
+    .bar-bg-color(red);
+    .bar-bg-color(dark-red);
+
+    &-tick {
+      position: absolute;
+      height: 16px;
+      top: 6px;
+      width: 2px;
+      margin-left: -1px;
+      overflow: visible;
+
+      .label {
+        display: none;
+        position: absolute;
+        left: 0;
+        height: 18px;
+        color: @white;
+        white-space: nowrap;
+        padding-left: 5px;
+        font-family: @code-family;
+      }
+
+      .label-left {
+        left: auto;
+        right: 0;
+        padding-left: 0;
+        padding-right: 5px;
+      }
+
+      &-liquidation-level {
+        background-color: @palette-dark-red;
+
+        .label {
+          top: 16px;
+          line-height: 22px;
+          border-left: 2px solid @palette-dark-red;
+        }
+
+        .label-left {
+          border-left: none;
+          border-right: 2px solid @palette-dark-red;
+        }
+      }
+
+      &-maintenance-margin {
+        background-color: @palette-red;
+
+        .label {
+          top: -18px;
+          line-height: 18px;
+          border-left: 2px solid @palette-red;
+        }
+
+        .label-left {
+          border-left: none;
+          border-right: 2px solid @palette-red;
+        }
+      }
+
+      @media @mobile {
+        &-maintenance-margin,
+        &-liquidation-level {
+          .label {
+            font-size: @font-size-sm;
+          }
+        }
+        &-liquidation-level {
+          .label {
+            top: 16px;
+          }
+        }
+      }
+    }
+  }
+
+  .account-margin-bar-wrapper {
+    padding-bottom: 5px;
+
+    .liquidation-bar {
+      &-tick {
+        margin-top: -6px;
+
+        .label {
+          display: block;
+        }
+      }
+    }
+
+    @media @mobile {
+      .liquidation-bar-tick {
+        margin-top: 2px;
+      }
+    }
+  }
+
+  &-liquidation {
+    .account-margin-bar-wrapper {
+      padding-bottom: 20px;
+
+      .margin-bar-value {
+        &-blue,
+        &-yellow,
+        &-green {
+          .trader-form-item-control {
+            padding-left: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.account-summary-trigger {
+  .liquidation-bar-tick {
+    top: 4px;
+    width: 3px;
+    height: 10px;
+  }
+}

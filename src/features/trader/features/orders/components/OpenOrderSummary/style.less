@@ -1,0 +1,27 @@
+.order-summary-table {
+  .trader-table-description-header {
+    .currency {
+      display: inline;
+      margin-left: 5px;
+    }
+  }
+
+  @media @mobile {
+    margin-bottom: 20px;
+
+    .trader-table-row {
+      td:nth-child(2) {
+        color: @gray-light;
+      }
+    }
+  }
+}
+
+.order-summary-table-condensed {
+  .trader-table-row {
+    td:nth-child(2) {
+      color: @white;
+      text-align: right !important;
+    }
+  }
+}

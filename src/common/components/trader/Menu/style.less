@@ -1,0 +1,55 @@
+.trader-menu-submenu {
+  &-title {
+    font-size: @font-size-nav;
+    padding-right: 0;
+  }
+
+  &&-active {
+    .anticon-down {
+      transform: rotate(180deg);
+    }
+  }
+
+  .anticon-down {
+    font-size: 12px;
+    margin-left: 5px;
+    margin-right: 0;
+    color: @text-color;
+    transform: rotate(0deg);
+    transition: transform 250ms ease-in-out;
+  }
+
+  &.trader-menu-overflowed-submenu {
+    display: none;
+  }
+}
+
+.trader-menu-action-item {
+  .flex-horizontal();
+  justify-content: space-between;
+  padding-right: @control-padding-horizontal;
+  transition: background 0.3s;
+
+  .trader-btn {
+    padding: 0;
+  }
+
+  .trader-dropdown-menu-item,
+  .trader-select-dropdown-menu-item {
+    .flex-grow();
+    padding-right: @control-padding-horizontal !important;
+  }
+
+  &-active,
+  &:hover {
+    background: @item-active-bg;
+  }
+}
+
+.trader-select-dropdown {
+  .trader-menu-action-item {
+    .trader-select-dropdown-menu-item {
+      padding-right: @control-padding-horizontal !important;
+    }
+  }
+}

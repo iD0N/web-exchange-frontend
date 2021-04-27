@@ -1,0 +1,66 @@
+.trader-form {
+  @form-item-margin-right: 20px;
+
+  &.trader-form-vertical {
+    .trader-form-item {
+      &-label {
+        padding: 0;
+        line-height: 1;
+        text-transform: uppercase;
+        letter-spacing: 0.3px;
+        white-space: nowrap;
+      }
+
+      &-control {
+        line-height: 1;
+        padding: 5px 0;
+
+        .trader-form-text {
+          padding: 0;
+          font-family: @code-family;
+          color: @white;
+        }
+      }
+
+      &.ant-row {
+        margin-left: 0; // reset gutter
+        margin-right: 0;
+      }
+
+      &-with-help {
+        margin-bottom: @form-item-margin-bottom - @font-size-base * @line-height-base;
+
+        .trader-form-explain {
+          margin: 0;
+        }
+      }
+
+      @media @mobile {
+        font-size: @font-size-lg;
+        font-weight: @font-light;
+
+        label {
+          font-size: @font-size-md;
+        }
+      }
+    }
+
+    .trader-value {
+      .trader-form-item {
+        margin-bottom: 4px;
+        padding-bottom: 8px;
+        width: auto;
+
+        &-control-wrapper {
+          padding: 6px 0 7px 0;
+        }
+      }
+    }
+  }
+}
+
+.trader-table {
+  .trader-form-text {
+    padding-right: 0;
+  }
+}

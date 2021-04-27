@@ -1,0 +1,111 @@
+.withdraw-funds-wrapper {
+  .withdrawal-form {
+    .ant-form-item {
+      &-control {
+        .trader-input {
+          height: 40px;
+        }
+      }
+
+      &-label,
+      label {
+        display: block;
+        text-align: left;
+      }
+    }
+
+    .set-max {
+      position: absolute;
+      top: 0;
+      right: 0;
+      cursor: pointer;
+      color: @gray;
+      z-index: 9;
+
+      &:hover {
+        text-decoration: underline;
+        color: @white;
+      }
+    }
+
+    .withdrawals-fee {
+      margin: 12px 0;
+      color: @gray;
+      font-family: @code-family;
+    }
+
+    .withdrawals-disclaimer {
+      color: @gray-darker;
+
+      .anticon-info-circle {
+        font-size: @font-size-lg;
+      }
+    }
+  }
+
+  .ant-form-item {
+    height: 60px;
+
+    &-with-help {
+      margin-bottom: 24px;
+    }
+
+    &-control {
+      .ant-form-explain {
+        position: absolute;
+        font-size: @font-size-md;
+        margin-top: 0;
+      }
+    }
+
+    &-children {
+      position: relative;
+
+      .trader-input,
+      .trader-input-number {
+        width: 100%;
+        background-color: @dark-foreground;
+        font-family: @font-family;
+        font-size: @font-size-md;
+        padding: 16px 4px 18px 8px;
+        color: @white;
+      }
+
+      .trader-input-number {
+        height: 40px;
+
+        &-input-wrap {
+          margin: -16px -8px 0 -8px;
+        }
+        &-input {
+          padding: 0;
+        }
+        &-handler-wrap {
+          display: none;
+        }
+      }
+    }
+
+    &-label {
+      text-transform: uppercase;
+    }
+  }
+
+  .ant-spin-nested-loading {
+    .ant-row {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .ant-col-24 {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  .set-max-input-control {
+    .ant-form-item-label {
+      width: 100%;
+    }
+  }
+}

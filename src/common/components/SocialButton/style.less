@@ -1,0 +1,26 @@
+.ant-btn {
+  &-facebook {
+    .button-variant-primary(@white; @blue-facebook);
+  }
+
+  &-google {
+    .button-variant-primary(@white; @orange-google);
+  }
+}
+
+.social-buttons {
+  .ant-btn {
+    margin-bottom: @padding-md;
+    display: flex;
+    font-size: 15px;
+    letter-spacing: 0;
+
+    .anticon {
+      height: @btn-height-base - 2px;
+      font-size: 24px;
+      svg {
+        height: inherit;
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.trader-pagination {
+  margin: 20px 0;
+
+  &-item,
+  &-prev,
+  &-next,
+  &-item-link,
+  &-jump-prev,
+  &-jump-next {
+    height: 25px;
+    min-width: 25px;
+    line-height: 25px;
+    font-size: @font-size-base;
+    color: @text-color;
+    border-color: transparent;
+    background-color: @btn-default-bg;
+
+    &-active,
+    &:hover,
+    &:focus {
+      border-color: transparent;
+      color: @text-color;
+
+      a,
+      a:hover {
+        border-color: transparent;
+        color: @heading-color;
+      }
+    }
+  }
+
+  &-prev,
+  &-next {
+    .trader-pagination-item-link {
+      border-color: transparent;
+      background-color: @btn-default-bg;
+    }
+  }
+
+  &-disabled {
+    .trader-pagination-item-link {
+      background-color: @btn-disable-bg;
+    }
+
+    &:hover {
+      .trader-pagination-item-link {
+        color: @text-color !important;
+      }
+    }
+  }
+}

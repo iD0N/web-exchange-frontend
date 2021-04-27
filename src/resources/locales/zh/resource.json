@@ -1,0 +1,1496 @@
+{
+  "agreement": "通过注册，本人同意Crypto的<1>《服务条款》</1>,<3>《隐私政策》</3>及<5>《推荐计划的服务条款》</5>",
+  "amplifyErrors": {
+    "EnableSoftwareTokenMFAException": "输入的代码无效。请再试一次。",
+    "LimitExceededException": "尝试次数超出限制，请稍后再次尝试。",
+    "NotAuthorizedException": "邮箱或密码无效。如果无法登录，请尝试点击\"忘记了密码？\"。",
+    "UserNotFoundException": "您输入的电子邮件不属于任何帐户。"
+  },
+  "auth": {
+    "pleaseWait": "请稍等……"
+  },
+  "bestTraders": {
+    "earned": "收入",
+    "title": "第五周最好的交易者"
+  },
+  "changeAlias": {
+    "save": "保存",
+    "title": "改变排行榜中的名称"
+  },
+  "changeEmail": {
+    "save": "保存",
+    "title": "更改您的邮箱"
+  },
+  "changePassword": {
+    "changePassword": "更改密码",
+    "currentPassword": {
+      "label": "当前密码",
+      "placeholder": "当前密码"
+    },
+    "newPassword": {
+      "label": "新密码",
+      "placeholder": "新密码"
+    },
+    "title": "更改密码"
+  },
+  "competition": {
+    "header": {
+      "ago": "时间",
+      "begins": "开始",
+      "ended": "结束",
+      "ends": "结束",
+      "hideIneligibleTraders": "隐藏不符合资格的交易员",
+      "inviteCode": "邀请码",
+      "inviteLink": {
+        "title": "邀请链接",
+        "tooltip": "当一个交易员通过这个竞争链接加入Crypto，你将赚取他们的交易费用的百分比 。"
+      },
+      "lastUpdated": "最新更新",
+      "publicLink": {
+        "title": "公布排行榜链接",
+        "tooltip": "分享您的竞赛表现吧！访问此链接的用户将无法看到加入链接，除非他们已经参加了此比赛。"
+      },
+      "requirements": {
+        "netDeposit": "净充值要求",
+        "volume": "交易量要求"
+      },
+      "showAll": "显示全部",
+      "showTopTen": "显示排名前十",
+      "updateResults": "更新结果",
+      "updatingResults": "更新结果中"
+    },
+    "leaderboard": {
+      "allContracts": "所有合约",
+      "column": {
+        "feesEarned": "赚取的手续费(BTC)",
+        "notionalPl": "名义盈亏 (比特币)"
+      },
+      "header": {
+        "feesEarned": "净手续费收入",
+        "notionalPl": "名义PL领先者"
+      },
+      "note": "Crypto历史排行榜每5分钟更新一次排名和价值。",
+      "title": "Crypto历史排行榜"
+    },
+    "table": {
+      "column": {
+        "change": "变化 (净流动资产)",
+        "count": "交易次数",
+        "name": "名称",
+        "rank": "排名",
+        "referrals": "推荐人数",
+        "referralsTooltip": "使用此交易员的竞赛邀请链接登入Crypto的交易员的数量。",
+        "rekt": "落差",
+        "rektTooltip": "最大百分比变化 - 当前百分比变化",
+        "sharpe": "夏普指数",
+        "sharpeNA": "没有足够的数据点来计算夏普比率。",
+        "sharpeTooltip": "夏普比率是衡量交易员业绩的指标，它允许人们客观地比较交易员和策略之间的回报。单击信息图标了解更多",
+        "volume": "交易量（美金）"
+      },
+      "empty": "这次比赛没有任何参赛者",
+      "setLeaderboardName": "设置您的排行榜名称"
+    }
+  },
+  "confirmLogin": {
+    "continue": "继续",
+    "message": "请从您的MFA设备中输入一个验证码。",
+    "title": "确认登录"
+  },
+  "contracts": {
+    "longNames": {
+      "BRAZIL60": "巴西60指数",
+      "BTC-PERP": "比特币合约 - 永续",
+      "BTC-U20": "比特币合约 - 2020年9月",
+      "BTC-PERP-U20": "比特币合约价差 - 永续/2020年9月",
+      "BTC-PERP-Z20": "比特币合约价差 - 永续/2020年12月",
+      "BTC-USD": "BTC/USD",
+      "ACDX-SPOT": "ACXT",
+      "ETH-PERP": "以太坊合约 - 永续",
+      "ETH-U20": "以太坊合约 - 2020年9月",
+      "ETH-PERP-U20": "以太坊合约价差 - 永续/2020年9月",
+      "ETH-PERP-Z20": "以太坊合约价差 - 永续/2020年12月",
+      "ETH-SPOT": "以太坊",
+      "EUR": "EUR/USD",
+      "GOLD": "黄金",
+      "LINK": "ChainLink",
+      "US500": "美股指数",
+      "USDBRL": "USD/BRL",
+      "USDT": "泰达币",
+      "USOIL": "美国原油",
+      "XTZ": "Tezos"
+    },
+    "type": {
+      "future": "合约",
+      "spot": "现货",
+      "spread": "合约价差"
+    }
+  },
+  "createAccount": {
+    "signUp": "继续",
+    "title": "建立帐户"
+  },
+  "dashboard": {
+    "table": {
+      "column": {
+        "change": "变化"
+      }
+    },
+    "title": "市场概况"
+  },
+  "disableMfa": {
+    "note": "禁用MFA会使您的帐户变得不安全",
+    "submit": "禁用MFA",
+    "title": "禁用多重验证"
+  },
+  "email": {
+    "change": "更改"
+  },
+  "fields": {
+    "alias": {
+      "add": "加入",
+      "change": "更改",
+      "label": "排行榜的名字",
+      "placeholder": "排行榜名称"
+    },
+    "code": {
+      "label": "验证码",
+      "placeholder": "验证码"
+    },
+    "email": {
+      "label": "电子邮箱",
+      "placeholder": "电子邮箱"
+    },
+    "emailAddress": {
+      "label": "电子邮箱",
+      "placeholder": "电子邮箱"
+    },
+    "familyName": {
+      "label": "姓",
+      "placeholder": "姓"
+    },
+    "givenName": {
+      "label": "名字",
+      "placeholder": "名字"
+    },    
+    "identity": {
+      "contactSupport": "联系客服",
+      "failed": "失败",
+      "label": "状态",
+      "notVerified": "未验证",
+      "passed": "通过",
+      "processing": "处理中",
+      "retry": "请重试",
+      "verify": "请验证"
+    },
+    "language": {
+      "label": "语言"
+    },
+    "mfaToggle": {
+      "disabled": "禁用",
+      "enabled": "启用",
+      "label": "多重验证（MFA）状态"
+    },
+    "mobile": {
+      "label": "手机",
+      "placeholder": "手机"
+    },
+    "optional": "可选的",
+    "password": {
+      "label": "密码"
+    },
+    "submit": "提交"
+  },
+  "footer": {
+    "copyright": "© 2019 Crypto",
+    "socketStatus": "节点状态"
+  },
+  "footerNav": {
+    "affiliateProgram": "推荐计划",
+    "company": {
+      "blog": "博客",
+      "careers": "招聘",
+      "home": "主页",
+      "press": "媒体",
+      "team": "团队",
+      "title": "公司"
+    },
+    "exchange": {
+      "affiliates": "推荐计划",
+      "beta": "交易",
+      "login": "登录",
+      "signup": "注册",
+      "testnet": "虚拟盘",
+      "title": "交易所"
+    },
+    "more": {
+      "api": "API",
+      "onepager": "单页报告",
+      "pitchdeck": "宣传介绍",
+      "support": "帮助与支持",
+      "title": "更多",
+      "whitepaper": "白皮书"
+    },
+    "privacyPolicy": "隐私政策",
+    "termsAndConditions": "条款和条件"
+  },
+  "forgottenPassword": {
+    "title": "忘记密码"
+  },
+  "home": {
+    "section1": {
+      "ctaButton": "加入我们的电报群",
+      "description": "如欲抢先了解关于我们交易所的更多信息，请加入我们的社交媒体渠道。",
+      "heading": "欢迎来到Acrypto！"
+    }
+  },
+    "ipFilter": {
+    "title": "未能提供服务",
+    "message": "抱歉，根据您的IP地址，您现在正身处于我们未能提供服务的国家／地区／地域。我们不会在所有国家或地区提供本服务，并对特定的一些限制地区的用户提供部分或不提供服务，限制地区目前包括香港、古巴、伊朗、朝鲜、克里米亚、苏丹、马来西亚、叙利亚、美国 [ 包括所有美国领土，如波多黎各、美属萨摩亚、关岛、北马里亚纳岛、以及美属维尔京群岛（圣克罗伊岛、圣约翰岛和圣托马斯岛）] 孟加拉国、玻利维亚、厄瓜多尔和吉尔吉斯斯坦。",
+    "buttonText": "了解"
+  },
+  "kyc": {
+    "failureReason": {
+      "badQuality": "身份验证需要高分辨率照片。请用相机拍摄清晰的，原始的彩色照片身份证并上传。",
+      "blurred": "身份验证需要高分辨率照片。请用相机拍摄清晰的，原始的彩色照片身份证并上传。",
+      "cameraBlackWhite": "请用相机拍摄您的彩色照片身份证并上传。",
+      "damagedDocument": "你上传的文件损坏了。请上传一张不同的彩色照片，并附上您的有效签名。",
+      "deniedUnsupportedIdCountry": "对不起，你所在的国家现在受到限制。我们的平台和代币销售对美国公民和居民是关闭的，如果有变化我们会第一时间通知您。",
+      "deniedUnsupportedIdType": "对不起，您上传的身份验证我们无法识别。请提供政府签发的身份证。",
+      "differentPersonsShown": "您的照片里有很多人。请上传一张只有你自己的照片。",
+      "digitalCopy": "请上传您的彩色身份证的照片。在屏幕上显示的身份证照片是不允许的。",
+      "hiddenPartDocument": "你上传的文件缺少信息。请上传您的彩色身份证及有效签名。",
+      "missingBack": "请上传彩色身份证背面。",
+      "missingPartDocument": "你上传的文件缺少信息。请上传您的彩色身份证及有效签名。",
+      "missingSignature": "你上传的文件缺少信息。请上传您的彩色身份证及有效签名。",
+      "noDocument": "请用相机拍摄您的彩色照片身份证并上传。",
+      "photocopyBlackWhite": "我们无法接受黑白影印版本身份作为验证。请用相机拍摄上传您证的彩色身份照片原件。",
+      "photocopyColor": "我们无法接受您的影印版本身份作为验证。请用相机拍摄上传您证的彩色身份照片原件。",
+      "selfieVerificationFailed": "您提供的人脸图像不符合要求。请提供您用相机拍摄的清晰、彩色、非裁剪的脸部照片。",
+      "unknown": "身份验证失败。请重试。",
+      "wrongDocumentPage": "您上传的文件不能用于身份验证。请上传您身份证的彩色照片原件，用相机拍摄。"
+    }
+  },
+  "kycIntro": {
+    "continue": "继续",
+    "recaptchaError": {
+      "description": "加载ReCaptcha时出错。请刷新页面再试一次",
+      "message": "ReCaptcha初始化失败"
+    },
+    "requirements": {
+      "braveBrowser": "Brave浏览器用户:Acrypto身份验证过程目前在您的浏览器上不能正常工作。请使用不同的浏览器进行身份验证。",
+      "digitalPhoto": "一台拥有相机功能或是您的电子照片的装置",
+      "identityCard": "政府发行的身分证件（如身分证及护照等）- 上面必须要有您的照片",
+      "intro": "为了能够验证您的身份并且开始在Acrypto上的交易，您将会需要以下：",
+      "southKoreaJapanCitizens": "韩国、中国和日本的居民需要提供护照作为身份证明——其他形式的政府证件是不允许的。",
+      "usCitizens": "对不起，如果您来自美国，您将无法通过KYC流程。我们希望Acrypto在以后也能在美国使用。"
+    },
+    "title": "开始"
+  },
+  "kycLoading": {
+    "title": "请稍等……"
+  },
+  "lang": {
+    "chinese": "简体中文",
+    "english": "英文",
+    "korean": "한국어",
+    "portuguese": "葡萄牙语 (Beta)"
+  },
+  "logIn": {
+    "countryDisclaimer": "根据我们的条款和条件，位于或居住在<1>美利坚合众国或Acrypto提供的服务受到限制</1>的任何其他管辖区的人士不得持有Acrypto头寸或在Acrypto上进行交易。",
+    "email": {
+      "placeholder": "电子邮件"
+    },
+    "forgotPassword": "忘记密码?",
+    "logIn": "登入",
+    "or": "或者",
+    "password": {
+      "placeholder": "输入密码"
+    },
+    "title": "登入"
+  },
+  "mfaAction": {
+    "disabled": "如果您想在您的电脑上启用MFA(多因子身份验证),您必须先处理好单一验证(SSO)设置",
+    "edit": "编辑",
+    "setup": "设置"
+  },
+  "mfaSetup": {
+    "code": {
+      "label": "验证码"
+    },
+    "instructions": "使用一次性密码(OTP)应用程序(如谷歌Authenticator)扫描代码。然后输入生成的密码",
+    "submit": "激活 MFA",
+    "title": "设置多重验证"
+  },
+  "nav": {
+    "accountSettings": "账户设置",
+    "affiliateProgram": "推荐计划",
+    "api": {
+      "docs": "API 文件",
+      "keys": "管理API密钥",
+      "title": "API"
+    },
+    "backHome": "返回主页",
+    "blog": "博客",
+    "competitions": "竞赛",
+    "contactUs": "联系我们",
+    "createCompetition": "创建一个竞赛",
+    "dashboard": "公告板",
+    "docs": {
+      "apidocs": "API 文件",
+      "onepager": "单页报告",
+      "pitchdeck": "宣传介绍",
+      "title": "文档",
+      "whitepaper": "白皮书"
+    },
+    "getVerifiedNow": "验证中",
+    "goToTestnet": "前往测试盘",
+    "helpAndSupport": "帮助与支持",
+    "leaderboard": "排行榜",
+    "login": "登入",
+    "logout": "登出",
+    "marketSummary": "市场总结",
+    "menu": "目录",
+    "myProfile": "个人资料",
+    "news": "新闻",
+    "press": "媒体",
+    "referAndEarn": "推荐与赚取",
+    "resources": {
+      "support": "帮助与支持",
+      "title": "资源"
+    },
+    "rewardsAndOffers": "奖励与优惠",
+    "signup": "注册",
+    "staking": "CRYP 锁仓",
+    "subaccounts": {
+      "manage": "管理子账户",
+      "title": "子账户"
+    },
+    "team": "团队",
+    "testnet": "测试平台",
+    "trade": "交易",
+    "trader": "立即开始交易！",
+    "transfers": "转账",
+    "workspace": {
+      "resetLayout": "重置布局",
+      "resetLayoutChart": "重置为\"图表聚焦\"",
+      "resetLayoutCompact": "重置为\"紧凑型\"",
+      "resetLayoutDefault": "重置为\"默认\"",
+      "title": "工作空间"
+    }
+  },
+  "notFound": {
+    "back": "返回acrypto.io",
+    "subtitle": "糟糕！您请求的页面似乎不存在。",
+    "title": "未找到页面"
+  },
+  "notification": {
+    "aliasChanged": "别名已更改。",
+    "changeEmailSuccess": "您的邮箱已经更新。",
+    "completeKyc": {
+      "failed": "您的身份无法验证。请联系我们{{email}}。",
+      "success": "你的身份已经验证"
+    },
+    "disableMfaSuccess": "已成功禁用多因素身份验证。",
+    "emailVerification": "我们已经向您的邮箱发送了新的验证码。",
+    "mobileVerification": "我们已经向您的手机发送了新的验证码。",
+    "enableMfaSuccess": "已成功启用多重身份验证。",
+    "forgottenPassword": "我们已经向您的邮箱发送了进一步指示邮件。",
+    "forgottenPasswordMobile": "一条包含重置代码的信息已发送到您的手机号码。请使用此代码来确认您的密码重置。",
+    "initiateKYC": {
+      "error": "无法启动KYC程序。请稍后再试。"
+    },
+    "initiateKyc": {
+      "error": "无法启动KYC程序。请稍后再试。"
+    },
+    "kycResult": {
+      "timeout": "验证结果超时。请稍后查看您的KYC状态。"
+    },
+    "mfa": {
+      "failure": "您输入的验证码有误，请重新输入。",
+      "setupFailure": "您输入的一次性密码不正确。请用您的应用程序生成一个新密码，然后重试。"
+    },
+    "passwordChanged": "密码已更改。",
+    "passwordMismatch": "新的密码和确认密码不匹配。",
+    "passwordReset": "密码已更改。您现在已登录。",
+    "profileUpdated": "您的个人信息已经更新。",
+    "requirePasswordReset": "请设置新密码并且继续。验证码已发送到您的电子邮箱。",
+    "verification": {
+      "noPassword": "已验证电子邮件。您现在可以登录了。",
+      "password": "已验证电子邮件。你现在已经登录。"
+    },
+    "verifyEmail": "在登入前请先确认您的信箱"
+  },
+  "password": {
+    "change": "更改"
+  },
+  "passwordInput": {
+    "hide": "隐藏",
+    "show": "显示"
+  },
+  "prizes": {
+    "bronze": {
+      "description": "10美元交易积分",
+      "participants": "所有参与者",
+      "title": "青铜级"
+    },
+    "diamond": {
+      "description": "250美元交易积分",
+      "participants": "前100名参与者",
+      "title": "钻石级"
+    },
+    "elite": {
+      "description": "1000美元交易积分",
+      "participants": "前5名参与者",
+      "title": "精英级"
+    },
+    "gold": {
+      "description": "50美元交易积分",
+      "participants": "前1,000名参与者",
+      "title": "黄金级"
+    },
+    "participants": "参与者",
+    "silver": {
+      "description": "25美元交易积分",
+      "participants": "前3,000名参与者",
+      "title": "白银级"
+    }
+  },
+  "profile": {
+    "identity": {
+      "title": "身份验证状态"
+    },
+    "prodDisclaimer": {
+      "action": "点击这里进入",
+      "message": "帐户设置无法在测试平台中管理。"
+    },
+    "rewards": {
+      "title": "奖励"
+    },
+    "save": "保存",
+    "saving": "保存",
+    "security": {
+      "title": "安全性"
+    },
+    "title": "我的个人资料"
+  },
+  "promotions": {
+    "launch": {
+      "deposit": "现在充值就可以获得免费的比特币用来交易!",
+      "details": "查看 奖励&活动",
+      "registrationBonusremaining": "您获得了注册奖金({{bonusAmount}} BTC余额)!",
+      "registrationReceived": "您收到了{{bonusAmount}} BTC交易奖金。"
+    }
+  },
+  "resetPassword": {
+    "confirmNewPassword": {
+      "label": "确认新密码"
+    },
+    "newPassword": {
+      "label": "新密码"
+    },
+    "password": {
+      "placeholder": "新密码"
+    },
+    "title": "重置密码"
+  },
+  "settings": {
+    "account": {
+      "fields": {
+        "alias": "排行榜名字",
+        "email": "电子邮箱",
+        "firstName": "名",
+        "kyc": "KYC状态",
+        "language": "语言",
+        "lastName": "姓",
+        "mfa": "多重授权",
+        "password": "密码",
+        "ssoEmail": "您的电子邮件地址是通过您的单点登录(SSO)提供商设置管理的。"
+      },
+      "header": "账户设置",
+      "title": "账户"
+    },
+    "affiliates": {
+      "affiliateProgram": "推荐计划",
+      "clickHere": "点击这里",
+      "disclaimer": "任何位于或者居住于香港、古巴、伊朗、朝鲜、克里米亚、苏丹、叙利亚、马来西亚、美国[包括所有美国领土，如波多黎各、美属萨摩亚、关岛、北马里亚纳群岛邦、美属维尔京群岛（圣克罗伊岛，圣约翰岛和圣托马斯岛）]、孟加拉国、玻利维亚、厄瓜多尔、吉尔吉斯斯坦或任何其他限制Crypto提供服务的司法管辖区的用户不能参加推荐计划。如需了解更多相关信息，请点击此处阅读 {{link}}。",
+      "earned": {
+        "allTime": "所有推广收入",
+        "lastDay": "二十四小时内的推广收入"
+      },
+      "info": "向您的朋友推荐Crypto，您可以在限时内获得他们交易费用的25%作为奖励。关于更多的Crypto推广信息，{{link}}.",
+      "offer": "参考{{link}}以获得更多细节. ",
+      "prodDisclaimer": {
+        "action": "点击这里进去推荐奖励详细信息",
+        "message": "推荐奖励信息可以在Crypto交易所主网中进行访问。"
+      },
+      "referralCode": {
+        "body": "您的朋友使用您的推荐代码注册了Crypto。",
+        "header": "邀请交易者数量",
+        "label": "邀请链接"
+      },
+      "title": "推荐"
+    },
+    "api": {
+      "createNewKey": "创建新密钥",
+      "delete": "删除",
+      "documentation": {
+        "header": "API 文件",
+        "link": "API 文件"
+      },
+      "header": "API 密钥",
+      "key": "密钥",
+      "needKYC": "您没有办法访问API文件直到您的账户完成KYC验证",
+      "newKey": "新密钥",
+      "noKeys": "无密钥",
+      "permissions": {
+        "read": {
+          "label": "读",
+          "tooltip": "只读特权允许使用密钥检索当前和历史订单、位置、余额和传输历史。"
+        },
+        "transfer": {
+          "label": "转账",
+          "tooltip": "转账特权允许使用密钥来请求取款、在子账户之间转账以及查看充值地址。"
+        },
+        "write": {
+          "label": "写入",
+          "tooltip": "写入特权允许使用密钥插入、修改或取消订单。"
+        }
+      },
+      "secret": "隐私",
+      "subaccount": "如果要为子帐户生成一个新的API密钥，首先转换至子帐户，然后按生成API密钥，以产生专为此帐户生成的API密钥",
+      "title": "API"
+    },
+    "competitions": {
+      "column": {
+        "code": "邀请码",
+        "ended": "结束",
+        "expires": "结束",
+        "leaderboard": "排行榜",
+        "name": "竞赛名称",
+        "results": "结果",
+        "starts": "开始"
+      },
+      "competitionCode": "输入您的竞赛代码",
+      "competitionLabel": "给一个竞赛名称",
+      "competitionPath": "此竞赛的网页链接",
+      "create": {
+        "afterCreate": "祝贺您创造了您的交易竞赛!交易员可以通过访问下面的加入链接或在本页上输入您的竞赛加入代码来加入您的竞赛。",
+        "button": "创建竞赛",
+        "buttonPending": "创建竞赛中",
+        "description": "创建一场竞赛，与其他交易者竞争并比较他们的表现。当一名交易员通过您的竞争加盟链接加入Crypto时，您将获得您推荐的交易员交易费用的一定百分比。",
+        "field": {
+          "code": "加入代码",
+          "endDate": "竞赛结束",
+          "joinLink": "加入链接",
+          "name": "竞赛名称",
+          "startDate": "竞赛开始",
+          "url": "公共的网页链接"
+        },
+        "header": "交易竞赛开始的时间",
+        "label": {
+          "autoJoin": "创建时自动加入此竞赛",
+          "code": "自定义您的竞赛代码",
+          "endDate": "交易竞赛结束的时间",
+          "isPublic": "允许这项比赛公开给所有人，并允许任何人从排行榜页面加入。",
+          "localTime": "当地时间",
+          "name": "输入一个竞赛名称",
+          "slug": "此竞赛的网页链接",
+          "startDate": "选择一个开始竞赛的时间"
+        }
+      },
+      "header": "竞赛",
+      "join": {
+        "button": "加入竞赛",
+        "buttonPending": "加入中",
+        "description": "输入竞赛组织者提供比赛编号来参加比赛。",
+        "header": "加入一个交易竞赛",
+        "label": {
+          "code": "输入竞赛代码"
+        }
+      },
+      "joinCompetition": "创建竞赛",
+      "joining": "创建中",
+      "leaderboardName": {
+        "button": "更新排行榜名称",
+        "buttonPending": "更新排行榜的名称",
+        "description": "选择一个您想要显示的排行榜名称",
+        "error": "排行榜名称不能超过100个字符。",
+        "errorMin": "排行榜名称必须至少有3个字符长。",
+        "header": "排行榜名称",
+        "placeholder": "您的排行榜名称",
+        "tooltip": "您排行榜的名字将会在竞赛排行榜中您的排名和表现的边上显示。\n"
+      },
+      "list": {
+        "active": "激活",
+        "completed": "完成",
+        "empty": "你没有参加任何比赛。请在下面的输入竞赛代码并加入，或者创建您自己的竞赛，并使用生成的竞赛代码邀请其他人。",
+        "upcoming": "即将到来"
+      },
+      "namePrompt": "在创建比赛之前，您必须选择一个排行榜名称。这个名字将显示在竞赛排行榜中您的排名和表现旁边。",
+      "title": "竞赛",
+      "updateName": "更新排行榜名称",
+      "updatingName": "更新排行榜名称中"
+    },
+    "history": {
+      "all": "账户转账总和",
+      "daily": "日交易转账总结",
+      "disclaimer": "此交易总结将会延迟最多5分钟。这个总结可能不会包括上几分钟完成的交易。\n这个总结不包括未实现损益表。所有价值都按USD计价。",
+      "download": "下载为CSV文档",
+      "header": "交易历史",
+      "table": {
+        "column": {
+          "amount": "金额",
+          "balance": "余额",
+          "contract": "合约",
+          "created": "创建",
+          "date": "日期 (UTC)",
+          "details": "具体",
+          "eodBalance": "日终余额",
+          "event": "种类",
+          "id": "编号"
+        }
+      },
+      "title": "历史",
+      "transactionType": {
+        "adminAdjustment": "管理员调整",
+        "affiliateIncome": "推荐收入",
+        "blockchainFee": "区块费用",
+        "bonus": "奖励",
+        "credit": "贷记",
+        "debug": "除错",
+        "deposit": "存入资金",
+        "fee": "费用",
+        "insuraceFundDisbursement": "风险准备金支付",
+        "leverageTax": "税收杠杆",
+        "leverageTaxRefund": "退款税收杠杆",
+        "liquidationFee": "清算费用",
+        "other": "其他",
+        "pl": "已实现盈利&亏损",
+        "rebalance": "再平衡",
+        "spotTrade": "现货交易",
+        "swapFunding": "永续基金",
+        "transfer": "转账",
+        "withdrawal": "提现",
+        "withdrawalFee": "提现费用"
+      }
+    },
+    "preferences": {
+      "closePositionConfirmation": "在点击关闭仓位按钮后显示确认信息",
+      "confirmations": "在进行交易前显示确认对话框",
+      "header": "我的设定",
+      "orderSizingNotional": "下单数量设定为美金",
+      "orderStatusNotifications": "显示订单状态更新通知",
+      "title": "我的设定"
+    },
+    "rewards": {
+      "active": "现有的奖励",
+      "affiliatePayout": {
+        "title": "推奖收支",
+        "tooltip": "在您的推荐人完成注册以后的前90天，您将赚取他们的部分手续费作为佣金奖励。过了这个期限，你的佣金可能会减少。更多细节请访问支持页面。\n"
+      },
+      "depositMatchUSD": {
+        "title": "充值匹配 (USD)"
+      },
+      "acdx": {
+        "label": "CRYP余额",
+        "tier": "CRYP等级 "
+      },
+      "feeCredits": {
+        "label": "交易费用奖励",
+        "moreDetails": "有关更多细节，请参见{{link}}页面。",
+        "promotionsAndOffers": "推广&奖励",
+        "tooltip": "这是你已经获得的可用额度，可能会在平台启动时用于支付交易费用。"
+      },
+      "fees": {
+        "description": "以上费率适用于Crypto所有交易产品。",
+        "maker": "挂单费率",
+        "title": "费率",
+        "taker": "吃单费率"
+      },
+      "feeDiscount": {
+        "title": "手续费折扣",
+        "tooltip": "这是您当前的总费用折扣。这种价值可能是奖励组合的结果。如果您从一个量层的会员那里获得了较低的费用，这个费用折扣将应用在那些较低的费用之上。"
+      },
+      "header": "奖励与优惠",
+      "mobile": {
+        "title": "推荐"
+      },
+      "nextTier": "下一等级：",
+      "title": "推荐与奖励",
+      "tradingBonus": {
+        "label": "交易奖金",
+        "tooltip": "这是你已经获得的奖金，可以用于支付手续费、购买力和已实现的损失。不得提现。"
+      },
+      "volume": {
+        "label": "30天的交易量",
+        "tier": "交易量级别",
+        "tierTooltip": "交易量等级可以降低所有合同的费用。详情请参阅\"Crypto费用及返利\"网页。以下任何额外的费用折扣赚取都适用于最高交易量等级奖励。",
+        "title": "交易量（美金）",
+        "tooltip": "交易量和等级每5分钟更新一次。"
+      }
+    },
+    "staking": {
+      "actions": {
+        "stakeTokens": "绑定CRYP代币",
+        "unstakeTokens": "不绑定CRYP代币"
+      },
+      "available": "可用的",
+      "clickHere": "点击这里",
+      "description": "当您的CRYP代币绑定在Crypto上。您有机会赚取额外的BTC！Crypto保险基金净流入资金的10%每两周支付给CRYP代币持股人。如果Crypto保险基金在此期间出现负净流，则将从已押注的Crypto令牌池中扣除流出金额的10%。分配是按比例的，基于时间和数量的标桩。了解更多关于标记Crypto令牌的信息。",
+      "footer": {
+        "bullet1": "取消绑定请求将在2周完成支付后完成。",
+        "bullet2": "绑定的CRYP代币将继续作为手续费减免使用。",
+        "bullet3": "您可以在这里查看历史绑定收支 {{link}}.",
+        "note": "注意："
+      },
+      "info": {
+        "countdownToPayout": "下一次支付时间",
+        "expectedShare": "您期望的份额",
+        "expectedShareTooltip": "若没有其他交易者增加他们的份额，这是你将得到的支付份额。",
+        "pendingUnstake": "等待取消绑定代币的数量",
+        "pendingUnstakeTooltip": "您的CRYP代币将在 {{date}} 释放出来",
+        "tokensStaked": "绑定代币的数量",
+        "totalPayout": "支付给绑定者的总额",
+        "totalPayoutTooltip": "如果现在事件结束，这是将支付给CRYP代币池的总金额。请注意，您目前预期的份额列在上面。"
+      },
+      "noACDXTokens": "您没有任何可用的CRYP代币可以绑定。您可以在{{link}}市场上用比特币购买CRYP代币。",
+      "title": "CRYP 锁仓挖矿"
+    },
+    "subaccounts": {
+      "availableBalance": "可用余额：",
+      "clickHere": "点击这里",
+      "createNew": "创建子账户",
+      "description": "子账户允许您将担保品和头寸单独存入各自的保证金账户。{{link}}了解更多关于子帐户交易。",
+      "fields": {
+        "alias": "子账户别名（自选）",
+        "transferAmount": "转账金额"
+      },
+      "internalTransfers": "内部转账",
+      "label": {
+        "amount": "总额",
+        "asset": "资产",
+        "from": "从",
+        "to": "到"
+      },
+      "title": "子账户",
+      "transferAsset": "转移资产"
+    },
+    "transfers": {
+      "collateralDisclaimer": "注意: {{tokenCode}}目前不支持作为Crypto衍生品头寸的担保品。我们将在未来几周增加对非btc抵押品的支持。同时，您可以存入{{tokenCode}}进行现货市场交易。",
+      "completed": {
+        "noHistory": "没有完成转账的历史",
+        "title": "完成转账"
+      },
+      "deposit": {
+        "address": "充值地址 ({{token}})",
+        "noHistory": "无充值历史",
+        "title": "充值"
+      },      
+      "depositUSD": {
+        "title": "使用以下稳定币充值和提现美元",
+        "selectDefault": "选择美元稳定币"
+      },
+      "needKYC": "充值和取款在您的帐户未通过KYC验证之前是不可用的。",
+      "table": {
+        "columns": {
+          "amount": "总共",
+          "confirmed": "确认",
+          "created": "创建",
+          "status": "状态",
+          "token": "代币",
+          "transferId": "转账号码",
+          "type": "类型"
+        },
+        "title": {
+          "deposit": "充值历史",
+          "withdrawals": "提现历史"
+        }
+      },
+      "title": "转账",
+      "withdrawals": {
+        "action": "提现",
+        "address": "{{token}}取款地址",
+        "amount": "总共",
+        "availableBalance": "可用的{{token}}余额",
+        "disclaimer": "请验证您的提现地址。我们无法退款给不正确的提现地址。",
+        "max": "最大",
+        "noHistory": "无提现历史",
+        "relogin": "点击这里重新登入",
+        "requestingWithdrawal": "请求提现",
+        "sendTo": "发送给",
+        "timeRemaining": "剩余时间：",
+        "timeRemainingDetail": "出于安全考虑，您必须在此之后重新登录您的帐户才能提现。",
+        "timeRemainingDisclaimer": "出于安全考虑，您必须再次登录才能提取资金。资金只能在帐户登录后15分钟内提取。",
+        "title": "提现",
+        "withdrawFunds": "提现 ({{token}})",
+        "withdrawalFee": " 此提现需要支付费用{{withdrawalFee}} {{token}}。确认后，您将收到减去{{withdrawalFee}}的提现金额。"
+      }
+    }
+  },
+  "signUp": {
+    "email": {
+      "label": "电子邮箱",
+      "placeholder": "电子邮箱"
+    },
+    "features": {
+      "crypto": "货币进出",
+      "expensive": "昂贵的",
+      "fairness": "一个交易平台，全球的金融契约",
+      "limited": "受限的",
+      "settlements": "更快地成交，更低的费率",
+      "title": "Crypto交易所特点",
+      "unfair": "不公平的"
+    },
+    "mobile": {
+      "label": "手机号  ",
+      "placeholder": "手机号"
+    },
+    "or": "或",
+    "password": {
+      "placeholder": "选择密码",
+      "passwordRequirements": "密码长度必须为8个字符或以上，需要包含至少一个数字、大小写字母及特殊符号。"
+    },
+    "referral": {
+      "title": "看起来你找到了邀请码！注册以获得前六个月交易的20％折扣时间有限。"
+    },
+    "signUp": "注册",
+    "title": "注册"
+  },
+  "socialButton": {
+    "logIn": {
+      "label": "使用<1> {provider} </ 1>登录"
+    },
+    "signUp": {
+      "label": "使用<1> {provider} </ 1>注册"
+    }
+  },
+  "socketStatus": {
+    "closed": "未连接",
+    "connecting": "链接中",
+    "open": "已连接",
+    "reconnecting": "重新链接",
+    "reconnectingIn": "重新链接"
+  },
+  "table": {
+    "columnsManagement": {
+      "submit": "完成",
+      "title": "管理列表"
+    },
+    "emptyText": "没有数据"
+  },
+  "title": "Crypto加密货币衍生品交易所 | 用您的比特币交易期货",
+  "trader": {
+    "accountDetails": {
+      "disabledMaxLeverageTooltip": "仅在没有未平仓仓位或合约的情况下，才可以调整最大帐户杠杆",
+      "maxLeverage": " 最大帐户杠杆",
+      "rows": {
+        "availableCollateral": "可用保证金:",
+        "effectiveLeverage": "有效杠杆:",
+        "initialMargin": "初始保证金:",
+        "maintenanceMarginRatio": "维持保证金率:",
+        "marginRatio": "保证金率:",
+        "maximumLeverage": "最大杠杆:",
+        "totalCollateral": "总保证金:"
+      },
+      "title": "账户"
+    },
+    "accountBalance": {
+      "accountSummary": "账户概括",
+      "availableMargin": "可用保证金",
+      "availableMarginDescription": "您的余额可以用来下新订单和增加仓位。如果余额为负，则您需要存入相应金额，以便能够下单和持仓。请在\"帮助和支持\"中获得更多详细信息。",
+      "buyingPower": "购买力",
+      "buyingPowerDescription": "您的余额可以用来下新订单和增加仓位。如果余额为负，则您需要存入相应金额，以便能够下单和持仓。请在\"帮助和支持\"中获得更多详细信息。",
+      "dayPl": "当日盈亏",
+      "dayPlDescription": "当天的总盈亏变化（自UTC时间午夜起）。",
+      "effectiveLeverage": "有效杠杆",
+      "effectiveLeverageDescription": "有效杠杆是所有头寸的总市值除以账户价值(净流动性)。",
+      "initialMargin": "初始保证金",
+      "initialMarginDescription": "增加现有仓位所必须的净流动资金。请在\"帮助和支持\"中查看详细信息。",
+      "liquidationLevel": "强平价格",
+      "liquidationLevelDescription": "保持仓位所必须的净流动资金。如果低于该水平，您的全部投资组合将被自动平仓。",
+      "netLiquidity": "净流动资产",
+      "netLiquidityDescription": "所有代币余额加上未实现盈亏",
+      "netPosition": "净仓位",
+      "orderHolds": "委托持有量",
+      "orderHoldsDescription": "用于持有活跃定单的余额。如果您关闭定单，该数值会降低，然后您将会拥有更多可用的保证金。如果您的定单被转换为开放/增加的仓位，该数值将降低，而且您的初始保证金门槛将会提高。",
+      "realizedPl": "已实现盈利",
+      "realizedPlDescription": "当天（自UTC午夜起）在已了结的或部分了结的持仓中实现的盈利或亏损（(P/L)）",
+      "tokenBalance": "代币余额",
+      "totalPl": "总盈利",
+      "totalPlDescription": "所有未平仓的未实现利润或亏损（盈亏），加上当日(自午夜UTC)的已实现利润或亏损。",
+      "unrealizedPl": "未实现盈亏",
+      "unrealizedPlDescription": "持有仓位中的未实现盈利"
+    },
+    "chart": {
+      "compare": "+比较",
+      "emptyText": "没有日期",      
+      "title": "图表",
+      "type": {
+        "bar": "美国线",
+        "baseline_delta": "绘制丰度",
+        "candle": "蜡烛线",
+        "heikinashi": "平均k线",
+        "histogram": "直方图",
+        "hlc": "HLC",
+        "line": "线性图",
+        "linebreak": {
+          "name": "越线",
+          "settings": {
+            "priceLines": "价格线",
+            "title": "设定价格线"
+          }
+        },
+        "mountain": "山形图",
+        "ohlc": "OHLC",
+        "pandf": {
+          "name": "点值图",
+          "settings": {
+            "box": "箱体",
+            "reversal": "反转",
+            "title": "盘点和图形参数"
+          }
+        },
+        "rangeBars": {
+          "name": "范围棒",
+          "settings": {
+            "range": "范围图",
+            "title": "设定范围"
+          }
+        },
+        "rangechannel": "范围渠道",
+        "renko": {
+          "name": "砖型图",
+          "settings": {
+            "renko": "伦科",
+            "title": "设定范围"
+          }
+        },
+        "scatterplot": "散点图",
+        "step": "阶梯图",
+        "wave": "波浪图"
+      },
+      "ui": {
+        "AggregationEdit": {
+          "reset": "重置",
+          "save": "保存"
+        },
+        "drawing": {
+          "title": "绘图工具",
+          "toggle": "绘图"
+        },
+        "hud": {
+          "toggle": "切换信息显示"
+        },
+        "periodicity": {
+          "title": "周期性"
+        },
+        "preferences": {
+          "logScale": "对数刻度",
+          "title": "设定",
+          "volumeSeries": "显示交易量"
+        },
+        "studySelect": {
+          "activeStudies": "启用技术指标",
+          "clearAll": "清理所有技术指标",
+          "studies": "技术指标",
+          "title": "技术指标"
+        },
+        "studySettings": {
+          "save": "保存",
+          "title": "<0> {dialogHelper.title} </ 0>设置"
+        },
+        "style": {
+          "title": "图表样式",
+          "trigger": "显示"
+        }
+      }
+    },
+    "columnsManagement": {
+      "manageColumns": "管理列表"
+    },
+    "contract": {
+      "askPrice": "卖价",
+      "bidPrice": "买价",
+      "code": "合约",
+      "currency": {
+        "base": "基准货币：",
+        "quote": "报价货币："
+      },
+      "effectiveLeverage": "可用的杠杆 ({{contract}} only): ",
+      "expires": "过期",
+      "funding": "资金费率",
+      "futureLabel": "期货",
+      "lastTradePrice": "最新<1></1>",
+      "margin": {
+        "initial": "起始保证金:",
+        "liquidation": "清算保证金: ",
+        "requirements": "{{contract}} 保证金要求"
+      },
+      "maxLeverage": "最大杆杠倍数",
+      "maxLeverageTooltip": "{{position}}位置上{{contract}}的最大杠杆是{{maxLeverage}}x。当你的头寸规模增加时，你的最大可用杠杆将减少。",
+      "notFound": "无合约",
+      "placeholder": "按合约搜索",
+      "select": "选择合约",
+      "spotLabel": "现货",
+      "swap": {
+        "fundingRate": "资金费用: ",
+        "info": "如果为正，多头会向空头支付。如果为负，空头向多头支付。",
+        "predictedRate": "预估费用: ",
+        "title": "{{contractCode}} 永续期货资金交易细节"
+      },
+      "swapLabel": "永续合约",
+      "type": "种类"
+    },
+    "contractBar": {
+      "perpetual": "永续",
+      "settings": "设置"
+    },
+    "contractDetails": {
+      "rows": {
+        "baseCurrency": "基础货币:",
+        "expiryTime": "交割日期:",
+        "indexPrice": "现货指数:",
+        "markPrice": "标记价格:",
+        "nextFundingTime": "下次资金费用结算时间:",
+        "openInterest": "持仓量:",
+        "predictedRate": "预测资金费率:",
+        "premium": "年化溢价:",
+        "quoteCurrency": "标价货币:",
+	"spreadContractCodeBack": "远期（做多）：",
+        "spreadContractCodeFront": "近期（做空）：",
+        "ticker": "币种:",
+        "underlying": "标的:",
+        "volume": "24小时成交量:"
+      },
+      "title": "合约信息",
+      "marketDetails": "市场明细"
+    },
+    "control": {
+      "cancel": "取消",
+      "close": "关闭",
+      "confirm": "确认",
+      "copy": "点击即复制",
+      "copySuccess": "复制成功！",
+      "delete": "删除",
+      "edit": "编辑",
+      "Edit": "编辑",
+      "move": "移动",
+      "remove": "移除",
+      "settings": "设置"
+    },
+    "modal": {
+        "convert": {
+        "body": "为使您的美元余额由负数转为0，将从您的其他代币余额中扣除相应金额。",
+        "button": "转换",
+        "loading": "正在转换…",
+        "title": "转换负数余额",
+        "learnMore": "点击此处以了解更多信息。"
+      },
+      "deposit": {
+        "button": "充值",
+        "message": "您必须存入资金才能开始在Crypto上交易。",
+        "title": "下一步：为您的账户充值资金"
+      },
+      "kyc": {
+        "button": "验证身份",
+        "message": "您必须验证您的身份，才能开始在Crypto上交易。",
+        "title": "下一步：验证您的身份"
+      },
+      "optOut": "不，谢谢。我想留在这一页上。",
+      "tokenTerms": {
+        "accept": "同意条款",
+        "checkbox": "我同意以上条款",
+        "default": {
+          "paragraph1": "通过勾选以下方框，您在此理解、同意并承认，令牌和平台仅适用于美国以外的国家和非美国的国家。在适用法律或法规禁止或以任何方式限制涉及数字资产的交易的司法管辖区，任何人均不可使用。目前在不同司法管辖区，证券、商品、金融、税务和其他法律以及与令牌和数字资产有关的任何法规的适用，以及其他的适用，都存在很大的不确定性。"
+        },
+        "saftHolder": {
+          "paragraph1": "选中以下方框，即表示您同意并确认,BW Group Ltd.塞舌尔共和国法律组建的获豁免公司（\"公司\"），向您（\"持有人\"）交付 CRYP币（\"代币\"），则您与公司之间在该\"合约代币协议\"（\"协议\"）下公司的所有义务均已全部履行，并已根据该协议第1（e）条终止。",
+          "paragraph2": "您进一步了解、同意并确认，代币和平台仅在美国境外和非美国用户可用，对于与数字资产有关的交易被适用的法律或法规禁止或以任何方式受到限制的司法管辖区的人士，则不能使用。目前，在证券、商品、金融、税收和其他法律及与代币和数字资产有关的任何法规的应用在不同司法管辖区存在很大的不确定性，而其他法律和法规的应用可能是针对具体情况的，并可能会发生变化。这些代币旨在在Crypto平台上可用，尽管该代币并非证券的要约和出售，但美国证券交易委员会(sec)或其他监管机构仍可能将代币的要约和出售视为证券的要约和出售，这存在重大风险。阁下须了解并遵守阁下管辖范围内与代币有关的任何限制及任何相关文件及通讯，并遵守与代币的任何要约、出售或转让有关的所有适用法律。令牌不得提供、出售或以其他方式转让，除非完全符合所有转让限制、转让先决条件以及转让方和受让方管辖范围内的所有适用法律、规则和法规。特别是，代币不能被转移到美国个人或在美国境内，或转为美国个人或美国人的账户或利益，并且公司保留施加限制的权利，以防止或使任何可能被视为违反适用法律的转售无效。",
+          "paragraph3": "通过勾选以下方框，您在此声明并保证，本协议第5条中包含的每项声明和保证在本协议签订之日是真实和正确的，就像在本协议签订之日做出的一样。"
+        },
+        "title": {
+          "default": "CRYP代币条款",
+          "saftHolder": "CRYP 代币条款 (SAFT Holder)"
+        }
+      }
+    },
+    "modifyOrder": {
+      "title": "修改委托"
+    },
+    "notifications": {
+      "empty": "您目前没有通知。",
+      "kycError": "您现在无法下订单。您必须通过KYC验证才能在Crypto上进行交易。",
+      "order": {
+        "accepted": {
+          "action": "已接受",
+          "body": "您的{{orderType}}委托订单，在{{contractCode}}用{{priceStr}}的{{buyOrSell}} {{size}}委托已经被{{action}}.",
+          "priceStr": " 限价 {{price}}",
+          "subject": "订单接受",
+          "withPrice": "限价{{price}}"
+        },
+        "canceled": {
+          "body": "订单 {{orderId}}已被取消。",
+          "subject": "委托订单取消"
+        },
+        "cancelRejected": {
+          "subject": "取消被拒绝"
+        },
+        "filled": {
+          "body": "订单{{orderId}}已按{{avgFillPrice}}完成填充",
+          "subject": "委托订单完成填充"
+        },
+        "filledPartial": {
+          "body": "{{delta}} 您的的{{orderId}}合约订单已经在 {{fillPrice}} 完成填充(剩下{{remaining}}合约 ).",
+          "subject": "委托订单部分完成填充"
+        },
+        "modified": {
+          "action": "已修改",
+          "body": "订单 {{orderId}}已被修改。现在的委托订单是一个 {{buyOrSell}} {{size}} 的{{contractCode}} 订单，{{orderType}} {{priceStr}}.",
+          "subject": "委托订单被修改"
+        },
+        "modifyRejected": {
+          "subject": "修改被拒绝"
+        },
+        "rejected": {
+          "message": {
+            "fundsLimit": "不能下次订单{{side}} {{quantity}} {{contractCode}}. 对于目前的资金，{{contractCode} {{side}}订单的最大允许大小为{{maxSize}}。如果你想下一个更大的订单，可以增加资金，取消订单，或者平仓。",
+            "fundsLimitCombined": "基于当前资金情况无法向{{side}} {{size}} {{contractCode}}下订单。{{contractCode}}允许的最大仓位是{{positionLimitFromFunds}}合同。这个订单(加上其他未完成的订单)可能会超过这个限额。如果您想下一个更大的订单。增加资金，取消订单，或关闭位置，",
+            "fundsLimitZero": "不可下次订单{{quantity}} {{contractCode}}. 向{{side}} {{contractCode}}添加资金、取消订单或关闭头寸。",
+            "invalidPostOnly": "您的被动委托订单会被当作非挂单而被拒绝。",
+            "invalidReduceOnly": "您的仅减少订单已经被拒绝，因为他们是和您现有的仓位同一个方向的。",
+            "limitPriceProtection": "限价单必须在参考价格的 {{threshold}}%内定价。",
+            "maintenance": " {{contractCode}} 市场因为维护所以关闭。",
+            "maxOrders": "每个合同的有效订单不得超过25个",
+            "positionLimitCombined": "无法提交订单 {{side}} {{size}} {{contractCode}}。此订单(与其他未平仓订单一起)可能会使您超过{{positionLimit}}合同的{{contractCode}}的头寸限制。",
+            "positionLimitSingle": "不能下次订单{{quantity}} {{contractCode}}. 次订单会让您超过{{positionLimit}}合同{{contractCode}}的仓位限制。",
+            "selfTrade": "你的订单将被作为自营交易被拒绝。"
+          },
+          "subject": "委托订单被拒绝"
+        },
+        "triggered": {
+          "body": "您的{{contractCode}}{{buyOrSell}} {{size}}委托订单 {{orderId}}已经被触发，将将被纳入下一次竞价中。",
+          "subject": "委托订单被触发"
+        }
+      },
+      "state": {
+        "complete": {
+          "body": "您已被清仓。现有所有的订单已被取消，但现在可以放入新的订单。",
+          "subject": "账户强平已完成"
+        },
+        "liquidation": {
+          "body": "你的净流动资金已经低于清算水平。你的头寸将立即平仓。",
+          "subject": "账户强平"
+        }
+      },
+      "transfer": {
+        "complete": {
+          "body": "您的 {{transferType}}的 {{amount}} {{tokenCode}}已完成",
+          "subject": "{{transferType}}完成 {{transferId}}"
+        }
+      }
+    },
+    "orderBook": {
+      "columns": {
+        "myOrders": "我的委托",
+        "mySize": "我的目前仓位数量",
+        "price": "价格",
+        "size": "目前仓位数量",
+        "total": "总",
+        "totalQty": "全部"
+      },
+      "noAsks": "无卖价",
+      "noBids": "无标价",
+      "title": "委托列表",
+      "updatePrice": "更改价格",
+      "yourOrder": "您的现有委托在这个价格水平所剩下的数量",
+      "incrementAggregation": "增加深度合并。现时数值: {{currentAggregation}}",
+      "decrementAggregation": "分拆深度合并。现时数值: {{currentAggregation}}"      
+    },
+    "orderEntry": {
+      "autoliquidation": "自动清算",
+      "autoliquidationTooltip": "下此订单将导致自动清算帐户。",
+      "buy": "做多",
+      "confirmation": {
+        "contract": "合约",
+        "currentPosition": "当前的头寸",
+        "dontShowAgain": "不再显示",
+        "estLiqPrice": "预估清算价格",
+        "fee": "手续费 (如果是吃单)",
+        "leverageAfterExecution": "执行后的组合杠杆",
+        "liqDelta": "标的价格 /  预估平仓价格",
+        "positionAfterExecution": "执行后的仓位头寸",
+        "price": "价格",
+        "rebate": "返还 (如果是挂单)",
+        "showConfirmation": "显示订单确认",
+        "side": "买/卖",
+        "size": "目前仓位数量",
+        "title": "订单确认",
+        "total": "总数",
+        "type": "类型"
+      },
+      "estBuyNotional": "预估买入价格",
+      "estBuyPrice": "预估买入价格",
+      "estBuyQty": "预估买入数量。 （{{contractCode}}）",
+      "estLiqPriceBuy": "预估清算价格 - 做多",
+      "estLiqPriceSell": "预估清算价格 - 做空",
+      "estSellNotional": "预估卖出价格",
+      "estSellPrice": "预估做空价格",
+      "estSellQty": "预估卖出数量。 （{{contractCode}}）",
+      "limit": "限价",
+      "limitAbbreviated": "限价",
+      "limitPrice": "限价<1></1>",
+      "market": "市价",
+      "marketAbbreviated": "市价",
+      "marketQtyEstimateCaution": "注意：该数目是指以您输入的名义价值根据当前市场深度估算的可交易的{{contractCode}}数目。您将为此金额提交市价委托单，但我们不能保证它将以输入的特定名义价值成交。",
+      "marketValueEstimateCaution": "注意：该数值是以您输入的合同数量根据当前市场深度估算的可交易的美元数值。但是我们不能保证您的市场订单将按上述金额成交。",
+      "maxBuy": "最大买入:",
+      "maxNA": "N/A",
+      "maxSell": "最大卖出：",
+      "notionalValue": "名义价值（{{notionalValue}}）",
+      "order": "订单",
+      "orderType": {
+        "limit": "限价订单",
+        "market": "市价",
+        "trailingStopMarket": "追踪市价订单",
+        "trailingStopMarketPercent": "追踪市价 (%)"
+      },
+      "postOnly": {
+        "title": "被动委托",
+        "tooltip": "只有在成为挂单方的情况下，被动委托才会被执行，其他情况下该委托会自动终止。在大多数情况下，做市商会使用 被动委托订单来确保他们获得吃单返利。"
+      },
+      "price": "价格",
+      "quantity": "数量",
+      "quantityContract": "数量 ({{seriesCode}})",
+      "quantityValue": "数量 (<1>{props.contractCode}</1>)",
+      "reduceOnly": {
+        "title": "仅减仓",
+        "tooltip": "一个\"仅减仓\"合约只能减少或者关闭您的现有仓位。您可以使用\"仅减仓\"合约来确保您的订单不会增加您的仓位"
+      },
+      "sell": "做空",
+      "stop": "止损",
+      "stopDescription": "止损单能够让您指定一个价格，在低于该价格时卖出，或者在高于该价格时买入。这种类型的交易命令能够帮助交易中及时止损。",
+      "stopLimit": "限价止损",
+      "stopMarket": "止损",
+      "stopMarketTrailing": "追踪止损",
+      "stopPrice": "触发价格<1></1>",
+      "stopTrigger": {
+        "index": "指数价格",
+        "last": "最新价格",
+        "mark": "标记价格",
+        "title": "触发",
+        "tooltip": "指定当止损价格超过标的价格、最后交易价格或基础指数价格时，订单是否应该触发。"
+      },
+      "stopType": {
+        "title": "将执行",
+        "tooltip": "指定当您的触发价格达到时，此订单将作为限价订单还是市场订单执行。"
+      },
+      "take": "止盈",
+      "takeLimit": "限价",
+      "takeMarket": "市价",
+      "takeProfit": "止盈",
+      "takeProfitDescription": "止盈单能够让您指定一个价格，在达到或者高于该价格时卖出，或者在达到或低于该价格时买入。这种类型的交易命令能够帮助交易者设置盈利目标或者开始持仓。",
+      "takeProfitPrice": "止盈价格<1></1>",
+      "title": "提交委托",
+      "trade": "交易",
+      "trailValue": {
+        "title": "追踪价格<1></1>",
+        "tooltip": {
+          "notional": "触发价格需要(以价格货币)向触发止损指令的方向移动的数量。例如，如果这是一个止损买入，而偏移量是5美元，那么在订单的生命周期内，如果触发价格从低点向上移动5美元，就会触发止损。",
+          "percent": "触发价格需要移动的金额(以价格货币的百分比为单位)，移动方向为触发止损的指令。例如，如果这是一个止损买入，而偏移量是5%，那么如果在订单的生命周期内，触发价格从低点向上移动5%，那么止损将被触发。"
+        }
+      },
+      "triggerPrice": {
+        "title": "触发<1></1>",
+        "tooltip": {
+          "stop": "该指令将触发的价格当低于（做空）或高于(做多)。",
+          "take": "这个价格将被触发如果高于（做空）或者低于（做多）。"
+        }
+      }
+    },
+    "orders": {
+      "allContracts": "所有合约",
+      "cancelAllOrders": "取消所有委托({{contract}})",
+      "columns": {
+        "age": "时间",
+        "avgFillPrice": "平均成交价",
+        "contract": "合约",
+        "date": "日期",
+        "dateTooltip": "提交订单的时间。",
+        "fee": "费用",
+        "fillFees": "费用",
+        "name": "币",
+        "orderId": "订单号",
+        "postOnly": "被动委托",
+        "price": "价格",
+        "priceTooltip": "如果这是止损或止盈委托，这分别指止损价格或止盈价格。",
+        "qtyFilled": "数量成交",
+        "quantity": "数量",
+        "quantityFilled": "数量成交",
+        "quantityFilledAbbreviated": "完成成交的数量",
+        "reduceOnly": "仅减仓",
+        "side": "买/卖",
+        "status": "状态",
+        "stopPrice": "触发价格<1></1>",
+        "takeProfitPrice": "止盈价格<1></1>",
+        "ticker": "币种",
+        "triggerPrice": "触发<1></1>",
+        "triggerPriceTooltip": "指的是止损价格或止盈价格，只适用止损或止盈订单。",
+        "type": "种类",
+        "volume": "成交量（24小时）"
+      },
+      "fills": "完成成交",
+      "filter": "过滤到当前选定的合同",
+      "modify": "修改",
+      "noFills": "未完成",
+      "noOrderHistory": "无委托历史",
+      "noOrders": "无委托",
+      "orderHistory": "委托历史",
+      "orders": "订单",
+      "rejected": "委托拒绝：{{message}}"
+    },
+    "positions": {
+      "avgExecutionPrice": "平均执行价格",
+      "avgExecutionPriceFull": "该仓位生命周期内的平均执行价格。",
+      "balances": {
+        "balance": "余额",
+        "deposit": "充值",
+        "freeBalance": "可用余额",
+        "freeBalanceTooltip": "您的总代币余额不受提现请求或现货订单的限制。",
+        "noBalances": "没有余额",
+        "price": "价格",
+        "title": "余额",
+        "token": "代币",
+        "withdraw": "提现"
+      },
+      "contract": "合约",
+      "dayPl": "当日盈亏",
+      "dayPlDescription": "当天的总盈亏变化（自UTC时间午夜起）。",
+      "lastTradePrice": "最新成交价格",
+      "liquidationPrice": "强平价格",
+      "liquidationPriceDescription": "在您的其他仓位的大小以及市价不变的情况下，合约标示价代表了您的账户会被自动清算时合约价格",
+      "liquidationPriceTooltip": "如果这是唯一持有的仓位，合约价格的变化不会单独导致清算。",
+      "marketValue": "市场价格",
+      "markPrice": "标记价格",
+      "markPriceDescription": "标示价被用于计算未实现盈亏以及执行自动清算。您可以在帮助与用户支持中查看更多关于它的信息",
+      "noPositions": "无仓位",
+      "position": "仓位",
+      "price": "价格",
+      "quantity": "数量",
+      "realizedPl": "已实现盈利",
+      "realizedPlDescription": "当天（自UTC午夜起）在已了结的或部分了结的持仓中实现的盈利或亏损（(P/L)）",
+      "title": "仓位",
+      "totalPl": "总盈亏额",
+      "totalPlDescription": "所有未平仓的未实现利润或亏损(盈亏)加上当日(自午夜UTC起)的已实现利润或亏损。",
+      "unrealizedPl": "未实现盈利",
+      "unrealizedPlDescription": "持有仓位中的未实现盈利",
+      "widgetConfig": {
+        "showConfirmation": "在关闭仓位时显示确认信息。"
+      }
+    },
+    "timeAndSales": {
+      "columns": {
+        "price": "价格",
+        "size": "数量",
+        "time": "时间"
+      },
+      "minTradeSize": {
+        "all": "所有",
+        "title": "最小的交易数量"
+      },
+      "title": "时间和价格"
+    },
+    "tradeMode": {
+      "cancelAllBuys": "取消所有买入委托",
+      "cancelAllOrders": "取消所有订单",
+      "cancelAllSells": "取消所有卖出委托",
+      "closePosition": "关闭仓位",
+      "confirmClosePosition": "清仓将会产生一个{{size}} {{contract}}的{{orderType}}市价委托单。",
+      "confirmOrder": "确认订单",
+      "filled": "完成成交",
+      "manage": "管理",
+      "noPosition": "您目前在{{contract}}中没有任何仓位。",
+      "price": "价格",
+      "recenter": "居中",
+      "size": "数量",
+      "title": "交易模式",
+      "total": "总"
+    },
+    "transfers": {
+      "table": {
+        "column": {
+          "amount": "总共",
+          "confirmed": "确认",
+          "created": "已创建",
+          "status": "状态",
+          "token": "代币",
+          "transferId": "转账编号",
+          "type": "种类"
+        }
+      }
+    },
+    "widget": {
+      "resetConfig": "重置部件"
+    }
+  },
+  "validation": {
+    "alias": {
+      "length": "别名必须从{{minLength}}到{{maxLength}}个字符长"
+    },
+    "checked": "必填选项",
+    "code": {
+      "invalid": "必须含有6个字符"
+    },
+    "date": {
+      "invalid": "日期无效"
+    },
+    "email": {
+      "invalid": "电子邮件无效",
+      "length": "电子邮件必须包含最多{{maxLength}}个字符"
+    },
+    "maxValue": {
+      "invalid": "字段不能超过{{max}}"
+    },
+    "multipleOf": {
+      "invalid": "字段必须是{{step}}的倍数"
+    },
+    "number": {
+      "invalid": "字段必须是一个数字"
+    },
+    "password": {
+      "invalid": "密码无效",
+      "length": "密码必须包含至少{{minLength}}字符"
+    },
+    "positiveNumber": {
+      "invalid": "字段必须大于0"
+    },
+    "required": "必填"
+  },
+  "verifyEmail": {
+    "changeEmail": "更改电子邮箱",
+    "continue": "继续",
+    "message": "我们已向您发送了一封包含验证码的电子邮件。 <1> </ 1>请输入以下代码继续。",
+    "resendCode": "重发验证码",
+    "title": "确认您的信箱"
+  },
+  "verifyMobile": {
+    "changeMobile": "更改手机号",
+    "continue": "继续",
+    "message": "我们已向您发送了一条包含验证码的短信。 <1> </ 1>请输入以下代码继续。",
+    "resendCode": "重发验证码",
+    "title": "确认您的手机号"
+  },
+  "waitlist": {
+    "lastWeekWinners": "上周的赢家",
+    "learnAboutFuturesLink": "现在您可以慢慢<1>研究期货交易</1>",
+    "subtitle": "我们会在您的申请获得接受之后向您发出通知。",
+    "title": "您在等待名单上"
+  },
+  "widget": {
+    "outage": "该合同目前正在进行维护。",
+    "outageReturns": "您将在拍卖恢复前10分钟提交新的委托订单。",
+    "outageWithReturnTime": "该合同目前正在进行维护。{{合同}}的交易预定在接下来恢复:",
+    "postOnly": "该合同目前处于摆盘模式。拍卖将于",
+    "scheduledClose": "市场现在关闭。交易将于：",
+    "unauthed": "您必须登录才能使用此部件。"
+  }
+}

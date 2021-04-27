@@ -1,0 +1,26 @@
+.tabs {
+  display: flex;
+
+  .tab {
+    cursor: pointer;
+    margin-right: 15px;
+    color: @text-color;
+
+    .trader-badge {
+      font-size: @font-size-nav;
+
+      &-count {
+        margin-left: 2px;
+      }
+    }
+
+    &.active {
+      color: @heading-color;
+      border-bottom: 1px solid @heading-color;
+
+      .trader-badge {
+        color: @heading-color;
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.logged-out-placeholder,
+.contract-outage-placeholder {
+  .trader-empty-footer {
+    display: flex;
+    justify-content: center;
+
+    .ant-btn {
+      margin: 0 5px;
+    }
+  }
+
+  .trader-btn {
+    margin: 12px 5px;
+    width: 80px;
+    font-size: @font-size-md;
+    vertical-align: middle;
+
+    .icon-trading {
+      font-size: 14px;
+      margin-left: -@padding-xs;
+    }
+  }
+}
+
+.contract-outage-placeholder {
+  @media @mobile {
+    flex: auto;
+
+    .trader-empty-description {
+      font-size: @font-size-lg;
+    }
+
+    .trader-empty-footer {
+      justify-content: flex-start;
+    }
+  }
+
+  .trader-form-text {
+    padding-right: 0;
+  }
+}

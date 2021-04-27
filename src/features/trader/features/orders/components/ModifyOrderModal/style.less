@@ -1,0 +1,84 @@
+.modify-order-modal {
+  .order-form {
+    .flex-grow();
+    .flex-vertical();
+    margin-top: 12px;
+
+    &-inputs {
+      flex-direction: column;
+
+      .trader-input-number {
+        width: 100%;
+        border-color: @gray-darkest !important;
+      }
+    }
+
+    .size-notional-select-wrapper {
+      .order-entry-size-select {
+        @media @desktop {
+          width: 20%;
+        }
+      }
+    }
+    &-stop_limit,
+    &-take_limit {
+      .order-entry-price-stop-order-type-select {
+        margin-top: 0;
+      }
+    }
+  }
+
+  .size-estimate-disclaimer {
+    margin: -10px 0 15px 0;
+    font-size: @font-size-sm;
+  }
+
+  .size-estimate-sell {
+    align-self: flex-start !important;
+    order: -1;
+
+    .trader-form-item-label {
+      text-align: left !important;
+    }
+    .trader-form-item-children {
+      float: left !important;
+    }
+  }
+  .liq-estimate-hidden {
+    display: none;
+  }
+
+  .order-entry-price-trigger-select {
+    .trader-select-selection {
+      border-color: @gray-darkest;
+    }
+  }
+
+  @media @mobile {
+    .size-estimate-disclaimer {
+      font-size: @font-size-md;
+      margin-bottom: 20px;
+    }
+    .order-entry-price-input-wrapper {
+      .ant-row {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+
+        &:nth-child(2) {
+          margin-left: 10px !important;
+        }
+      }
+    }
+
+    .order-summary-table-condensed {
+      margin-bottom: 0;
+    }
+  }
+
+  .reduce-only-checkbox-wrapper,
+  .post-only-checkbox-wrapper {
+    .trader-form-item {
+      padding-bottom: 8px;
+    }
+  }
+}

@@ -1,0 +1,411 @@
+.order-form {
+  .flex-vertical();
+
+  .trader-btn-block {
+    align-self: flex-end;
+  }
+
+  .trader-form-text {
+    span {
+      color: @gray;
+    }
+  }
+
+  @media @desktop {
+    .trader-form-vertical {
+      .order-form-inputs {
+        display: flex;
+      }
+    }
+
+    .trader-btn-space-group {
+      .flex-grow();
+    }
+
+    .trader-input-number {
+      width: 100%;
+      height: 30px;
+
+      &-input-wrap,
+      input {
+        height: 30px;
+        line-height: 30px;
+      }
+    }
+  }
+
+  .trader-radio-group-group {
+    .anticon-info-circle {
+      margin: 3px 0 0 5px;
+    }
+  }
+
+  .order-side-radio-wrapper {
+    .trader-radio-group {
+      display: flex;
+      align-items: stretch;
+      align-content: stretch;
+
+      .trader-radio-button-wrapper {
+        flex-grow: 1;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: @font-size-md;
+        height: 32px;
+        line-height: 30px;
+      }
+    }
+  }
+
+  .order-side-radio-wrapper-sell {
+    .trader-radio-button-wrapper-checked {
+      color: @red-negative;
+    }
+  }
+
+  .order-side-radio-sell {
+    &:hover {
+      color: @red-negative;
+    }
+  }
+
+  .order-type-radio-wrapper {
+    margin-top: 5px;
+
+    .trader-radio-group {
+      display: flex;
+      align-items: stretch;
+      align-content: stretch;
+
+      .trader-radio-button-wrapper {
+        flex-grow: 1;
+        text-align: center;
+        height: 30px;
+        line-height: 30px;
+
+        span {
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .size-estimate-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    .trader-form-item-control-wrapper {
+      padding-bottom: 0 !important;
+
+      .trader-form-item-control {
+        padding-top: 0 !important;
+      }
+    }
+
+    .auto-liquidation {
+      color: @red-negative;
+    }
+
+    .liq-estimate-hidden {
+      visibility: hidden;
+    }
+
+    .trader-value {
+      flex: 1;
+    }
+
+    .red-negative {
+      .trader-form-text {
+        color: @red-negative !important;
+        font-weight: @font-bold;
+      }
+    }
+
+    .size-estimate-sell {
+      align-self: flex-end;
+
+      .trader-form-item-label {
+        text-align: right;
+      }
+      .trader-form-item-children {
+        float: right;
+      }
+
+      @media @mobile {
+        label {
+          font-size: @font-size-sm;
+        }
+      }
+    }
+
+    .size-estimate-sell-modify {
+      align-self: flex-start;
+
+      .trader-form-item-label {
+        text-align: left;
+      }
+      .trader-form-item-children {
+        float: left;
+      }
+    }
+
+    .size-estimate-buy {
+      @media @mobile {
+        label {
+          font-size: @font-size-sm;
+        }
+      }
+    }
+
+    .trader-form-item-children {
+      display: inline-block;
+    }
+  }
+
+  .size-notional-select-wrapper {
+    width: 100%;
+    position: relative;
+
+    .order-entry-size-select {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 50%;
+      z-index: 2;
+
+      .trader-select-disabled {
+        .trader-select-selection {
+          background: transparent !important;
+
+          .trader-select-selection-selected-value {
+            padding-right: 0 !important;
+          }
+
+          .trader-select-arrow {
+            display: none;
+          }
+        }
+      }
+
+      #sizeType {
+        .trader-select-selection-selected-value {
+          color: @gray-light !important;
+        }
+
+        .trader-select-selection {
+          border-radius: 0 6px 6px 0;
+          border-width: 0;
+          height: 26px;
+          margin-top: 13px;
+
+          .trader-select-selection-selected-value {
+            padding: 3px 20px 0 0;
+            color: @gray-darker;
+            float: right;
+          }
+        }
+        .trader-select-arrow {
+          margin-top: -4px;
+          color: @gray !important;
+        }
+      }
+
+      @media @mobile {
+        #sizeType {
+          .trader-select-selection {
+            margin-top: 20px;
+            font-size: @font-size-lg;
+          }
+        }
+      }
+
+      .trader-select-enabled {
+        .trader-select-selection {
+          border-width: 0 !important;
+        }
+      }
+    }
+
+    .trader-input-number-handler-wrap {
+      display: none;
+    }
+
+    .order-entry-size-form-item,
+    .order-entry-notional-size-form-item {
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  @media @mobile {
+    .size-estimate-disclaimer {
+      font-size: @font-size-md;
+      margin-bottom: 20px;
+    }
+  }
+
+  .max-buy-sell-wrapper {
+    margin: 0 0 14px 0;
+
+    div:last-child {
+      float: right;
+    }
+
+    .max-size {
+      color: @dark;
+      display: inline-block;
+
+      span {
+        padding-right: 0;
+      }
+    }
+
+    .max-size-clickable {
+      color: @gray-darker;
+      cursor: pointer;
+
+      &:hover {
+        color: @gray-light;
+        opacity: 1;
+      }
+    }
+  }
+
+  @media @mobile {
+    .max-buy-sell-wrapper {
+      font-size: @font-size-md;
+    }
+  }
+
+  .size-input-wrapper {
+    position: relative;
+
+    .position-toggle {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      right: 0;
+      text-align: right;
+      margin-top: -2px;
+      z-index: 10;
+      opacity: 0.8;
+
+      &:hover {
+        opacity: 1;
+      }
+
+      .position-toggle-label {
+        display: inline-block;
+        margin-right: 4px;
+        color: @gray;
+
+        @media @desktop {
+          @media (max-width: 1100px) {
+            display: none;
+          }
+        }
+        @media @mobile {
+          font-size: @font-size-md;
+        }
+      }
+
+      .trader-form-text {
+        padding-right: 0;
+
+        @media @mobile {
+          font-size: @font-size-md;
+        }
+      }
+    }
+  }
+
+  .order-entry-price-input-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+
+    .order-entry-price-input {
+      flex: 1;
+      width: 50%;
+      margin-left: 5px !important;
+      @media @mobile {
+        margin-right: 10px !important;
+      }
+    }
+
+    .order-entry-price-trigger-select,
+    .order-entry-price-stop-order-type-select {
+      flex: 1;
+      width: 50%;
+      margin-right: 5px !important;
+      @media @mobile {
+        margin-left: 10px !important;
+      }
+
+      .trader-select-selection {
+        height: 30px;
+        padding-top: 3px;
+        text-transform: capitalize;
+
+        @media @mobile {
+          height: 38px;
+          margin-top: 0px;
+          font-size: @font-size-lg;
+          padding-top: 6px;
+        }
+      }
+    }
+
+    .order-entry-price-stop-order-type-select {
+      .trader-select-selection {
+        margin-top: -3px;
+      }
+    }
+  }
+
+  &-stop_limit,
+  &-take_limit {
+    .order-entry-price-trigger-select {
+      margin-top: -3px;
+    }
+    .order-entry-price-stop-order-type-select {
+      margin-top: 0 !important;
+    }
+  }
+}
+
+.stop-trigger-select-item {
+  text-transform: capitalize;
+}
+
+.order-form-stop_market,
+.order-form-take_market {
+  .post-only-checkbox-wrapper {
+    display: none;
+  }
+}
+
+.reduce-only-checkbox-wrapper,
+.post-only-checkbox-wrapper {
+  width: 100%;
+
+  .trader-form-text {
+    color: @gray-light;
+  }
+  &:nth-child(2) {
+    padding-left: 10px;
+  }
+
+  .trader-form-item {
+    padding-bottom: 0;
+  }
+
+  .trader-checkbox-inner {
+    border-color: @gray;
+  }
+}
+
+.pair-block {
+  display: flex;
+  justify-content: space-between;
+}

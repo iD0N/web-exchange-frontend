@@ -1,0 +1,73 @@
+.order-book-table-tradable {
+  .trader-table-tbody {
+    .trader-table-row {
+      cursor: default;
+
+      td {
+        .order-entry-cell {
+          color: @darker;
+          font-weight: @font-bold;
+          text-transform: uppercase;
+
+          &-wrapper {
+            height: 100%;
+          }
+
+          &-ask {
+            background: @red-negative;
+          }
+
+          &-bid {
+            background: @green-positive;
+          }
+
+          &:hover {
+            cursor: pointer;
+          }
+        }
+
+        .with-bg {
+          .spread-cell {
+            visibility: hidden;
+            position: absolute;
+            right: 0;
+            left: 0;
+            padding: 4px 8px;
+            z-index: 1;
+            text-align: center;
+            color: @gray;
+            cursor: pointer;
+            text-transform: uppercase;
+
+            &:hover {
+              visibility: visible;
+              opacity: 1;
+              font-weight: @font-bold;
+              color: @darker;
+            }
+
+            &-buy {
+              right: 50%;
+              &:hover {
+                background: @green-positive;
+              }
+            }
+
+            &-sell {
+              left: 50%;
+              &:hover {
+                background: @red-negative;
+              }
+            }
+          }
+
+          &:hover {
+            .spread-cell {
+              visibility: visible;
+            }
+          }
+        }
+      }
+    }
+  }
+}

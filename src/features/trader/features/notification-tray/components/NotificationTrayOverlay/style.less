@@ -1,0 +1,192 @@
+.trader-screen,
+.settings-screen {
+  .ant-notification {
+    width: 400px;
+    right: 10px;
+    left: auto;
+    margin: 74px 0 0 0;
+
+    &-notice {
+      background-color: @background-color-light;
+      border: 1px solid @border-color-base;
+      padding: 0;
+      margin: 0;
+      border-radius: 1px;
+
+      &-close {
+        color: @gray;
+        top: 10px;
+        right: 10px;
+
+        &:hover {
+          color: @white;
+        }
+      }
+
+      &-content {
+        margin-right: 30px;
+      }
+
+      &-with-icon {
+        padding: 10px;
+        color: @white;
+
+        .ant-notification-notice-message {
+          font-family: @code-family;
+          text-transform: uppercase;
+          font-size: @font-size-base;
+          line-height: 1;
+          color: @white;
+          margin: 0 0 0 30px;
+        }
+
+        .ant-notification-notice-icon {
+          font-size: @font-size-md;
+        }
+        .ant-notification-notice-description {
+          font-size: @font-size-md;
+          margin-left: 30px;
+        }
+      }
+    }
+    .anticon-check-circle {
+      color: @green-positive;
+    }
+
+    .anticon-close-circle {
+      color: @red-negative;
+    }
+  }
+
+  @media @mobile {
+    .ant-notification {
+      display: none;
+    }
+  }
+}
+
+.notification-tray-overlay {
+  width: 370px;
+  background-color: @background-color-light;
+  border: 1px solid @border-color-base;
+  border-bottom-width: 0;
+  overflow-y: scroll;
+  padding: 0;
+  border-radius: 1px;
+  position: absolute;
+  right: 0;
+  left: auto !important;
+
+  &::before {
+    display: none;
+  }
+
+  .notification-wrapper-outer-outer {
+    display: flex;
+    flex-direction: column;
+
+    .notification-wrapper-outer-sticky {
+      order: 0 !important;
+
+      .notification-wrapper {
+        color: @white !important;
+      }
+
+      .anticon {
+        color: @red-negative;
+      }
+    }
+
+    .notification-wrapper-outer {
+      order: 1;
+
+      .notification-wrapper {
+        padding: 10px;
+        font-size: @font-size-md;
+        color: @gray;
+        display: flex;
+        align-items: flex-start;
+        border-bottom: 1px solid @border-color-base;
+
+        .anticon {
+          margin: 5px 11px 0 5px;
+        }
+
+        &-inner {
+          padding-top: 3px;
+
+          .see-more,
+          .see-less {
+            cursor: pointer;
+            white-space: nowrap;
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+
+          .notification-subject {
+            font-family: @code-family;
+            text-transform: uppercase;
+            font-size: @font-size-base;
+          }
+
+          .notification-time {
+            display: inline-block;
+            margin-left: 5px;
+            color: @gray;
+            font-size: @font-size-base;
+          }
+        }
+      }
+
+      .notification-unread {
+        color: @gray-light;
+
+        .anticon-check-circle {
+          color: @green-positive;
+        }
+
+        .anticon-close-circle {
+          color: @red-negative;
+        }
+
+        .see-more {
+          color: @blue;
+        }
+      }
+    }
+  }
+}
+
+.notification-tray-overlay-empty {
+  overflow: hidden;
+}
+
+@media @desktop {
+  .notification-tray-overlay {
+    max-height: 600px;
+  }
+}
+
+@media @mobile {
+  .notification-tray-overlay {
+    position: fixed !important;
+    bottom: 0;
+    width: 100%;
+    top: 60px !important;
+
+    .notification-wrapper {
+      font-size: @font-size-lg;
+
+      &-inner {
+        .notification-subject {
+          font-size: @font-size-lg;
+        }
+        .notification-time {
+          font-size: @font-size-lg;
+        }
+      }
+    }
+  }
+}

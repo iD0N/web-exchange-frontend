@@ -1,0 +1,34 @@
+.contract-details-wrapper, .account-details-wrapper {
+  height: 100%;
+
+  .trader-table-wrapper {
+    margin-top: 10px;
+
+    a {
+      color: @white;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .trader-table-row {
+    height: 30px;
+
+    td:nth-child(1) {
+      text-transform: uppercase;
+    }
+    td:nth-child(2) {
+      color: @white;
+    }
+  }
+}
+
+.contract-details-wrapper {
+  .trader-table-row {
+    &:last-child {
+      background-color: transparent;
+    }
+  }
+}

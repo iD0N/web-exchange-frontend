@@ -1,0 +1,86 @@
+.trader-radio {
+  &-wrapper {
+    font-family: @code-family;
+    font-size: 12px !important;
+    color: @white;
+
+    &-checked {
+      color: @input-color;
+    }
+  }
+
+  &-inner {
+    background-color: transparent;
+    border-color: @gray;
+    top: -1px;
+
+    &:after {
+      @radio-dot-size: @radio-size - 6px;
+      width: @radio-dot-size;
+      height: @radio-dot-size;
+      left: (@radio-size - @radio-dot-size) / 2 - 1px;
+      top: (@radio-size - @radio-dot-size) / 2 - 1px;
+      border-radius: 50%;
+    }
+  }
+
+  &-disabled {
+    .trader-radio-inner:after {
+      background-color: @disabled-color;
+    }
+  }
+
+  &-button-wrapper {
+    height: @radio-button-height;
+    line-height: @radio-button-height - 2px;
+    user-select: none;
+
+    &&-checked {
+      background: @item-active-bg;
+      border-color: @item-active-bg;
+      box-shadow: -1px 0 0 0 @item-active-bg;
+      color: @white;
+    }
+
+    &&-disabled {
+      color: @text-color;
+      background: @disabled-bg;
+    }
+  }
+
+  @media @mobile {
+    &-wrapper {
+      font-size: @font-size-lg !important;
+      font-weight: @font-light;
+    }
+
+    &-inner {
+      @radio-size: 18px;
+      width: @radio-size;
+      height: @radio-size;
+
+      &:after {
+        @radio-dot-size: @radio-size - 8px;
+        width: @radio-dot-size;
+        height: @radio-dot-size;
+        left: (@radio-size - @radio-dot-size) / 2 - 1px;
+        top: (@radio-size - @radio-dot-size) / 2 - 1px;
+      }
+    }
+  }
+}
+
+.trader-modal {
+  .trader-radio {
+    &-button-wrapper {
+      border-color: @gray-darkest;
+      &-checked {
+        background-color: @gray-darkest;
+      }
+
+      &::before {
+        background-color: @gray-darkest;
+      }
+    }
+  }
+}

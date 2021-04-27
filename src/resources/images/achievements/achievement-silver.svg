@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="59px" viewBox="0 0 45 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>achievements-02</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50.3325887%" y1="1.34758842%" x2="49.2547963%" y2="117.716559%" id="linearGradient-1">
+            <stop stop-color="#59DDE4" offset="0%"></stop>
+            <stop stop-color="#45A0E5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.992459%" y1="98.7957035%" x2="49.992459%" y2="-26.1579612%" id="linearGradient-2">
+            <stop stop-color="#232C3E" offset="0%"></stop>
+            <stop stop-color="#26384E" offset="13.84%"></stop>
+            <stop stop-color="#2E5777" offset="40.83%"></stop>
+            <stop stop-color="#3C89B9" offset="77.95%"></stop>
+            <stop stop-color="#44A9E4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.0101974%" y1="98.8756324%" x2="50.0101974%" y2="-26.182715%" id="linearGradient-3">
+            <stop stop-color="#232C3E" offset="0%"></stop>
+            <stop stop-color="#26384E" offset="13.84%"></stop>
+            <stop stop-color="#2E5777" offset="40.83%"></stop>
+            <stop stop-color="#3C89B9" offset="77.95%"></stop>
+            <stop stop-color="#44A9E4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.0413115%" y1="98.7957035%" x2="50.0413115%" y2="-26.1579612%" id="linearGradient-4">
+            <stop stop-color="#232C3E" offset="0%"></stop>
+            <stop stop-color="#26384E" offset="13.84%"></stop>
+            <stop stop-color="#2E5777" offset="40.83%"></stop>
+            <stop stop-color="#3C89B9" offset="77.95%"></stop>
+            <stop stop-color="#44A9E4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.027381%" y1="1.41166667%" x2="50.027381%" y2="99.0076984%" id="linearGradient-5">
+            <stop stop-color="#F1F1F1" offset="0%"></stop>
+            <stop stop-color="#AAB0B7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.0387892%" y1="103.886547%" x2="50.0387892%" y2="-3.80381166%" id="linearGradient-6">
+            <stop stop-color="#F1F1F1" offset="0%"></stop>
+            <stop stop-color="#AAB0B7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="79.8948529%" y1="-8.21958289%" x2="16.427114%" y2="69.8384439%" id="linearGradient-7">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="87.72%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Homepage-Update" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Page-update---1-tab" transform="translate(-273.000000, -2148.000000)">
+            <g id="achievements-02" transform="translate(273.000000, 2148.000000)">
+                <polygon id="Shape" fill="url(#linearGradient-1)" fill-rule="nonzero" points="44.7077922 0.118 44.7077922 27.199 36.6136364 35.1345 34.8896104 36.816 9.78896104 36.816 0.233766234 27.199 0.233766234 0.118"></polygon>
+                <polygon id="Shape" fill="url(#linearGradient-2)" fill-rule="nonzero" points="9.1461039 0.118 9.1461039 35.1345 8.09415584 35.1345 0.233766234 28.6445 0.233766234 0.118"></polygon>
+                <rect id="Rectangle-path" fill="url(#linearGradient-3)" fill-rule="nonzero" x="18.0292208" y="0.118" width="8.88311688" height="34.987"></rect>
+                <polygon id="Shape" fill="url(#linearGradient-4)" fill-rule="nonzero" points="44.7077922 0.118 44.7077922 28.6445 36.6136364 35.1345 35.7954545 35.1345 35.7954545 0.118"></polygon>
+                <ellipse id="Oval" fill="url(#linearGradient-5)" fill-rule="nonzero" cx="22.3246753" cy="40.3265" rx="18.4090909" ry="18.585"></ellipse>
+                <ellipse id="Oval" stroke="url(#linearGradient-6)" stroke-width="2.01559752" cx="22.3246753" cy="40.3265" rx="13.0324675" ry="13.157"></ellipse>
+                <path d="M27.5844156,35.1345 L19.1103896,35.1345 C18.0292208,35.1345 17.1818182,36.0195 17.1818182,37.0815 L17.1818182,45.6365 C17.1818182,45.725 17.2402597,45.784 17.3279221,45.784 L25.8019481,45.784 C26.8831169,45.784 27.7305195,44.899 27.7305195,43.837 L27.7305195,35.282 C27.7597403,35.1935 27.6720779,35.1345 27.5844156,35.1345 Z M18.262987,40.2675 C18.262987,39.766 18.6428571,39.3825 19.1396104,39.3825 L22.8506494,39.3825 C22.9090909,39.3825 22.9675325,39.412 22.9967532,39.471 C23.025974,39.53 23.025974,39.589 22.9675325,39.6185 L21.9155844,40.9755 C21.6525974,41.3 21.2727273,41.5065 20.8636364,41.5065 L18.4090909,41.5065 C18.3214286,41.5065 18.262987,41.4475 18.262987,41.359 L18.262987,40.2675 Z M26.5032468,42.834 L25.4512987,44.191 C25.1883117,44.5155 24.8084416,44.722 24.3993506,44.722 L18.4090909,44.722 C18.3214286,44.722 18.262987,44.663 18.262987,44.5745 L18.262987,43.483 C18.262987,42.9815 18.6428571,42.598 19.1396104,42.598 L26.3863636,42.598 C26.4448052,42.598 26.5032468,42.6275 26.5324675,42.6865 C26.5324675,42.716 26.5324675,42.775 26.5032468,42.834 Z M26.5032468,36.4325 L25.4512987,37.7895 C25.1883117,38.114 24.8084416,38.3205 24.3993506,38.3205 L18.4090909,38.3205 C18.3214286,38.3205 18.262987,38.2615 18.262987,38.173 L18.262987,37.0815 C18.262987,36.58 18.6428571,36.1965 19.1396104,36.1965 L26.3863636,36.1965 C26.4448052,36.1965 26.5032468,36.226 26.5324675,36.285 C26.5324675,36.3145 26.5324675,36.3735 26.5032468,36.4325 Z" id="Shape" fill="#AAB0B7" fill-rule="nonzero"></path>
+                <path d="M35.737013,27.5825 C35.737013,27.5825 25.538961,28.733 21.9155844,41.005 C18.262987,53.277 8.32792208,52.392 8.32792208,52.392 C5.58116883,49.147 3.94480519,44.9285 3.94480519,40.356 C3.94480519,30.09 12.1850649,21.771 22.3538961,21.771 C27.6136364,21.7415 32.3766234,23.9835 35.737013,27.5825 Z" id="Shape" fill="url(#linearGradient-7)" fill-rule="nonzero" opacity="0.3"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,51 @@
+[class^="toolbar-"] [class^="group-"], [class^="toolbar-"] [class^="fill-"], [class^="menuWrap-"] {
+  background-color: #011921 !important;
+}
+
+[class^="menuWrap-"] [class^="item-"] {
+  background-color: #011921 !important;
+  color: #90a4ae !important;
+}
+
+.tv-floating-toolbar, .apply-common-tooltip, .context-menu-wrapper {
+  background-color: #011921 !important;
+}
+
+.theme-dark .bg, .theme-dark .tv-grouped-floating-toolbar__popup, .theme-dark .tv-dialog, .theme-dark .tv-tabbed-dialog {
+  fill: #144654 !important;
+  background-color: #011921 !important;
+}
+
+.theme-dark .chart-controls-bar {
+  background-color: #011921 !important;
+  border-color: #011921 !important;
+}
+
+.theme-dark .chart-page {
+  background-color: #011921 !important;
+}
+
+.floating-toolbar__widget, .tv-grouped-floating-toolbar__popup, .tv-floating-toolbar {
+  border-color: #144654 !important;
+}
+
+.spacer {
+  color: #144654 !important;
+}
+
+.theme-dark body {
+  color: #90a4ae !important;
+}
+
+.action-separator td {
+  background-color: #144654 !important;
+  border-color: #011921 !important;
+}
+
+.context-menu-wrapper {
+  border-color: #144654 !important;
+}
+
+.context-menu-hover {
+  background-color: #144654 !important;
+}

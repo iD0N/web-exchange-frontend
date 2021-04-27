@@ -1,0 +1,21 @@
+.ant-input {
+  border: 0;
+  border-bottom: 1px solid @border-color-base;
+  border-radius: 0;
+
+  &:focus {
+    box-shadow: none;
+  }
+
+  &[disabled] {
+    background: transparent;
+    border-bottom: 0;
+    -webkit-text-fill-color: @disabled-color;
+  }
+}
+
+.has-error {
+  .ant-input:focus {
+    box-shadow: none;
+  }
+}

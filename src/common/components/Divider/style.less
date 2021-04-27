@@ -1,0 +1,22 @@
+.ant-divider {
+  background: @gray-light;
+
+  &-plain {
+    &:before,
+    &:after {
+      border: 0 !important;
+    }
+  }
+
+  &-dashed {
+    border-top-color: @primary-color;
+    background: transparent;
+  }
+
+  &.ant-divider-with-text {
+    &:before,
+    &:after {
+      border-top-color: @primary-color;
+    }
+  }
+}

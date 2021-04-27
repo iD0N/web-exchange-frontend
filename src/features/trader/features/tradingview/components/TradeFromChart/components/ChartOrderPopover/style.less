@@ -1,0 +1,46 @@
+.chart-order-entry {
+  @media @mobile {
+    z-index: 9999;
+    .trader-btn-sm {
+      margin: 0;
+    }
+  }
+
+  .trader-form-text {
+    padding: 0;
+  }
+
+  .trader-popover {
+    &-title {
+      min-height: auto;
+      padding: @padding-xs;
+      padding-bottom: 0;
+      justify-content: space-around;
+      font-size: @font-size-md;
+    }
+
+    &-inner {
+      background-color: @darker;
+    }
+
+    &-inner-content {
+      padding: @padding-xs;
+    }
+  }
+
+  .trader-btn {
+    font-weight: @font-bold;
+    display: block;
+    width: 100%;
+    border-radius: 1px;
+
+    & + .trader-btn {
+      margin-top: @padding-xs;
+    }
+
+    .trader-form-text,
+    div {
+      color: @darker;
+    }
+  }
+}

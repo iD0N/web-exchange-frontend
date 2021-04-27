@@ -1,0 +1,200 @@
+.settings-screen {
+  .widget {
+    margin-top: 40px;
+  }
+
+  .tabs {
+    margin-top: 10px;
+    border-bottom: 1px solid @dark;
+
+    .tab {
+      padding: 10px;
+      border-bottom: 4px solid transparent;
+
+      span {
+        font-size: @font-size-md;
+        color: @gray-darker;
+      }
+    }
+    .active {
+      padding: 10px;
+      border-bottom: 4px solid @blue;
+
+      span {
+        color: @blue;
+      }
+    }
+  }
+
+  @media @mobile {
+    .tabs {
+      margin-top: 64px;
+      flex-flow: row wrap;
+    }
+  }
+
+  .settings-subpage-wrapper {
+    font-size: @font-size-md;
+    color: @gray;
+
+    h1 {
+      font-size: @font-size-heading-p;
+      font-weight: @font-medium;
+      margin: 25px 0 20px 0;
+    }
+
+    h2 {
+      font-size: @font-size-heading-p;
+      font-weight: @font-medium;
+      margin: 25px 0 10px 0;
+      color: @gray-light;
+    }
+
+    h3 {
+      font-size: @font-size-md;
+      color: @gray;
+      font-weight: @font-normal;
+    }
+
+    h4 {
+      font-size: @font-size-md;
+      color: @gray-light;
+      text-transform: uppercase;
+    }
+
+    .kyc-disclaimer {
+      font-size: @font-size-md;
+      margin: 0 0 20px 0;
+    }
+
+    .ant-form-item-label {
+      margin-bottom: -5px !important;
+      padding: 0;
+      display: block;
+      line-height: 1.5;
+      float: left;
+      text-transform: uppercase;
+    }
+
+    .trader-btn {
+      margin-bottom: 40px;
+      text-transform: uppercase;
+    }
+
+    .ant-form-item {
+      &-with-help {
+        border-top-width: 0;
+        border-left-width: 0;
+        border-right-width: 0;
+      }
+    }
+
+    .ant-form-item-control {
+      line-height: 1.5;
+
+      input[type='text'],
+      input[type='password'],
+      .trader-input-number-input {
+        color: @white;
+        font-size: @font-size-lg;
+        border-width: 0;
+        border-right: 0 solid transparent !important;
+        border-bottom: 1px solid @dark;
+        border-radius: 0;
+        padding-left: 0;
+        padding-right: 0;
+        height: 40px;
+
+        &::placeholder {
+          color: @gray;
+        }
+      }
+
+      .trader-input {
+        background-color: transparent;
+      }
+
+      .trader-input-number {
+        border: 0 none transparent;
+        background-color: transparent;
+      }
+
+      input[disabled] {
+        -webkit-text-fill-color: @white;
+      }
+
+      .ant-form-text {
+        color: @white;
+        font-size: @font-size-lg;
+      }
+
+      .ant-input-suffix {
+        margin-top: -2px;
+
+        .ant-btn-link {
+          color: @gray-light;
+          font-size: @font-size-sm;
+          text-transform: uppercase;
+          border: 1px solid @gray-light;
+          background-color: @darker !important;
+          height: 26px;
+          border-radius: 3px;
+          padding: 0 15px;
+        }
+      }
+
+      .language-dropdown {
+        .language-dropdown--trigger {
+          margin-top: 5px;
+          border-width: 0;
+          border-bottom: 1px solid @dark;
+          border-radius: 6px 6px 0 0;
+          background-color: transparent !important;
+
+          span {
+            color: @white !important;
+          }
+
+          .anticon-down {
+            color: @white;
+          }
+        }
+        .ant-dropdown-open {
+          span {
+            color: @dark;
+          }
+        }
+      }
+    }
+  }
+
+  #jumio_container {
+    margin-top: 40px;
+  }
+
+  a {
+    color: @blue;
+  }
+
+  .trader-pagination-item-active {
+    a {
+      color: @white;
+    }
+  }
+
+  .mfa-sso-disclaimer,
+  .email-sso-disclaimer {
+    display: block;
+    color: @gray;
+    margin-top: -20px;
+  }
+
+  .email-sso-disclaimer {
+    margin-top: -35px;
+    margin-bottom: 30px;
+  }
+
+  .history-disclaimer {
+    margin: -10px 0 25px 0;
+  }
+}

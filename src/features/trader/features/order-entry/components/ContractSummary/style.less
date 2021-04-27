@@ -1,0 +1,60 @@
+.contract-summary {
+  display: flex;
+
+  &-item {
+    margin-right: 20px;
+
+    a {
+      .trader-form-text {
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+    @media @mobile {
+      &:nth-child(2) {
+        display: none;
+      }
+    }
+  }
+
+  .info-tooltip {
+    .anticon {
+      margin-left: 5px;
+    }
+  }
+
+  .contract-summary-funding {
+    .contract-summary-finding-rate {
+      margin-bottom: 2px;
+    }
+    .contract-summary-funding-time {
+      .trader-form-text {
+        font-size: 10px !important;
+        letter-spacing: 0px;
+        color: @gray !important;
+
+        &:first-child {
+          margin-right: 4px;
+        }
+      }
+    }
+
+    .trader-form-item-control {
+      margin-bottom: -4px;
+      padding-bottom: 0px !important;
+    }
+
+    .trader-form-item-children {
+      display: block;
+    }
+  }
+}
+
+.swap-tooltip-info {
+  margin-top: 5px;
+}
+
+.swap-tooltip-info:last-child {
+  padding-top: 3px;
+}

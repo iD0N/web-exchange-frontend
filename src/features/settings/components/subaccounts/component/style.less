@@ -1,0 +1,101 @@
+.subaccounts-wrapper {
+  .trader-value {
+    margin-top: 10px;
+    word-break: break-word;
+  }
+
+  .form-footer {
+    margin-top: 20px;
+  }
+
+  .trader-table-wrapper {
+    margin: 20px 0;
+  }
+
+  .active-trader-highlight {
+    font-weight: @font-bold;
+    color: @gray-light;
+  }
+
+  .available-balance-wrapper {
+    margin-top: -6px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: @font-size-sm;
+
+    @media @mobile {
+      margin-top: -8px;
+    }
+  }
+
+  .max-balance-select {
+    position: absolute;
+    margin-top: -30px;
+    right: 16px;
+    color: @gray-light;
+    padding: 0 10px;
+    cursor: pointer;
+    font-size: @font-size-sm;
+    text-transform: uppercase;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    @media @mobile {
+      margin-top: -32px;
+      font-size: @font-size-md;
+    }
+  }
+
+  @media @mobile {
+    .internal-transfers-wrapper {
+      .trader-select, .trader-select-selection, .trader-select-selection__rendered {
+        height: 28px !important;
+        line-height: 28px !important;
+      }
+
+      input[type="text"] {
+        font-size: @font-size-md;
+        height: auto !important;
+      }
+    }
+  }
+}
+
+.settings-subaccounts-wrapper {
+  .subaccounts-create-wrapper {
+    border: 1px solid @dark;
+    border-radius: 2px;
+    padding: 10px;
+
+    .subaccounts-alias-input {
+      margin: 0 0 15px 0;
+      font-family: @code-family;
+    }
+
+    .trader-btn {
+      margin-bottom: 0px;
+    }
+  }
+
+  .subaccounts-transfers-wrapper {
+    margin-bottom: 20px;
+
+    .ant-row {
+      margin-bottom: 10px;
+
+      .label {
+        text-transform: uppercase;
+        color: @gray;
+        font-size: @font-size-sm;
+        margin-bottom: 3px;
+      }
+
+      .trader-select {
+        width: 100%;
+      }
+    }
+  }
+}

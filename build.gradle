@@ -1,0 +1,161 @@
+plugins {
+  id "com.moowork.node" version "1.2.0"
+}
+
+apply plugin: 'base'
+
+// populate npmrc from an env variable if present
+if ( System.env['NPMRC_LOCAL'] ) {
+	println "Writing NPMRC_LOCAL to .npmrc ..."
+	new File('.npmrc') << System.env['NPMRC_LOCAL']
+}
+
+
+def stageName = System.env['STAGE_NAME']
+def buildType = System.env['BUILD_TYPE']
+if ( ! buildType ) {
+  buildType = 'DEV'
+}
+
+
+
+// per this issue, the node plugin requires download=true to work correctly with yarn
+// https://github.com/srs/gradle-node-plugin/issues/207
+node {
+  version = '8.10.0'
+  download = true
+}
+
+
+task yarnFrozenInstall(type: YarnTask) {
+  args = ['install', '--frozen-lockfile']
+}
+
+task yarnPreBuild() {}
+if (buildType == 'DEV') {
+	yarnPreBuild.dependsOn yarn_install
+} else {
+	// use package-lock.json
+	yarnPreBuild.dependsOn yarnFrozenInstall
+}
+
+
+/**
+ * Start the app via gradle.
+ */
+task start(type: Exec) {
+  executable 'docker-compose'
+  args 'up', '--build'
+}
+
+
+/**
+ * Build the app via gradle. This task is executed every time with `gradle build`.
+ */
+task yarnBuild(type: YarnTask, dependsOn: yarnPreBuild) {
+  args = ['build']
+}
+assemble.dependsOn yarnBuild
+
+/**
+ * When deploying, run the syncS3 task on build time.
+ */
+if ( buildType == 'DEPLOY' ) {
+
+  // TODO: for DEPLOY types only, we don't need to re-run assemble or check, as we're using snapshot artifacts
+  // TODO: this is potentially a bad smell, is there a better convention we can add?
+  build.dependsOn.remove('assemble')
+  build.dependsOn.remove('check')
+
+  // TODO we should almost certainly change this to use the 'dist' target, complementary extensions in Gradle
+
+  // NOTE currently syncS3Static and syncS3Dynamic use 'cp --recursive' instead of 'sync' because we found
+  // that sync would occasionally just skip important files like 'index.html' even though they had changed,
+  // leaving the deploy in a broken state once we clean up the old static files. We're testing out 'cp' instead,
+  // in hopes that it won't share the same problem.
+
+  // copy static files with indefinite expiry (filenames must use cache-busters)
+  task syncS3Static(type: Exec) {
+    executable 'aws'
+    args 's3',
+      'cp',
+      '--recursive',
+      '--exclude', '*',
+      '--include', 'static/*',
+      '--metadata-directive', 'REPLACE',
+      '--cache-control', 'public,max-age=31536000',
+      'build/', 's3://' + System.env['TARGET_BUCKET']
+  }
+
+  // copy other files with minimal caching
+  task syncS3Dynamic(type: Exec) {
+    executable 'aws'
+    args 's3',
+      'cp',
+      '--recursive',
+      '--exclude', 'static/*',
+      '--metadata-directive', 'REPLACE',
+      '--cache-control', 'no-cache',
+      'build/', 's3://' + System.env['TARGET_BUCKET']
+  }
+  syncS3Dynamic.mustRunAfter(syncS3Static)
+
+
+  // finish the deployment by running 'sync --delete', which should clean up any files that don't match the local.
+  // This is a separate step because we need to upload in batches above to apply distinct cache-control tags.
+  //
+  // As far as we can tell, this was not subject to the bug that caused earlier sync steps to
+  // skip files -- it sees the file is there and knows not to delete it, it just doesn't know
+  // they're different in the case that we're trying to push new contents. Here we only want
+  // it to delete files that are no longer needed, so SHOULD be safe.
+  task syncS3(type: Exec, dependsOn: [syncS3Static, syncS3Dynamic]) {
+    executable 'aws'
+    args 's3',
+      'sync',
+      '--delete',
+      'build/', 's3://' + System.env['TARGET_BUCKET']
+  }
+  build.dependsOn syncS3
+}
+
+
+if ( buildType == 'TEST' ) {
+  // for test builds, assume that we've got cached build artifacts
+  build.dependsOn.remove('assemble')
+  build.dependsOn.remove('check')
+
+  // depend on frozen install to re-run the install step, because
+  // CodeBuild breaks symlinks that wdio needs to run properly
+  task seleniumTest(type: Exec, dependsOn: yarnFrozenInstall) {
+    executable 'npm'
+    args 'run', 'test:functional'
+  }
+  build.dependsOn seleniumTest
+}
+
+/**
+if ( buildType == 'PR' ) {
+  task unitTest(type: Exec) {
+    executable 'npm'
+    args 'run', 'test:ci'
+  }
+  check.dependsOn unitTest
+
+  task startWebhost(type: Exec, dependsOn: assemble) {
+    executable 'pm2'
+    args 'start', 'npm', '--name', 'serve-static', '--', 'run', 'serve-static'
+  }
+
+  task seleniumTest(type: Exec, dependsOn: startWebhost) {
+    executable 'npm'
+    args 'run', 'test:functional:ci'
+  }
+  check.dependsOn seleniumTest
+
+  task stopWebhost(type: Exec) {
+    executable 'pm2'
+    args 'kill'
+  }
+  seleniumTest.finalizedBy stopWebhost
+}
+*/

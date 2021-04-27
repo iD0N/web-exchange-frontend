@@ -1,0 +1,9 @@
+export const apiCallIds = {
+  ACCOUNT_DATA: 'settings/ACCOUNT_DATA',
+  PREFERENCES_DATA: 'settings/PREFERENCES_DATA',
+  TRANSFERS_DATA: 'settings/TRANSFERS_DATA',
+  HISTORY_DATA: 'settings/HISTORY_DATA',
+  API_DATA: 'settings/API_DATA',
+  LEADERBOARDS_DATA: 'settings/LEADERBOARDS_DATA',
+  AFFILIATES_DATA: 'settings/AFFILIATES_DATA',
+};

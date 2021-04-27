@@ -1,0 +1,31 @@
+.trader-btn-space-group {
+  display: flex;
+  margin-left: -@padding-sm / 2;
+  margin-right: -@padding-sm / 2;
+
+  &:empty {
+    display: none;
+  }
+
+  &-small {
+    margin-left: -@padding-xs / 2;
+    margin-right: -@padding-xs / 2;
+  }
+
+  &-large {
+    margin-left: -@padding-md / 2;
+    margin-right: -@padding-md / 2;
+  }
+
+  .trader-btn {
+    margin: 0 @padding-sm / 2;
+
+    &-sm {
+      margin: 0 @padding-xs / 2;
+    }
+
+    &-lg {
+      margin: 0 @padding-md / 2;
+    }
+  }
+}

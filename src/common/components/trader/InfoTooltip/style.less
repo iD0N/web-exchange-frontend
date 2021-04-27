@@ -1,0 +1,25 @@
+.info-tooltip {
+  display: inline-flex;
+  align-items: center;
+
+  .anticon {
+    color: @gray-darker;
+    margin-left: 3px;
+    font-size: 14px;
+    z-index: 1;
+  }
+}
+
+.info-tooltip-highlighted {
+  .anticon {
+    color: @blue;
+  }
+}
+
+a {
+  .anticon-info-circle {
+    &:hover {
+      color: @gray-light !important;
+    }
+  }
+}

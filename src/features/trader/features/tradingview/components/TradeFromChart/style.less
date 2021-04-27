@@ -1,0 +1,57 @@
+.chart-trade-mode-outer {
+  .trademode-toolbar {
+    margin-top: 0px;
+    margin-bottom: 0;
+
+    &-quantity-actions {
+      margin: 10px 15px 10px 0;
+
+      .trader-input-number {
+        width: 100px !important;
+      }
+    }
+  }
+
+  @media @mobile {
+    .trademode-toolbar {
+      margin-top: -5px;
+
+      .trademode-toolbar-quantity-actions {
+        form {
+          align-self: flex-start;
+        }
+        .trademode-toolbar-quantity-buttons {
+          height: 36px;
+          align-self: flex-start;
+          margin-top: -2px;
+        }
+      }
+
+      .trademode-toolbar-order-actions {
+        margin-top: 10px;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+
+.trade-from-chart {
+  position: absolute;
+  z-index: -1;
+  display: none;
+
+  .open-orders {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+}
+
+.trade-from-chart-visible {
+  z-index: 10 !important;
+  background-color: rgba(1, 25, 33, 0.75);
+  display: block;
+}
+
+@import './components/ChartOrderPopover/style.less';
